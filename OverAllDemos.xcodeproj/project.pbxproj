@@ -426,15 +426,14 @@
 		BAE7B1AD206203A000B11DBD /* OverAllDemos */ = {
 			isa = PBXGroup;
 			children = (
+				BAE7B2D3206203E800B11DBD /* AppDelegate */,
 				BAE7B1D2206203D900B11DBD /* Base */,
 				BAE7B287206203DA00B11DBD /* MacrosDefine */,
 				BAE7B275206203DA00B11DBD /* Manager */,
 				BAE7B1F0206203D900B11DBD /* Modules */,
-				BAE7B290206203DA00B11DBD /* OverAllDemosPCH.pch */,
 				BAE7B291206203DA00B11DBD /* Resource */,
 				BAE7B241206203DA00B11DBD /* Utils */,
 				BAE7B2FC2062041600B11DBD /* ThirdParty */,
-				BAE7B2D3206203E800B11DBD /* AppDelegate */,
 				BAE7B1B1206203A000B11DBD /* ViewController.h */,
 				BAE7B1B2206203A000B11DBD /* ViewController.m */,
 				BAE7B2DD2062040200B11DBD /* lottie_loading */,
@@ -443,6 +442,7 @@
 				BAE7B1B7206203A000B11DBD /* Assets.xcassets */,
 				BAE7B1B9206203A000B11DBD /* LaunchScreen.storyboard */,
 				BAE7B1BC206203A000B11DBD /* Info.plist */,
+				BAE7B290206203DA00B11DBD /* OverAllDemosPCH.pch */,
 				BAE7B1BD206203A000B11DBD /* main.m */,
 			);
 			path = OverAllDemos;
@@ -1703,6 +1703,7 @@
 			baseConfigurationReference = 87E3D2D6400C96722507C225 /* Pods-OverAllDemos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YX5D6MF4BW;
 				ENABLE_BITCODE = NO;
@@ -1736,6 +1737,7 @@
 			baseConfigurationReference = 0CF61ADC3E59D44C5537B776 /* Pods-OverAllDemos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YX5D6MF4BW;
 				ENABLE_BITCODE = NO;
