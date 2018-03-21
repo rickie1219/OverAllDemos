@@ -10,7 +10,6 @@
 #import "XLJSHandler.h"
 #import "HeaderModel.h"
 #import "AESCipher.h"
-#import <YYKit.h>
 
 @interface XLWebViewController () <WKNavigationDelegate>
 

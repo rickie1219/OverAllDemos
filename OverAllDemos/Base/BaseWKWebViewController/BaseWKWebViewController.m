@@ -8,7 +8,6 @@
 
 #import "BaseWKWebViewController.h"
 
-#import <YYKit.h>
 
 @interface BaseWKWebViewController ()<WKNavigationDelegate>
 

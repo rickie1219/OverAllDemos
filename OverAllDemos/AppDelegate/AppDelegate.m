@@ -2,20 +2,21 @@
 //  AppDelegate.m
 //  OverAllDemos
 //
-//  Created by Rickie_Lambert on 2018/1/23.
+//  Created by Rickie_Lambert on 2018/3/21.
 //  Copyright © 2018年 RickieLambert. All rights reserved.
 //
 
 #import "AppDelegate.h"
+
 #import <Bugly/Bugly.h>
 
 @interface AppDelegate ()
-
+    
 @end
 
 @implementation AppDelegate
-
-
+    
+    
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     // 初始化Bugly,使用腾讯bugly进行异常错误日志收集
