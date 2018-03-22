@@ -17,6 +17,12 @@
     return [self dictionaryWithValuesForKeys:keys].description;
 }
 
+- (NSString *)debugDescription
+{
+    NSArray *keys = @[@"name", @"age"];
+    return [NSString stringWithFormat:@"<class:%@ isa:%p\n keys and values:%@", [self class], self, [self dictionaryWithValuesForKeys:keys].description];
+}
+
 
 - (Person *)run
 {

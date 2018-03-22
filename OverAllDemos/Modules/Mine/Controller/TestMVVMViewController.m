@@ -27,11 +27,17 @@
     
     // 测试链式编程
     Person *person = [[Person alloc] init];
+    person.name = @"Richeal";
+    person.age = 40;
+    person.hobby = @"play basketballpo";
     [[[[person run] eat] run] eat];
     
     // 测试函数式编程
     person.runBlock().eatBlock().runBlock().eatBlock();
-    person.runBlockParamerter(400).eatBlockParameter(@"water").runBlockParamerter(1000).eatBlockParameter(@"apple");
+    person.runBlockParamerter(400).eatBlockParameter(@"water")
+    .runBlockParamerter(1000).eatBlockParameter(@"apple").runBlockParamerter(800);
+    
+    
     
 }
 
