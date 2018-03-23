@@ -37,7 +37,7 @@
     person.runBlockParamerter(400).eatBlockParameter(@"water")
     .runBlockParamerter(1000).eatBlockParameter(@"apple").runBlockParamerter(800);
     
-    
+    // iOS编程 学点东西
     
 }
 
