@@ -103,8 +103,8 @@
     
     // 创建页面控制器，自定义的pageControl
     pageControl = [UIView new];
-    pageControl.frame = CGRectMake(0, CGRectGetMaxY(e_collectionView.frame)+5, kScreenWidth, 20);
-    pageControl.backgroundColor = [UIColor blackColor];
+    pageControl.frame = CGRectMake(0, CGRectGetMaxY(e_collectionView.frame), kScreenWidth, 20);
+    pageControl.backgroundColor = [UIColor colorWithRed:arc4random()%256/255.0 green:200/255.0 blue:100/255.0 alpha:1.0];
     pageControl.userInteractionEnabled = NO;
     [self.view addSubview:pageControl];
     

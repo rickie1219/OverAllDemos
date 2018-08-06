@@ -10,6 +10,13 @@
 #import <UMSocialCore/UMSocialCore.h>
 
 @interface LoginViewController ()
+{
+    UIImageView *imgViewLogo;
+    UITextField *tfAccount;
+    UITextField *tfPassword;
+    UIButton    *btnLogin;
+    UIButton    *btnRegister;
+}
 
 @end
 
@@ -25,6 +32,29 @@
     [super viewDidLoad];
     self.title = @"登录";
     
+    
+    // 测试登录
+    [self initTestLoginUI];
+    
+    // 登录界面
+    [self initLoginSubviewsUI];
+}
+
+- (void)initLoginSubviewsUI
+{
+    // 设置密码输入框为中心位置
+    tfPassword = [[UITextField alloc] init];
+}
+
+- (void)viewDidLayoutSubviews
+{
+    
+}
+
+
+
+- (void)initTestLoginUI
+{
     YYLabel *snowBtn = [[YYLabel alloc] initWithFrame:CGRectMake(0, 200, 150, 60)];
     snowBtn.text = @"微信登录";
     snowBtn.font = SYSTEMFONT(20);
@@ -76,9 +106,8 @@
     };
     
     [self.view addSubview:skipBtn];
-    
-    
 }
+
 
 - (void)WXLogin
 {

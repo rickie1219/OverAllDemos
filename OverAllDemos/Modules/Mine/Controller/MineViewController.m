@@ -18,6 +18,11 @@
 #import "TestKVOReceiveValueViewController.h"
 #import "TestGCDViewController.h"
 #import "TestMVVMViewController.h"
+#import "TestGestureViewController.h"
+#import "TestPickerViewVC.h"
+#import "TestLoopViewVC.h"
+#import "TestDatabaseVC.h"
+#import "TestMyStaticLibraryVC.h"
 
 @interface MineViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -34,6 +39,14 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
+    
+    // 判断如果是iOS 11就设置大标题
+    if (@available(iOS 11.0, *)) {
+        self.navigationController.navigationBar.prefersLargeTitles = YES;
+        self.navigationController.navigationItem.largeTitleDisplayMode = UINavigationItemLargeTitleDisplayModeAutomatic;
+    } else {
+        // Fallback on earlier versions
+    }
     
     arrTestVCs = @[
                    @{
@@ -75,11 +88,34 @@
                    @{
                        @"className" : @"TestMVVMViewController",
                        @"title"     : @"测试MVVM模型"
+                       },
+                   @{
+                       @"className" : @"TestGestureViewController",
+                       @"title"     : @"测试手势"
+                       },
+                   @{
+                       @"className" : @"TestPickerViewVC",
+                       @"title"     : @"测试点餐工具选择器"
+                       },
+                   @{
+                       @"className" : @"TestLoopViewVC",
+                       @"title"     : @"测试CollectionView轮播器"
+                       },
+                   @{
+                       @"className" : @"TestDatabaseVC",
+                       @"title"     : @"测试本地持久化存储DataBase"
+                       },
+                   @{
+                       @"className" : @"TestMyStaticLibraryVC",
+                       @"title"     : @"测试打包静态库.a文件,访问.a文件中的方法"
                        }
-                   
                    ];
     
-    m_tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
+    
+    
+    
+    
+    m_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-49-64-40) style:UITableViewStylePlain];
     m_tableView.delegate = self;
     m_tableView.dataSource = self;
     m_tableView.rowHeight = 60;

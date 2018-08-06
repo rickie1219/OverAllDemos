@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		79A2B0DA84FE567AC23B8470 /* libPods-OverAllDemosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4864F4329611916CDFB32701 /* libPods-OverAllDemosUITests.a */; };
 		81B6A27A8C2F982C524830EC /* libPods-OverAllDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE768EFE7419134ACB27D1 /* libPods-OverAllDemos.a */; };
+		BA2DDA3120B563BB0041BC51 /* TestGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */; };
+		BA6DB42F210320C80089950A /* TestLoopViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DB42E210320C80089950A /* TestLoopViewVC.m */; };
+		BA9511942118299800A35B79 /* myStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9511922118299800A35B79 /* myStaticLib.a */; };
+		BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */; };
+		BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */; };
 		BAE7B1B3206203A000B11DBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7B1B2206203A000B11DBD /* ViewController.m */; };
 		BAE7B1B6206203A000B11DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE7B1B4206203A000B11DBD /* Main.storyboard */; };
 		BAE7B1B8206203A000B11DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE7B1B7206203A000B11DBD /* Assets.xcassets */; };
@@ -120,6 +125,18 @@
 		BAE7B34E2062041700B11DBD /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE7B3342062041600B11DBD /* UShareUI.framework */; };
 		BAE7B34F2062041700B11DBD /* XYTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7B3372062041600B11DBD /* XYTransition.m */; };
 		BAE7B3522062048900B11DBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7B3502062048800B11DBD /* AppDelegate.m */; };
+		BAE821F920F1010900FED8D0 /* TestPickerViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE821F820F1010900FED8D0 /* TestPickerViewVC.m */; };
+		BAE821FB20F1014500FED8D0 /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAE821FA20F1014400FED8D0 /* foods.plist */; };
+		BAFBE04F2103223400D6DA59 /* 109@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE0462103223400D6DA59 /* 109@2x.jpeg */; };
+		BAFBE0502103223400D6DA59 /* 101@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE0472103223400D6DA59 /* 101@2x.jpeg */; };
+		BAFBE0512103223400D6DA59 /* 108@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE0482103223400D6DA59 /* 108@2x.jpeg */; };
+		BAFBE0522103223400D6DA59 /* 103@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE0492103223400D6DA59 /* 103@2x.jpeg */; };
+		BAFBE0532103223400D6DA59 /* 102@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE04A2103223400D6DA59 /* 102@2x.jpeg */; };
+		BAFBE0542103223400D6DA59 /* 107@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE04B2103223400D6DA59 /* 107@2x.jpeg */; };
+		BAFBE0552103223400D6DA59 /* 106@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE04C2103223400D6DA59 /* 106@2x.jpeg */; };
+		BAFBE0562103223400D6DA59 /* 104@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE04D2103223400D6DA59 /* 104@2x.jpeg */; };
+		BAFBE0572103223400D6DA59 /* 105@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE04E2103223400D6DA59 /* 105@2x.jpeg */; };
+		BAFBE05A2103267000D6DA59 /* TestLoopViewCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFBE0592103267000D6DA59 /* TestLoopViewCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +154,17 @@
 		22932B5010797D482CB08FC0 /* Pods-OverAllDemosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverAllDemosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OverAllDemosUITests/Pods-OverAllDemosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4864F4329611916CDFB32701 /* libPods-OverAllDemosUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OverAllDemosUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E3D2D6400C96722507C225 /* Pods-OverAllDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverAllDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OverAllDemos/Pods-OverAllDemos.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2DDA2F20B563BB0041BC51 /* TestGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGestureViewController.h; sourceTree = "<group>"; };
+		BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGestureViewController.m; sourceTree = "<group>"; };
+		BA6DB42D210320C80089950A /* TestLoopViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLoopViewVC.h; sourceTree = "<group>"; };
+		BA6DB42E210320C80089950A /* TestLoopViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLoopViewVC.m; sourceTree = "<group>"; };
+		BA9511922118299800A35B79 /* myStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = myStaticLib.a; sourceTree = "<group>"; };
+		BA9511932118299800A35B79 /* DemoForStaticLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoForStaticLibrary.h; sourceTree = "<group>"; };
+		BA951195211829D200A35B79 /* TestMyStaticLibraryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMyStaticLibraryVC.h; sourceTree = "<group>"; };
+		BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMyStaticLibraryVC.m; sourceTree = "<group>"; };
+		BA951198211849CC00A35B79 /* MathTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathTool.h; sourceTree = "<group>"; };
+		BAE221F12111E4A2008DBEFB /* TestDatabaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDatabaseVC.h; sourceTree = "<group>"; };
+		BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDatabaseVC.m; sourceTree = "<group>"; };
 		BAE7B1AB206203A000B11DBD /* OverAllDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverAllDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE7B1B1206203A000B11DBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BAE7B1B2206203A000B11DBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -349,6 +377,20 @@
 		BAE7B3382062041600B11DBD /* XYTransitionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTransitionProtocol.h; sourceTree = "<group>"; };
 		BAE7B3502062048800B11DBD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BAE7B3512062048800B11DBD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAE821F720F1010900FED8D0 /* TestPickerViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPickerViewVC.h; sourceTree = "<group>"; };
+		BAE821F820F1010900FED8D0 /* TestPickerViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPickerViewVC.m; sourceTree = "<group>"; };
+		BAE821FA20F1014400FED8D0 /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
+		BAFBE0462103223400D6DA59 /* 109@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "109@2x.jpeg"; sourceTree = "<group>"; };
+		BAFBE0472103223400D6DA59 /* 101@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "101@2x.jpeg"; sourceTree = "<group>"; };
+		BAFBE0482103223400D6DA59 /* 108@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "108@2x.jpeg"; sourceTree = "<group>"; };
+		BAFBE0492103223400D6DA59 /* 103@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "103@2x.jpeg"; sourceTree = "<group>"; };
+		BAFBE04A2103223400D6DA59 /* 102@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "102@2x.jpeg"; sourceTree = "<group>"; };
+		BAFBE04B2103223400D6DA59 /* 107@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "107@2x.jpeg"; sourceTree = "<group>"; };
+		BAFBE04C2103223400D6DA59 /* 106@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "106@2x.jpeg"; sourceTree = "<group>"; };
+		BAFBE04D2103223400D6DA59 /* 104@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "104@2x.jpeg"; sourceTree = "<group>"; };
+		BAFBE04E2103223400D6DA59 /* 105@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "105@2x.jpeg"; sourceTree = "<group>"; };
+		BAFBE0582103267000D6DA59 /* TestLoopViewCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLoopViewCollectionView.h; sourceTree = "<group>"; };
+		BAFBE0592103267000D6DA59 /* TestLoopViewCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLoopViewCollectionView.m; sourceTree = "<group>"; };
 		D3FE768EFE7419134ACB27D1 /* libPods-OverAllDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OverAllDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CBD76BEF7C74A5EBBD14EB /* Pods-OverAllDemosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverAllDemosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OverAllDemosUITests/Pods-OverAllDemosUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -359,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAE7B3492062041700B11DBD /* UMSocialCore.framework in Frameworks */,
+				BA9511942118299800A35B79 /* myStaticLib.a in Frameworks */,
 				BAE7B3402062041700B11DBD /* libSocialQQ.a in Frameworks */,
 				BAE7B3462062041700B11DBD /* libSocialWeChat.a in Frameworks */,
 				BAE7B34C2062041700B11DBD /* libUMSocialLog.a in Frameworks */,
@@ -401,6 +444,16 @@
 				4864F4329611916CDFB32701 /* libPods-OverAllDemosUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA9511912118299800A35B79 /* myStaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				BA9511922118299800A35B79 /* myStaticLib.a */,
+				BA951198211849CC00A35B79 /* MathTool.h */,
+				BA9511932118299800A35B79 /* DemoForStaticLibrary.h */,
+			);
+			path = myStaticLib;
 			sourceTree = "<group>";
 		};
 		BAE7B1A2206203A000B11DBD = {
@@ -781,6 +834,16 @@
 				BAE7B236206203D900B11DBD /* TestRandomNumberVC.m */,
 				BAE7B237206203D900B11DBD /* TestTextfieldViewController.h */,
 				BAE7B238206203D900B11DBD /* TestTextfieldViewController.m */,
+				BA2DDA2F20B563BB0041BC51 /* TestGestureViewController.h */,
+				BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */,
+				BAE821F720F1010900FED8D0 /* TestPickerViewVC.h */,
+				BAE821F820F1010900FED8D0 /* TestPickerViewVC.m */,
+				BA6DB42D210320C80089950A /* TestLoopViewVC.h */,
+				BA6DB42E210320C80089950A /* TestLoopViewVC.m */,
+				BAE221F12111E4A2008DBEFB /* TestDatabaseVC.h */,
+				BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */,
+				BA951195211829D200A35B79 /* TestMyStaticLibraryVC.h */,
+				BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -795,6 +858,8 @@
 		BAE7B23A206203D900B11DBD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BAFBE0582103267000D6DA59 /* TestLoopViewCollectionView.h */,
+				BAFBE0592103267000D6DA59 /* TestLoopViewCollectionView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -835,6 +900,7 @@
 		BAE7B241206203DA00B11DBD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BA9511912118299800A35B79 /* myStaticLib */,
 				BAE7B242206203DA00B11DBD /* MBProgressHUD+XY */,
 				BAE7B245206203DA00B11DBD /* PPNetWorkHelp */,
 				BAE7B24C206203DA00B11DBD /* UITabBarController+tabBarController */,
@@ -1009,6 +1075,8 @@
 		BAE7B291206203DA00B11DBD /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				BAE821FA20F1014400FED8D0 /* foods.plist */,
+				BAFBE0452103223400D6DA59 /* LoopView */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -1255,6 +1323,22 @@
 			path = XYTransition;
 			sourceTree = "<group>";
 		};
+		BAFBE0452103223400D6DA59 /* LoopView */ = {
+			isa = PBXGroup;
+			children = (
+				BAFBE0472103223400D6DA59 /* 101@2x.jpeg */,
+				BAFBE04A2103223400D6DA59 /* 102@2x.jpeg */,
+				BAFBE0492103223400D6DA59 /* 103@2x.jpeg */,
+				BAFBE04D2103223400D6DA59 /* 104@2x.jpeg */,
+				BAFBE04E2103223400D6DA59 /* 105@2x.jpeg */,
+				BAFBE04C2103223400D6DA59 /* 106@2x.jpeg */,
+				BAFBE04B2103223400D6DA59 /* 107@2x.jpeg */,
+				BAFBE0482103223400D6DA59 /* 108@2x.jpeg */,
+				BAFBE0462103223400D6DA59 /* 109@2x.jpeg */,
+			);
+			path = LoopView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1345,26 +1429,36 @@
 			files = (
 				BAE7B2F12062040300B11DBD /* loader_5.json in Resources */,
 				BAE7B2EF2062040300B11DBD /* loader1.json in Resources */,
+				BAFBE0512103223400D6DA59 /* 108@2x.jpeg in Resources */,
 				BAE7B2F62062040300B11DBD /* PinJump.json in Resources */,
+				BAFBE0552103223400D6DA59 /* 106@2x.jpeg in Resources */,
 				BAE7B295206203DA00B11DBD /* JSToOC.html in Resources */,
 				BAE7B2FB2062040300B11DBD /* LottieLogo2.json in Resources */,
 				BAE7B2FA2062040300B11DBD /* loading.json in Resources */,
 				BAE7B2F22062040300B11DBD /* loader_animation.json in Resources */,
+				BAFBE0502103223400D6DA59 /* 101@2x.jpeg in Resources */,
 				BAE7B3452062041700B11DBD /* WeiboSDK.bundle in Resources */,
 				BAE7B2F52062040300B11DBD /* material_wave_loading.json in Resources */,
 				BAE7B2F72062040300B11DBD /* rebote.json in Resources */,
+				BAFBE0572103223400D6DA59 /* 105@2x.jpeg in Resources */,
 				BAE7B2F32062040300B11DBD /* loading.json in Resources */,
+				BAFBE0542103223400D6DA59 /* 107@2x.jpeg in Resources */,
+				BAFBE0532103223400D6DA59 /* 102@2x.jpeg in Resources */,
+				BAFBE0522103223400D6DA59 /* 103@2x.jpeg in Resources */,
 				BAE7B3422062041700B11DBD /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				BAE7B2F42062040300B11DBD /* loading_animation.json in Resources */,
 				BAE7B2EE2062040300B11DBD /* 06 - Pull to Refresh.aep in Resources */,
 				BAE7B2F82062040300B11DBD /* servishero_loading.json in Resources */,
 				BAE7B34B2062041700B11DBD /* UMSocialSDKPromptResources.bundle in Resources */,
+				BAE821FB20F1014500FED8D0 /* foods.plist in Resources */,
 				BAE7B1BB206203A000B11DBD /* LaunchScreen.storyboard in Resources */,
 				BAE7B34D2062041700B11DBD /* UMSocialSDKResources.bundle in Resources */,
 				BAE7B1B8206203A000B11DBD /* Assets.xcassets in Resources */,
 				BAE7B2F92062040300B11DBD /* loading.aep in Resources */,
 				BAE7B1B6206203A000B11DBD /* Main.storyboard in Resources */,
 				BAE7B3482062041700B11DBD /* README.txt in Resources */,
+				BAFBE04F2103223400D6DA59 /* 109@2x.jpeg in Resources */,
+				BAFBE0562103223400D6DA59 /* 104@2x.jpeg in Resources */,
 				BAE7B2F02062040300B11DBD /* loader2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1499,6 +1593,7 @@
 				BAE7B2CE206203DA00B11DBD /* IAPManager.m in Sources */,
 				BAE7B2DB206203E800B11DBD /* AppDelegate+PushService.m in Sources */,
 				BAE7B2B0206203DA00B11DBD /* TestKVOPassValueViewController.m in Sources */,
+				BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */,
 				BAE7B2C0206203DA00B11DBD /* UIButton+HMObjcSugar.m in Sources */,
 				BAE7B33D2062041700B11DBD /* SandBoxHelper.m in Sources */,
 				BAE7B33E2062041700B11DBD /* FFTagsView.m in Sources */,
@@ -1509,6 +1604,7 @@
 				BAE7B2C5206203DA00B11DBD /* UIScreen+HMObjcSugar.m in Sources */,
 				BAE7B2BB206203DA00B11DBD /* UITabBarController+tabBarController.m in Sources */,
 				BAE7B2CC206203DA00B11DBD /* YYFPSLabel.m in Sources */,
+				BAE821F920F1010900FED8D0 /* TestPickerViewVC.m in Sources */,
 				BAE7B34F2062041700B11DBD /* XYTransition.m in Sources */,
 				BAE7B2B2206203DA00B11DBD /* TestMVVMViewController.m in Sources */,
 				BAE7B2D2206203DA00B11DBD /* UserManager.m in Sources */,
@@ -1516,12 +1612,14 @@
 				BAE7B296206203DA00B11DBD /* XLJSHandler.m in Sources */,
 				BAE7B299206203DA00B11DBD /* TabBar.m in Sources */,
 				BAE7B33F2062041700B11DBD /* TagsButton.m in Sources */,
+				BA6DB42F210320C80089950A /* TestLoopViewVC.m in Sources */,
 				BAE7B2C9206203DA00B11DBD /* UICollectionView+IndexPath.m in Sources */,
 				BAE7B2A4206203DA00B11DBD /* TestLottieViewController.m in Sources */,
 				BAE7B2CB206203DA00B11DBD /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				BAE7B2B5206203DA00B11DBD /* TestTextfieldViewController.m in Sources */,
 				BAE7B29E206203DA00B11DBD /* HomeViewController.m in Sources */,
 				BAE7B2A8206203DA00B11DBD /* Person+TestRuntimeProperty.m in Sources */,
+				BA2DDA3120B563BB0041BC51 /* TestGestureViewController.m in Sources */,
 				BAE7B2C1206203DA00B11DBD /* UIColor+HMObjcSugar.m in Sources */,
 				BAE7B2A5206203DA00B11DBD /* MessageViewController.m in Sources */,
 				BAE7B2CA206203DA00B11DBD /* UINavigationController+XRObjcSugar.m in Sources */,
@@ -1539,6 +1637,8 @@
 				BAE7B2AD206203DA00B11DBD /* TestFaceBookPopViewController.m in Sources */,
 				BAE7B1BE206203A000B11DBD /* main.m in Sources */,
 				BAE7B2AE206203DA00B11DBD /* TestGCDViewController.m in Sources */,
+				BAFBE05A2103267000D6DA59 /* TestLoopViewCollectionView.m in Sources */,
+				BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */,
 				BAE7B2D1206203DA00B11DBD /* UserInfo.m in Sources */,
 				BAE7B2A2206203DA00B11DBD /* MallViewController.m in Sources */,
 				BAE7B2A1206203DA00B11DBD /* LoginViewController.m in Sources */,
@@ -1725,6 +1825,7 @@
 					"$(PROJECT_DIR)/OverAllDemos/ThirdParty/UMSocial/SocialLibraries/WeChat",
 					"$(PROJECT_DIR)/OverAllDemos/ThirdParty/UMSocial/SocialLibraries/WeChat/WechatSDK",
 					"$(PROJECT_DIR)/OverAllDemos/ThirdParty/UMSocial/UMSocialSDKPlugin",
+					"$(PROJECT_DIR)/OverAllDemos/Utils/myStaticLib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rickie.OverAllDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1759,6 +1860,7 @@
 					"$(PROJECT_DIR)/OverAllDemos/ThirdParty/UMSocial/SocialLibraries/WeChat",
 					"$(PROJECT_DIR)/OverAllDemos/ThirdParty/UMSocial/SocialLibraries/WeChat/WechatSDK",
 					"$(PROJECT_DIR)/OverAllDemos/ThirdParty/UMSocial/UMSocialSDKPlugin",
+					"$(PROJECT_DIR)/OverAllDemos/Utils/myStaticLib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rickie.OverAllDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -16,8 +16,12 @@
  */
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
     
-    @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIWindow *window;
     
-    @property (strong, nonatomic) MainTabBarController *mainTabBar;
+@property (strong, nonatomic) MainTabBarController *mainTabBar;
+
+//AppDelegate.h中添加以下属性
+@property (nonatomic,strong) UIVisualEffectView *visualEffectView;//毛玻璃效果
+
 @end
 

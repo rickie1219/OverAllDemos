@@ -33,6 +33,9 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
     
+   
+    
+    
     arrList = @[
                 @{
                     @"title":@"头条",
