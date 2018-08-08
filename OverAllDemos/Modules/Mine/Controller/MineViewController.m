@@ -23,6 +23,7 @@
 #import "TestLoopViewVC.h"
 #import "TestDatabaseVC.h"
 #import "TestMyStaticLibraryVC.h"
+#import "TestTwoLevelLinkageVC.h"
 
 @interface MineViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -44,6 +45,9 @@
     if (@available(iOS 11.0, *)) {
         self.navigationController.navigationBar.prefersLargeTitles = YES;
         self.navigationController.navigationItem.largeTitleDisplayMode = UINavigationItemLargeTitleDisplayModeAutomatic;
+        // 使用
+        self.navigationItem.searchController = [[UISearchController alloc] init];
+        self.navigationItem.hidesSearchBarWhenScrolling = YES;
     } else {
         // Fallback on earlier versions
     }
@@ -108,9 +112,12 @@
                    @{
                        @"className" : @"TestMyStaticLibraryVC",
                        @"title"     : @"测试打包静态库.a文件,访问.a文件中的方法"
+                       },
+                   @{
+                       @"className" : @"TestTwoLevelLinkageVC",
+                       @"title"     : @"测试两个表联动的"
                        }
                    ];
-    
     
     
     
@@ -121,11 +128,14 @@
     m_tableView.rowHeight = 60;
     m_tableView.tableFooterView = [UIView new];
     // 一种不错的浅灰色颜色
-    m_tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    //m_tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    m_tableView.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:m_tableView];
    
     
 }
+
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -145,6 +155,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseID];
     }
     
+    // 配置cell的标题内容
     cell.textLabel.text = [NSString stringWithFormat:@"%ld. = %@", (long)indexPath.row, arrTestVCs[indexPath.row] [@"className"]];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
@@ -152,6 +163,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // 获取到子控制器的名字，然后声明创建该子控制器
     BaseViewController *vc = [NSClassFromString(arrTestVCs[indexPath.row] [@"className"]) new];
     // 如果是首页和分类，导航栏标题就为空
     vc.title = [NSString stringWithFormat:@"%@", arrTestVCs[indexPath.row] [@"title"]];

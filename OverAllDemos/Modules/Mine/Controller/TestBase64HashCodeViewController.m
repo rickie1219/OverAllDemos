@@ -80,19 +80,19 @@
     
     if (isFirstBase64Click) {
         // base64字符串加密
-        NSString *result = [lblBefore.text hm_base64encode];
-        lblResult.text = [NSString stringWithFormat:@"%@",result];
-        sender.selected = !sender.selected;
+//        NSString *result = [lblBefore.text hm_base64encode];
+//        lblResult.text = [NSString stringWithFormat:@"%@",result];
+//        sender.selected = !sender.selected;
     } else {
         if (sender.selected) {
             NSLog(@"lblResult.text = %@", lblResult.text);
             // base64字符串解密
-            NSString *result = [lblResult.text hm_base64decode];
-            lblResult.text = [NSString stringWithFormat:@"%@",result];
+//            NSString *result = [lblResult.text hm_base64decode];
+//            lblResult.text = [NSString stringWithFormat:@"%@",result];
         } else {
             // base64字符串加密
-            NSString *result = [lblResult.text hm_base64encode];
-            lblResult.text = [NSString stringWithFormat:@"%@",result];
+//            NSString *result = [lblResult.text hm_base64encode];
+//            lblResult.text = [NSString stringWithFormat:@"%@",result];
         }
     }
     
