@@ -14,6 +14,7 @@
 {
     NSArray *arrDatasource;
     LOTAnimationView *lottieAnimation;
+    UITableView *tableView;
 }
 
 @end
@@ -46,6 +47,13 @@
                       @"88",
                       @"99"
                       ];
+    
+    
+//    tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
+//    tableView.delegate = self;
+//    tableView.dataSource = self;
+//    tableView.backgroundColor = [UIColor cyanColor];
+//    [self.view addSubview:tableView];
     
     self.tableView.rowHeight = 100;
 //    self.tableView.mj_header = [TestDIYLottieRefreshHeader headerWithRefreshingBlock:^{

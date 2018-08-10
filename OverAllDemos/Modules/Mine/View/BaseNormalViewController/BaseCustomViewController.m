@@ -54,7 +54,8 @@ NSString * const backgroundViewId  = @"backgroundViewId";
     {
         ControllerBaseViewConfig *config = [ControllerBaseViewConfig new];
         config.exist                     = YES;
-        config.frame                     = CGRectMake(0, 64, width, height - 64);
+        //config.frame                     = CGRectMake(0, 64, width, height - 64);
+        config.frame                     = CGRectMake(0, 0, width, height - 64);
         config.backgroundColor           = [UIColor clearColor];
         self.viewsConfig[contentViewId]  = config;
     }

@@ -24,6 +24,7 @@
 #import "TestDatabaseVC.h"
 #import "TestMyStaticLibraryVC.h"
 #import "TestTwoLevelLinkageVC.h"
+#import "TestLargeTitleShowVC.h"
 
 @interface MineViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -40,89 +41,88 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
-    
-    // 判断如果是iOS 11就设置大标题
-    if (@available(iOS 11.0, *)) {
-        self.navigationController.navigationBar.prefersLargeTitles = YES;
-        self.navigationController.navigationItem.largeTitleDisplayMode = UINavigationItemLargeTitleDisplayModeAutomatic;
-        // 使用
-        self.navigationItem.searchController = [[UISearchController alloc] init];
-        self.navigationItem.hidesSearchBarWhenScrolling = YES;
-    } else {
-        // Fallback on earlier versions
-    }
-    
+
+    // 设置列表
     arrTestVCs = @[
                    @{
                        @"className" : @"TestNSUserDefaultsVC",
-                       @"title"     : @"测试NSUserDefaults"
+                       @"title"     : @"01.测试NSUserDefaults"
                        },
                    @{
                        @"className" : @"TestRandomNumberVC",
-                       @"title"     : @"测试随机数"
+                       @"title"     : @"02.测试随机数"
                        },
                    @{
                        @"className" : @"TestHeaderImageScaleViewController",
-                       @"title"     : @"测试头部图片拉伸"
+                       @"title"     : @"03.测试头部图片拉伸"
                        },
                    @{
                        @"className" : @"TestFaceBookPopViewController",
-                       @"title"     : @"测试Facebook的POP动画效果"
+                       @"title"     : @"04.测试Facebook的POP动画效果"
                        },
                    @{
                        @"className" : @"TestBase64HashCodeViewController",
-                       @"title"     : @"测试HM的Base64和Hash加密解密"
+                       @"title"     : @"05.测试HM的Base64和Hash加密解密"
                        },
                    @{
                        @"className" : @"TestTextfieldViewController",
-                       @"title"     : @"测试Textfield"
+                       @"title"     : @"06.测试Textfield"
                        },
                    @{
                        @"className" : @"TestEmotionViewController",
-                       @"title"     : @"测试自定义表情键盘"
+                       @"title"     : @"07.测试自定义表情键盘"
                        },
                    @{
                        @"className" : @"TestKVOReceiveValueViewController",
-                       @"title"     : @"测试KVO传值"
+                       @"title"     : @"08.测试KVO传值"
                        },
                    @{
                        @"className" : @"TestGCDViewController",
-                       @"title"     : @"测试多线程之间的依赖关系"
+                       @"title"     : @"09.测试多线程之间的依赖关系"
                        },
                    @{
                        @"className" : @"TestMVVMViewController",
-                       @"title"     : @"测试MVVM模型"
+                       @"title"     : @"10.测试MVVM模型"
                        },
                    @{
                        @"className" : @"TestGestureViewController",
-                       @"title"     : @"测试手势"
+                       @"title"     : @"11.测试手势"
                        },
                    @{
                        @"className" : @"TestPickerViewVC",
-                       @"title"     : @"测试点餐工具选择器"
+                       @"title"     : @"12.测试点餐工具选择器"
                        },
                    @{
                        @"className" : @"TestLoopViewVC",
-                       @"title"     : @"测试CollectionView轮播器"
+                       @"title"     : @"13.测试CollectionView轮播器"
                        },
                    @{
                        @"className" : @"TestDatabaseVC",
-                       @"title"     : @"测试本地持久化存储DataBase"
+                       @"title"     : @"14.测试本地持久化存储DataBase"
                        },
                    @{
                        @"className" : @"TestMyStaticLibraryVC",
-                       @"title"     : @"测试打包静态库.a文件,访问.a文件中的方法"
+                       @"title"     : @"15.测试打包静态库.a文件,访问.a文件中的方法"
                        },
                    @{
                        @"className" : @"TestTwoLevelLinkageVC",
-                       @"title"     : @"测试两个表联动的"
+                       @"title"     : @"16.测试两个表联动的"
+                       },
+                   @{
+                       @"className" : @"TestLargeTitleShowVC",
+                       @"title"     : @"17.测试大标题"
                        }
                    ];
     
+    CGFloat iPhoneX_Height = 812;
+    
+    if (iPhoneX_Height == [UIScreen mainScreen].bounds.size.height) {
+        m_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-44-44-49-34) style:UITableViewStylePlain];
+    } else {
+        m_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-49-64) style:UITableViewStylePlain];
+    }
     
     
-    
-    m_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-49-64-40) style:UITableViewStylePlain];
     m_tableView.delegate = self;
     m_tableView.dataSource = self;
     m_tableView.rowHeight = 60;

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		79A2B0DA84FE567AC23B8470 /* libPods-OverAllDemosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4864F4329611916CDFB32701 /* libPods-OverAllDemosUITests.a */; };
 		81B6A27A8C2F982C524830EC /* libPods-OverAllDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE768EFE7419134ACB27D1 /* libPods-OverAllDemos.a */; };
+		BA01E4A8211D338100E409E8 /* TestMenuListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4A7211D338100E409E8 /* TestMenuListVC.m */; };
+		BA01E4AB211D349A00E409E8 /* TestZJAnimationPopViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4AA211D349A00E409E8 /* TestZJAnimationPopViewVC.m */; };
 		BA2DDA3120B563BB0041BC51 /* TestGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */; };
 		BA68028321194AB10031377B /* TestTwoLevelLinkageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA68028221194AB10031377B /* TestTwoLevelLinkageVC.m */; };
 		BA68028521194CBF0031377B /* liwushuo.json in Resources */ = {isa = PBXBuildFile; fileRef = BA68028421194CBF0031377B /* liwushuo.json */; };
@@ -47,6 +49,7 @@
 		BA6DB42F210320C80089950A /* TestLoopViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DB42E210320C80089950A /* TestLoopViewVC.m */; };
 		BA9511942118299800A35B79 /* myStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9511922118299800A35B79 /* myStaticLib.a */; };
 		BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */; };
+		BA9B82DC211BCD7B00750806 /* TestLargeTitleShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */; };
 		BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */; };
 		BAE7B1B3206203A000B11DBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7B1B2206203A000B11DBD /* ViewController.m */; };
 		BAE7B1B6206203A000B11DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE7B1B4206203A000B11DBD /* Main.storyboard */; };
@@ -176,6 +179,10 @@
 		22932B5010797D482CB08FC0 /* Pods-OverAllDemosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverAllDemosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OverAllDemosUITests/Pods-OverAllDemosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4864F4329611916CDFB32701 /* libPods-OverAllDemosUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OverAllDemosUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E3D2D6400C96722507C225 /* Pods-OverAllDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverAllDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OverAllDemos/Pods-OverAllDemos.debug.xcconfig"; sourceTree = "<group>"; };
+		BA01E4A6211D338100E409E8 /* TestMenuListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMenuListVC.h; sourceTree = "<group>"; };
+		BA01E4A7211D338100E409E8 /* TestMenuListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMenuListVC.m; sourceTree = "<group>"; };
+		BA01E4A9211D349A00E409E8 /* TestZJAnimationPopViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestZJAnimationPopViewVC.h; sourceTree = "<group>"; };
+		BA01E4AA211D349A00E409E8 /* TestZJAnimationPopViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestZJAnimationPopViewVC.m; sourceTree = "<group>"; };
 		BA2DDA2F20B563BB0041BC51 /* TestGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGestureViewController.h; sourceTree = "<group>"; };
 		BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGestureViewController.m; sourceTree = "<group>"; };
 		BA68028121194AB10031377B /* TestTwoLevelLinkageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTwoLevelLinkageVC.h; sourceTree = "<group>"; };
@@ -252,6 +259,8 @@
 		BA951195211829D200A35B79 /* TestMyStaticLibraryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMyStaticLibraryVC.h; sourceTree = "<group>"; };
 		BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMyStaticLibraryVC.m; sourceTree = "<group>"; };
 		BA951198211849CC00A35B79 /* MathTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathTool.h; sourceTree = "<group>"; };
+		BA9B82DA211BCD7B00750806 /* TestLargeTitleShowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLargeTitleShowVC.h; sourceTree = "<group>"; };
+		BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLargeTitleShowVC.m; sourceTree = "<group>"; };
 		BAE221F12111E4A2008DBEFB /* TestDatabaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDatabaseVC.h; sourceTree = "<group>"; };
 		BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDatabaseVC.m; sourceTree = "<group>"; };
 		BAE7B1AB206203A000B11DBD /* OverAllDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverAllDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -878,6 +887,10 @@
 				BAE7B1FA206203D900B11DBD /* HomeViewController.m */,
 				BAE7B1FB206203D900B11DBD /* MenuViewController.h */,
 				BAE7B1FC206203D900B11DBD /* MenuViewController.m */,
+				BA01E4A6211D338100E409E8 /* TestMenuListVC.h */,
+				BA01E4A7211D338100E409E8 /* TestMenuListVC.m */,
+				BA01E4A9211D349A00E409E8 /* TestZJAnimationPopViewVC.h */,
+				BA01E4AA211D349A00E409E8 /* TestZJAnimationPopViewVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1058,6 +1071,8 @@
 				BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */,
 				BA68028121194AB10031377B /* TestTwoLevelLinkageVC.h */,
 				BA68028221194AB10031377B /* TestTwoLevelLinkageVC.m */,
+				BA9B82DA211BCD7B00750806 /* TestLargeTitleShowVC.h */,
+				BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1776,6 +1791,7 @@
 				BA6802E821196CEA0031377B /* CustomCell.m in Sources */,
 				BA680323211977CE0031377B /* HexColors.m in Sources */,
 				BAE7B29C206203DA00B11DBD /* TabBarSystemController.m in Sources */,
+				BA01E4A8211D338100E409E8 /* TestMenuListVC.m in Sources */,
 				BA68028F21194DFB0031377B /* ItemManagerModel.m in Sources */,
 				BA680313211972B00031377B /* ControllerBaseViewConfig.m in Sources */,
 				BA6802E721196CEA0031377B /* AutolayoutPlaceholderImageView.m in Sources */,
@@ -1809,6 +1825,7 @@
 				BA6802E921196CEA0031377B /* NSDictionary+JSONData.m in Sources */,
 				BAE7B2B2206203DA00B11DBD /* TestMVVMViewController.m in Sources */,
 				BAE7B2D2206203DA00B11DBD /* UserManager.m in Sources */,
+				BA01E4AB211D349A00E409E8 /* TestZJAnimationPopViewVC.m in Sources */,
 				BAE7B293206203DA00B11DBD /* BaseViewController.m in Sources */,
 				BAE7B296206203DA00B11DBD /* XLJSHandler.m in Sources */,
 				BA68029A21194E410031377B /* RightSideCell.m in Sources */,
@@ -1833,6 +1850,7 @@
 				BA68029C21194E410031377B /* RightSideHeaderView.m in Sources */,
 				BAE7B33C2062041700B11DBD /* XZPickView.m in Sources */,
 				BAE7B2AB206203DA00B11DBD /* TestBase64HashCodeViewController.m in Sources */,
+				BA9B82DC211BCD7B00750806 /* TestLargeTitleShowVC.m in Sources */,
 				BA68030321196CEA0031377B /* UIFont+Fonts.m in Sources */,
 				BA68029021194DFB0031377B /* ShopItemDataModel.m in Sources */,
 				BAE7B2B1206203DA00B11DBD /* TestKVOReceiveValueViewController.m in Sources */,

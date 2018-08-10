@@ -8,6 +8,6 @@
 
 #import <QMUIKit/QMUIKit.h>
 
-@interface TestLottieViewController : QMUICommonTableViewController
+@interface TestLottieViewController : BaseViewController
 
 @end
