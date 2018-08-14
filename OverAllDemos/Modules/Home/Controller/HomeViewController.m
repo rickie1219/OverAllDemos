@@ -10,6 +10,7 @@
 
 #import "TestMenuListVC.h"
 #import "TestZJAnimationPopViewVC.h"
+#import "TestYZWYViewControllerVC.h"
 
 
 @interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -41,6 +42,10 @@
                    @{
                        @"className" : @"TestZJAnimationPopViewVC",
                        @"title"     : @"02.测试多种弹出框提示效果"
+                       },
+                   @{
+                       @"className" : @"TestYZWYViewControllerVC",
+                       @"title"     : @"03.测试网易新闻的多个菜单页面切换"
                        }
                    ];
     

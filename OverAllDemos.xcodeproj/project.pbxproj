@@ -11,6 +11,14 @@
 		81B6A27A8C2F982C524830EC /* libPods-OverAllDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE768EFE7419134ACB27D1 /* libPods-OverAllDemos.a */; };
 		BA01E4A8211D338100E409E8 /* TestMenuListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4A7211D338100E409E8 /* TestMenuListVC.m */; };
 		BA01E4AB211D349A00E409E8 /* TestZJAnimationPopViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4AA211D349A00E409E8 /* TestZJAnimationPopViewVC.m */; };
+		BA01E4E1211D796200E409E8 /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4D8211D796200E409E8 /* YZDisplayTitleLabel.m */; };
+		BA01E4E2211D796200E409E8 /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4DA211D796200E409E8 /* YZFlowLayout.m */; };
+		BA01E4E3211D796200E409E8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4DB211D796200E409E8 /* UIView+Frame.m */; };
+		BA01E4E4211D796200E409E8 /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4DF211D796200E409E8 /* YZDisplayViewController.m */; };
+		BA01E4E7211D825000E409E8 /* TestYZWYViewControllerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4E6211D825000E409E8 /* TestYZWYViewControllerVC.m */; };
+		BA01E4EA211D854800E409E8 /* TestYZWYViewControllerSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4E9211D854800E409E8 /* TestYZWYViewControllerSubVC.m */; };
+		BA01E4EE211D8D9200E409E8 /* RequesCover.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4ED211D8D9200E409E8 /* RequesCover.m */; };
+		BA01E4F1211D90CE00E409E8 /* LoadingDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA01E4F0211D90CE00E409E8 /* LoadingDataView.m */; };
 		BA2DDA3120B563BB0041BC51 /* TestGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */; };
 		BA68028321194AB10031377B /* TestTwoLevelLinkageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA68028221194AB10031377B /* TestTwoLevelLinkageVC.m */; };
 		BA68028521194CBF0031377B /* liwushuo.json in Resources */ = {isa = PBXBuildFile; fileRef = BA68028421194CBF0031377B /* liwushuo.json */; };
@@ -183,6 +191,23 @@
 		BA01E4A7211D338100E409E8 /* TestMenuListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMenuListVC.m; sourceTree = "<group>"; };
 		BA01E4A9211D349A00E409E8 /* TestZJAnimationPopViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestZJAnimationPopViewVC.h; sourceTree = "<group>"; };
 		BA01E4AA211D349A00E409E8 /* TestZJAnimationPopViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestZJAnimationPopViewVC.m; sourceTree = "<group>"; };
+		BA01E4D8211D796200E409E8 /* YZDisplayTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayTitleLabel.m; sourceTree = "<group>"; };
+		BA01E4D9211D796200E409E8 /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
+		BA01E4DA211D796200E409E8 /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
+		BA01E4DB211D796200E409E8 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BA01E4DC211D796200E409E8 /* YZDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewController.h; sourceTree = "<group>"; };
+		BA01E4DD211D796200E409E8 /* YZDisplayTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayTitleLabel.h; sourceTree = "<group>"; };
+		BA01E4DE211D796200E409E8 /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
+		BA01E4DF211D796200E409E8 /* YZDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayViewController.m; sourceTree = "<group>"; };
+		BA01E4E0211D796200E409E8 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BA01E4E5211D825000E409E8 /* TestYZWYViewControllerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestYZWYViewControllerVC.h; sourceTree = "<group>"; };
+		BA01E4E6211D825000E409E8 /* TestYZWYViewControllerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestYZWYViewControllerVC.m; sourceTree = "<group>"; };
+		BA01E4E8211D854800E409E8 /* TestYZWYViewControllerSubVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestYZWYViewControllerSubVC.h; sourceTree = "<group>"; };
+		BA01E4E9211D854800E409E8 /* TestYZWYViewControllerSubVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestYZWYViewControllerSubVC.m; sourceTree = "<group>"; };
+		BA01E4EC211D8D9200E409E8 /* RequesCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequesCover.h; sourceTree = "<group>"; };
+		BA01E4ED211D8D9200E409E8 /* RequesCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequesCover.m; sourceTree = "<group>"; };
+		BA01E4EF211D90CE00E409E8 /* LoadingDataView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingDataView.h; sourceTree = "<group>"; };
+		BA01E4F0211D90CE00E409E8 /* LoadingDataView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingDataView.m; sourceTree = "<group>"; };
 		BA2DDA2F20B563BB0041BC51 /* TestGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGestureViewController.h; sourceTree = "<group>"; };
 		BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGestureViewController.m; sourceTree = "<group>"; };
 		BA68028121194AB10031377B /* TestTwoLevelLinkageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTwoLevelLinkageVC.h; sourceTree = "<group>"; };
@@ -517,6 +542,33 @@
 				4864F4329611916CDFB32701 /* libPods-OverAllDemosUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA01E4D7211D796200E409E8 /* YZDisplayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA01E4E0211D796200E409E8 /* UIView+Frame.h */,
+				BA01E4DB211D796200E409E8 /* UIView+Frame.m */,
+				BA01E4DD211D796200E409E8 /* YZDisplayTitleLabel.h */,
+				BA01E4D8211D796200E409E8 /* YZDisplayTitleLabel.m */,
+				BA01E4DC211D796200E409E8 /* YZDisplayViewController.h */,
+				BA01E4DF211D796200E409E8 /* YZDisplayViewController.m */,
+				BA01E4D9211D796200E409E8 /* YZDisplayViewHeader.h */,
+				BA01E4DE211D796200E409E8 /* YZFlowLayout.h */,
+				BA01E4DA211D796200E409E8 /* YZFlowLayout.m */,
+			);
+			path = YZDisplayViewController;
+			sourceTree = "<group>";
+		};
+		BA01E4EB211D8D9200E409E8 /* YZDisplayVCLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				BA01E4EC211D8D9200E409E8 /* RequesCover.h */,
+				BA01E4ED211D8D9200E409E8 /* RequesCover.m */,
+				BA01E4EF211D90CE00E409E8 /* LoadingDataView.h */,
+				BA01E4F0211D90CE00E409E8 /* LoadingDataView.m */,
+			);
+			path = YZDisplayVCLoadingView;
 			sourceTree = "<group>";
 		};
 		BA68028621194DFB0031377B /* TestLinkageModels */ = {
@@ -891,6 +943,10 @@
 				BA01E4A7211D338100E409E8 /* TestMenuListVC.m */,
 				BA01E4A9211D349A00E409E8 /* TestZJAnimationPopViewVC.h */,
 				BA01E4AA211D349A00E409E8 /* TestZJAnimationPopViewVC.m */,
+				BA01E4E5211D825000E409E8 /* TestYZWYViewControllerVC.h */,
+				BA01E4E6211D825000E409E8 /* TestYZWYViewControllerVC.m */,
+				BA01E4E8211D854800E409E8 /* TestYZWYViewControllerSubVC.h */,
+				BA01E4E9211D854800E409E8 /* TestYZWYViewControllerSubVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -905,6 +961,7 @@
 		BAE7B1FE206203D900B11DBD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA01E4EB211D8D9200E409E8 /* YZDisplayVCLoadingView */,
 				BAE7B1FF206203D900B11DBD /* MenuTitleLabel.h */,
 				BAE7B200206203D900B11DBD /* MenuTitleLabel.m */,
 			);
@@ -1342,6 +1399,7 @@
 		BAE7B2FC2062041600B11DBD /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				BA01E4D7211D796200E409E8 /* YZDisplayViewController */,
 				BAE7B2FD2062041600B11DBD /* AdPage */,
 				BAE7B3002062041600B11DBD /* AES */,
 				BAE7B3032062041600B11DBD /* OpenUDID */,
@@ -1792,9 +1850,11 @@
 				BA680323211977CE0031377B /* HexColors.m in Sources */,
 				BAE7B29C206203DA00B11DBD /* TabBarSystemController.m in Sources */,
 				BA01E4A8211D338100E409E8 /* TestMenuListVC.m in Sources */,
+				BA01E4EA211D854800E409E8 /* TestYZWYViewControllerSubVC.m in Sources */,
 				BA68028F21194DFB0031377B /* ItemManagerModel.m in Sources */,
 				BA680313211972B00031377B /* ControllerBaseViewConfig.m in Sources */,
 				BA6802E721196CEA0031377B /* AutolayoutPlaceholderImageView.m in Sources */,
+				BA01E4E2211D796200E409E8 /* YZFlowLayout.m in Sources */,
 				BAE7B2B7206203DA00B11DBD /* MBProgressHUD+XY.m in Sources */,
 				BAE7B2B4206203DA00B11DBD /* TestRandomNumberVC.m in Sources */,
 				BA68031C211974750031377B /* CellHeaderFooterDataAdapter.m in Sources */,
@@ -1808,6 +1868,7 @@
 				BAE7B2DB206203E800B11DBD /* AppDelegate+PushService.m in Sources */,
 				BAE7B2B0206203DA00B11DBD /* TestKVOPassValueViewController.m in Sources */,
 				BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */,
+				BA01E4E4211D796200E409E8 /* YZDisplayViewController.m in Sources */,
 				BA680315211972B00031377B /* ShowLoadingView.m in Sources */,
 				BAE7B33D2062041700B11DBD /* SandBoxHelper.m in Sources */,
 				BA68029221194DFB0031377B /* ShopItemModel.m in Sources */,
@@ -1823,6 +1884,7 @@
 				BAE821F920F1010900FED8D0 /* TestPickerViewVC.m in Sources */,
 				BAE7B34F2062041700B11DBD /* XYTransition.m in Sources */,
 				BA6802E921196CEA0031377B /* NSDictionary+JSONData.m in Sources */,
+				BA01E4E1211D796200E409E8 /* YZDisplayTitleLabel.m in Sources */,
 				BAE7B2B2206203DA00B11DBD /* TestMVVMViewController.m in Sources */,
 				BAE7B2D2206203DA00B11DBD /* UserManager.m in Sources */,
 				BA01E4AB211D349A00E409E8 /* TestZJAnimationPopViewVC.m in Sources */,
@@ -1834,6 +1896,7 @@
 				BA68030521196CEA0031377B /* File.m in Sources */,
 				BA6DB42F210320C80089950A /* TestLoopViewVC.m in Sources */,
 				BAE7B2C9206203DA00B11DBD /* UICollectionView+IndexPath.m in Sources */,
+				BA01E4EE211D8D9200E409E8 /* RequesCover.m in Sources */,
 				BAE7B2A4206203DA00B11DBD /* TestLottieViewController.m in Sources */,
 				BA680319211974110031377B /* CellDataAdapter.m in Sources */,
 				BAE7B2CB206203DA00B11DBD /* UIViewController+AlertViewAndActionSheet.m in Sources */,
@@ -1841,6 +1904,8 @@
 				BAE7B29E206203DA00B11DBD /* HomeViewController.m in Sources */,
 				BAE7B2A8206203DA00B11DBD /* Person+TestRuntimeProperty.m in Sources */,
 				BA68030021196CEA0031377B /* LinkageOneLevelModel.m in Sources */,
+				BA01E4E7211D825000E409E8 /* TestYZWYViewControllerVC.m in Sources */,
+				BA01E4F1211D90CE00E409E8 /* LoadingDataView.m in Sources */,
 				BA2DDA3120B563BB0041BC51 /* TestGestureViewController.m in Sources */,
 				BA68030221196CEA0031377B /* UIView+SetRect.m in Sources */,
 				BA6802EB21196CEA0031377B /* NSString+JSONData.m in Sources */,
@@ -1876,6 +1941,7 @@
 				BA680312211972B00031377B /* CustomViewController.m in Sources */,
 				BAE7B2A1206203DA00B11DBD /* LoginViewController.m in Sources */,
 				BAE7B294206203DA00B11DBD /* BaseWKWebViewController.m in Sources */,
+				BA01E4E3211D796200E409E8 /* UIView+Frame.m in Sources */,
 				BAE7B29B206203DA00B11DBD /* TabBarItem.m in Sources */,
 				BAE7B3392062041700B11DBD /* AdPageView.m in Sources */,
 				BAE7B2CF206203DA00B11DBD /* IMManager.m in Sources */,
