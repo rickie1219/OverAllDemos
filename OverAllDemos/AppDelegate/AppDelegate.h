@@ -23,5 +23,6 @@
 //AppDelegate.h中添加以下属性
 @property (nonatomic,strong) UIVisualEffectView *visualEffectView;//毛玻璃效果
 
+
 @end
 

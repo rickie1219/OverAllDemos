@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor orangeColor];
     self.title = @"网易新闻";
     
     // 添加所有子控制器

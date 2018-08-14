@@ -6,8 +6,9 @@
 //  Copyright © 2018年 RickieLambert. All rights reserved.
 //
 
-#import "BaseViewController.h"
+//#import "BaseViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface TestYZWYViewControllerSubVC : BaseViewController
+@interface TestYZWYViewControllerSubVC : UIViewController
 
 @end

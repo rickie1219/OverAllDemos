@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
+//#import "BaseViewController.h"
 
 // 颜色渐变样式
 typedef enum : NSUInteger {
@@ -15,7 +15,7 @@ typedef enum : NSUInteger {
     YZTitleColorGradientStyleFill, // 填充
 } YZTitleColorGradientStyle;
 
-@interface YZDisplayViewController : BaseViewController
+@interface YZDisplayViewController : UIViewController
 
 /**************************************【内容】************************************/
 /**

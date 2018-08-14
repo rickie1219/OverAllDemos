@@ -177,6 +177,7 @@ static NSString * const ID = @"CONTENTCELL";
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     [self initial];
     
 }
@@ -186,7 +187,12 @@ static NSString * const ID = @"CONTENTCELL";
     // 初始化标题高度
     _titleHeight = YZTitleScrollViewH;
     
-    self.automaticallyAdjustsScrollViewInsets = NO;
+    if (@available(iOS 11.0, *)) {
+        self.titleScrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        self.contentScrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    } else {
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
 }
 
 #pragma mark - 懒加载
@@ -481,14 +487,15 @@ static NSString * const ID = @"CONTENTCELL";
         CGFloat statusH = [UIApplication sharedApplication].statusBarFrame.size.height;
         
         CGFloat titleY = self.navigationController.navigationBarHidden == NO ?YZNavBarH:statusH;
+        titleY = 0;
         
         
         
         // 是否占据全屏
         if (_isfullScreen) {
-            
+            CGFloat statusAndNavBarH = (812 == YZScreenH) ? 88 : 64;
             // 整体contentView尺寸
-            self.contentView.frame = CGRectMake(0, 0, YZScreenW, YZScreenH);
+            self.contentView.frame = CGRectMake(0, 0, YZScreenW, YZScreenH - statusAndNavBarH);
             
             // 顶部标题View尺寸
             self.titleScrollView.frame = CGRectMake(0, titleY, YZScreenW, self.titleHeight);
@@ -503,6 +510,11 @@ static NSString * const ID = @"CONTENTCELL";
             self.contentView.frame = CGRectMake(0, titleY, YZScreenW, YZScreenH - titleY);
         }
         
+        // 整体内容显示的 size 和 滚动视图显示的size 有问题
+        CGFloat statusAndNavBarH = (812 == YZScreenH) ? 88 : 64;
+        // 整体contentView尺寸
+        self.contentView.frame = CGRectMake(0, 0, YZScreenW, YZScreenH - statusAndNavBarH);
+        
         // 顶部标题View尺寸
         self.titleScrollView.frame = CGRectMake(0, 0, YZScreenW, self.titleHeight);
         
@@ -510,7 +522,7 @@ static NSString * const ID = @"CONTENTCELL";
         CGFloat contentY = CGRectGetMaxY(self.titleScrollView.frame);
         CGFloat contentH = self.contentView.yz_height - contentY;
         self.contentScrollView.frame = CGRectMake(0, contentY, YZScreenW, contentH);
-        
+        self.contentScrollView.frame = CGRectMake(0, contentY, self.contentView.frame.size.width, self.contentView.frame.size.height-88-44);
     }
     
 }

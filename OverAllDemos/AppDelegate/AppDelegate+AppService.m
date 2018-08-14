@@ -47,6 +47,19 @@
         [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
     }
     
+    
+    // 启动的时候判断key有没有value，如果有，说明已经启动过了，如果没有，说明是第一次启动
+    if (![[NSUserDefaults standardUserDefaults] valueForKey:@"firstStartApp"]) {
+        //如果是第一次启动，就运用偏好设置给key设置一个value
+        [[NSUserDefaults standardUserDefaults] setValue:@"firstStarted" forKey:@"firstStartApp"];
+        NSLog(@"是第一次启动");
+        DLog(@"第一次启动App");
+    } else {
+        NSLog(@"不是第一次启动");
+        DLog(@"不是第一次启动App");
+    }
+    
+    
     //展示FPS
     [AppManager showFPS];
 }
