@@ -58,6 +58,8 @@
 		BA9511942118299800A35B79 /* myStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9511922118299800A35B79 /* myStaticLib.a */; };
 		BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */; };
 		BA9B82DC211BCD7B00750806 /* TestLargeTitleShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */; };
+		BAB2F7B221241E0A0080923D /* TestMallFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2F7B121241E0A0080923D /* TestMallFirstVC.m */; };
+		BAB2F7B521242A950080923D /* TestCreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2F7B421242A950080923D /* TestCreshVC.m */; };
 		BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */; };
 		BAE7B1B3206203A000B11DBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7B1B2206203A000B11DBD /* ViewController.m */; };
 		BAE7B1B6206203A000B11DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE7B1B4206203A000B11DBD /* Main.storyboard */; };
@@ -286,6 +288,10 @@
 		BA951198211849CC00A35B79 /* MathTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathTool.h; sourceTree = "<group>"; };
 		BA9B82DA211BCD7B00750806 /* TestLargeTitleShowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLargeTitleShowVC.h; sourceTree = "<group>"; };
 		BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLargeTitleShowVC.m; sourceTree = "<group>"; };
+		BAB2F7B021241E0A0080923D /* TestMallFirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMallFirstVC.h; sourceTree = "<group>"; };
+		BAB2F7B121241E0A0080923D /* TestMallFirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMallFirstVC.m; sourceTree = "<group>"; };
+		BAB2F7B321242A950080923D /* TestCreshVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCreshVC.h; sourceTree = "<group>"; };
+		BAB2F7B421242A950080923D /* TestCreshVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCreshVC.m; sourceTree = "<group>"; };
 		BAE221F12111E4A2008DBEFB /* TestDatabaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDatabaseVC.h; sourceTree = "<group>"; };
 		BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDatabaseVC.m; sourceTree = "<group>"; };
 		BAE7B1AB206203A000B11DBD /* OverAllDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverAllDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1016,10 +1022,14 @@
 			children = (
 				BAE7B209206203D900B11DBD /* MallViewController.h */,
 				BAE7B20A206203D900B11DBD /* MallViewController.m */,
+				BAB2F7B021241E0A0080923D /* TestMallFirstVC.h */,
+				BAB2F7B121241E0A0080923D /* TestMallFirstVC.m */,
 				BAE7B20B206203D900B11DBD /* TestDIYLottieRefreshHeader.h */,
 				BAE7B20C206203D900B11DBD /* TestDIYLottieRefreshHeader.m */,
 				BAE7B20D206203D900B11DBD /* TestLottieViewController.h */,
 				BAE7B20E206203D900B11DBD /* TestLottieViewController.m */,
+				BAB2F7B321242A950080923D /* TestCreshVC.h */,
+				BAB2F7B421242A950080923D /* TestCreshVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1857,6 +1867,7 @@
 				BA01E4E2211D796200E409E8 /* YZFlowLayout.m in Sources */,
 				BAE7B2B7206203DA00B11DBD /* MBProgressHUD+XY.m in Sources */,
 				BAE7B2B4206203DA00B11DBD /* TestRandomNumberVC.m in Sources */,
+				BAB2F7B221241E0A0080923D /* TestMallFirstVC.m in Sources */,
 				BA68031C211974750031377B /* CellHeaderFooterDataAdapter.m in Sources */,
 				BA680314211972B00031377B /* BaseCustomViewController.m in Sources */,
 				BA6802EC21196CEA0031377B /* NSArray+JSONData.m in Sources */,
@@ -1867,6 +1878,7 @@
 				BAE7B2CE206203DA00B11DBD /* IAPManager.m in Sources */,
 				BAE7B2DB206203E800B11DBD /* AppDelegate+PushService.m in Sources */,
 				BAE7B2B0206203DA00B11DBD /* TestKVOPassValueViewController.m in Sources */,
+				BAB2F7B521242A950080923D /* TestCreshVC.m in Sources */,
 				BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */,
 				BA01E4E4211D796200E409E8 /* YZDisplayViewController.m in Sources */,
 				BA680315211972B00031377B /* ShowLoadingView.m in Sources */,

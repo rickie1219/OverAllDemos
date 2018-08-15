@@ -14,7 +14,7 @@
 {
     NSArray *arrDatasource;
     LOTAnimationView *lottieAnimation;
-    UITableView *tableView;
+    UITableView *test_tableView;
 }
 
 @end
@@ -24,7 +24,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor orangeColor];
     
     // 获取网络资源的Lottie资源Json文件
 //    NSString *strUrl = @"https://www.lottiefiles.com/storage/datafiles/Y95p1QxekMZhR3m/data.json";
@@ -48,22 +48,29 @@
                       @"99"
                       ];
     
+    [self initTestTableView];
     
-//    tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
-//    tableView.delegate = self;
-//    tableView.dataSource = self;
-//    tableView.backgroundColor = [UIColor cyanColor];
-//    [self.view addSubview:tableView];
-    
-    self.tableView.rowHeight = 100;
-//    self.tableView.mj_header = [TestDIYLottieRefreshHeader headerWithRefreshingBlock:^{
-//        [self refreshData];
-//    }];
-    
+}
+
+- (void)initTestTableView
+{
+    test_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 88 - 34) style:UITableViewStylePlain];
+    test_tableView.delegate = self;
+    test_tableView.dataSource = self;
+    test_tableView.backgroundColor = [UIColor cyanColor];
+    [self.view addSubview:test_tableView];
+
+    test_tableView.rowHeight = 100;
+
+    /*
+    self.tableView.mj_header = [TestDIYLottieRefreshHeader headerWithRefreshingBlock:^{
+        [self refreshData];
+    }];
+     */
+
     // 设置回调（一旦进入刷新状态，就调用target的action，也就是调用self的loadNewData方法）
-    self.tableView.mj_header = [TestDIYLottieRefreshHeader headerWithRefreshingTarget:self refreshingAction:@selector(refreshData)];
-    [self.tableView.mj_header beginRefreshing];
-    
+    test_tableView.mj_header = [TestDIYLottieRefreshHeader headerWithRefreshingTarget:self refreshingAction:@selector(refreshData)];
+    [test_tableView.mj_header beginRefreshing];
 }
 
 - (void)refreshData
@@ -72,7 +79,7 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
         // 结束刷新
-        [self.tableView.mj_header endRefreshing];
+        [test_tableView.mj_header endRefreshing];
     });
 }
 

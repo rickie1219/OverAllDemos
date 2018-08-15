@@ -11,9 +11,12 @@
 
 
 @interface TestDIYLottieRefreshHeader()
+{
+    UIView *rootView;
+}
 
 
-@property (weak, nonatomic) LOTAnimationView *imgLoading;
+@property (strong, nonatomic) LOTAnimationView *imgLoading;
 
 @end
 
@@ -27,20 +30,37 @@
     [super prepare];
     
     // 设置控件的高度
-    self.mj_h = 50;
+    self.mj_h = 100;
     
     
+    rootView = [[UIView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 300)/2, 10, 300, 80)];
+    rootView.backgroundColor = [UIColor yellowColor];
+    [self addSubview:rootView];
     
-    UIView *v = [[UIView alloc] initWithFrame:CGRectMake(10, 10, 200, 80)];
-    v.backgroundColor = [UIColor yellowColor];
-    [self addSubview:v];
+    UIImage *img = [UIImage imageNamed:@"101.jpeg"];
     
-    _imgLoading = [LOTAnimationView animationNamed:@"PinJump"];
+    UIImageView *imgV = [[UIImageView alloc] initWithImage:img];
+    imgV.frame = CGRectMake((rootView.frame.size.width-200)/2, (rootView.frame.size.height-60)/2, 200, 60);
+    imgV.contentMode = UIViewContentModeScaleAspectFit;
+    [rootView addSubview:imgV];
+    
+    // 获取网络资源的Lottie资源Json文件
+    NSString *strUrl = @"https://www.lottiefiles.com/storage/datafiles/jEgAWaDrrm6qdJx/data.json";
+    
+    _imgLoading = [[LOTAnimationView alloc] initWithContentsOfURL:[NSURL URLWithString:strUrl]];
+    //_imgLoading.frame = CGRectMake((rootView.frame.size.width-50)/2, (rootView.frame.size.height-50)/2, 50, 50);
     _imgLoading.contentMode = UIViewContentModeScaleAspectFit;
+    [rootView addSubview:_imgLoading];
+    _imgLoading.animationProgress = 0;
     [_imgLoading play];
     _imgLoading.loopAnimation = YES;
-    _imgLoading.frame = v.bounds;
-    [v addSubview:_imgLoading];
+    
+//    _imgLoading = [LOTAnimationView animationNamed:@"PinJump"];
+//    _imgLoading.contentMode = UIViewContentModeScaleAspectFit;
+//    [_imgLoading play];
+//    _imgLoading.loopAnimation = YES;
+//    _imgLoading.frame = v.bounds;
+//    [v addSubview:_imgLoading];
 }
 
 #pragma mark 在这里设置子控件的位置和尺寸
@@ -48,7 +68,7 @@
 {
     [super placeSubviews];
     
-    _imgLoading.frame = CGRectMake(50, 10, 150, 80);
+    _imgLoading.frame = CGRectMake((rootView.frame.size.width-100)/2, (rootView.frame.size.height-80)/2, 100, 80);
 }
 
 #pragma mark 监听scrollView的contentOffset改变
@@ -79,12 +99,15 @@
     
     switch (state) {
         case MJRefreshStateIdle:
+            NSLog(@"---1 刷新 MJRefreshStateIdle");
             [_imgLoading stop];
             break;
         case MJRefreshStatePulling:
+            NSLog(@"---2 刷新 MJRefreshStatePulling");
             [_imgLoading stop];
             break;
         case MJRefreshStateRefreshing:
+            NSLog(@"---3 刷新 MJRefreshStateRefreshing");
             [_imgLoading play];
             break;
         default:

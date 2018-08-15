@@ -8,138 +8,107 @@
 
 #import "MallViewController.h"
 
-#import "TestLottieViewController.h"
+
+#import "TestMallFirstVC.h"
+#import "TestCreshVC.h"
 
 
-@interface MallViewController ()
+
+@interface MallViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
-    LOTAnimationView *lottieAnimation;
-    LOTAnimationView *laAnimation;
+    UITableView *m_tableView;
+    NSArray *arrTestVCs;
 }
+
 
 @end
 
 @implementation MallViewController
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor orangeColor];
+    
+    // 设置列表
+    arrTestVCs = @[
+                   @{
+                       @"className" : @"TestMallFirstVC",
+                       @"title"     : @"01.测试Lottie动画"
+                       },
+                   @{
+                       @"className" : @"TestCreshVC",
+                       @"title"     : @"02.测试崩溃后bugly的日志"
+                       },
+                   @{
+                       @"className" : @"TestMallFirstVC",
+                       @"title"     : @"03.测试网易新闻的多个菜单页面切换"
+                       }
+                   ];
+    
+    CGFloat iPhoneX_Height = 812;
+    
+    if (iPhoneX_Height == [UIScreen mainScreen].bounds.size.height) {
+        m_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-44-44-49-34) style:UITableViewStylePlain];
+    } else {
+        m_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-49-64) style:UITableViewStylePlain];
+    }
     
     
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake((self.view.frame.size.width - 280)/2, 30, 280, 50);
-    btn.backgroundColor = [UIColor orangeColor];
-    [btn setTitle:@"QMUIAlert Test" forState:UIControlStateNormal];
-    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(userDefineAlertVC:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+    m_tableView.delegate = self;
+    m_tableView.dataSource = self;
+    m_tableView.rowHeight = 60;
+    m_tableView.tableFooterView = [UIView new];
+    // 一种不错的浅灰色颜色
+    //m_tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    m_tableView.backgroundColor = [UIColor cyanColor];
+    [self.view addSubview:m_tableView];
     
-    
-    UIButton *btnTestCrash = [UIButton buttonWithType:UIButtonTypeCustom];
-    btnTestCrash.frame = CGRectMake(CGRectGetMinX(btn.frame), CGRectGetMaxY(btn.frame)+10, btn.frame.size.width, btn.frame.size.height);
-    btnTestCrash.backgroundColor = [UIColor redColor];
-    [btnTestCrash setTitle:@"测试崩溃 <慎点!!>" forState:UIControlStateNormal];
-    [btnTestCrash setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [btnTestCrash addTarget:self action:@selector(demoForCrash) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btnTestCrash];
-    
-    UIButton *btnTestLottie = [UIButton buttonWithType:UIButtonTypeCustom];
-    btnTestLottie.frame = CGRectMake(CGRectGetMinX(btnTestCrash.frame), CGRectGetMaxY(btnTestCrash.frame)+10, btnTestCrash.frame.size.width, btnTestCrash.frame.size.height);
-    btnTestLottie.backgroundColor = [UIColor orangeColor];
-    [btnTestLottie setTitle:@"测试Lottie" forState:UIControlStateNormal];
-    [btnTestLottie setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [btnTestLottie addTarget:self action:@selector(toTestPage) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btnTestLottie];
-    
-    
-    UIImageView *imgAnimation = [[UIImageView alloc] initWithFrame:CGRectMake((self.view.frame.size.width-100)/2, CGRectGetMaxY(btnTestLottie.frame)+20, 80, 80)];
-    imgAnimation.backgroundColor = [UIColor cyanColor];
-    [self.view addSubview:imgAnimation];
-    
-    // 获取网络资源的Lottie资源Json文件
-    NSString *strUrl = @"https://www.lottiefiles.com/storage/datafiles/jEgAWaDrrm6qdJx/data.json";
-    
-    lottieAnimation = [[LOTAnimationView alloc] initWithContentsOfURL:[NSURL URLWithString:strUrl]];
-    lottieAnimation.contentMode = UIViewContentModeScaleAspectFill;
-    lottieAnimation.frame = imgAnimation.bounds;
-    [imgAnimation addSubview:lottieAnimation];
-    lottieAnimation.animationProgress = 0;
-    [lottieAnimation play];
-    lottieAnimation.loopAnimation = YES;
-    
-    
-    
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(40, CGRectGetMaxY(imgAnimation.frame)+20, self.view.frame.size.width - 40*2, 250)];
-    view.backgroundColor = [UIColor cyanColor];
-    [self.view addSubview:view];
-    
-    // 加载本地的lottie的json文件
-    laAnimation = [LOTAnimationView animationNamed:@"LottieLogo2"];
-    laAnimation.backgroundColor = [UIColor yellowColor];
-    laAnimation.frame = view.bounds;
-    laAnimation.contentMode = UIViewContentModeScaleAspectFill;
-    [view addSubview:laAnimation];
-    [laAnimation play];
-    laAnimation.loopAnimation = YES;
-    [self.view setNeedsLayout];
     
 }
 
 
-#pragma mark - 测试腾讯bugly错误收集
-- (void)demoForCrash
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    NSString *str = nil;
-    NSArray *arr = @[@"hello", str];
-    DLog(@"%@", arr);
-    NSLog(@"%@", arr);
+    return 1;
 }
 
-
-/// 跳转下一页
-- (void)toTestPage
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    TestLottieViewController *vc = [[TestLottieViewController alloc] init];
+    return arrTestVCs.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *reuseID = @"cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseID];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:reuseID];
+    }
+    
+    // 配置cell的标题内容
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld. = %@", (long)indexPath.row, arrTestVCs[indexPath.row] [@"className"]];
+    
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"标题 -> %@",  arrTestVCs[indexPath.row] [@"title"]];
+    
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // 获取到子控制器的名字，然后声明创建该子控制器
+    BaseViewController *vc = [NSClassFromString(arrTestVCs[indexPath.row] [@"className"]) new];
+    // 如果是首页和分类，导航栏标题就为空
+    vc.title = [NSString stringWithFormat:@"%@", arrTestVCs[indexPath.row] [@"title"]];
+    //vc.navigationItem.prompt = [NSString stringWithFormat:@"%@", arrTestVCs[indexPath.row] [@"className"]];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
 
-
-- (void)userDefineAlertVC:(UIButton *)sender
-{
-    DLog(@"%@", sender);
-    // 底部按钮
-    QMUIAlertAction *action1 = [QMUIAlertAction actionWithTitle:@"取消" style:QMUIAlertActionStyleCancel handler:NULL];
-    QMUIAlertAction *action2 = [QMUIAlertAction actionWithTitle:@"删除" style:QMUIAlertActionStyleDefault handler:NULL];
-    
-    [action2.button setImage:[[UIImageMake(@"icon_emotion") qmui_imageResizedInLimitedSize:CGSizeMake(18, 18) contentMode:UIViewContentModeScaleToFill] qmui_imageWithTintColor:[UIColor purpleColor]] forState:UIControlStateNormal];
-    action2.button.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 8);
-    
-    // 弹窗
-    QMUIAlertController *alertController = [[QMUIAlertController alloc] initWithTitle:@"确定删除？" message:@"删除后将无法恢复，请慎重考虑" preferredStyle:QMUIAlertControllerStyleAlert];
-    NSMutableDictionary *titleAttributs = [[NSMutableDictionary alloc] initWithDictionary:alertController.alertTitleAttributes];
-    titleAttributs[NSForegroundColorAttributeName] = UIColorWhite;
-    alertController.alertTitleAttributes = titleAttributs;
-    NSMutableDictionary *messageAttributs = [[NSMutableDictionary alloc] initWithDictionary:alertController.alertMessageAttributes];
-    messageAttributs[NSForegroundColorAttributeName] = UIColorMakeWithRGBA(255, 255, 255, 0.75);
-    alertController.alertMessageAttributes = messageAttributs;
-    alertController.alertHeaderBackgroundColor = [UIColor purpleColor];
-    alertController.alertSeperatorColor = alertController.alertButtonBackgroundColor;
-    alertController.alertTitleMessageSpacing = 7;
-    
-    NSMutableDictionary *buttonAttributes = [[NSMutableDictionary alloc] initWithDictionary:alertController.alertButtonAttributes];
-    buttonAttributes[NSForegroundColorAttributeName] = alertController.alertHeaderBackgroundColor;
-    alertController.alertButtonAttributes = buttonAttributes;
-    
-    NSMutableDictionary *cancelButtonAttributes = [[NSMutableDictionary alloc] initWithDictionary:alertController.alertCancelButtonAttributes];
-    cancelButtonAttributes[NSForegroundColorAttributeName] = buttonAttributes[NSForegroundColorAttributeName];
-    alertController.alertCancelButtonAttributes = cancelButtonAttributes;
-    
-    [alertController addAction:action1];
-    [alertController addAction:action2];
-    [alertController showWithAnimated:YES];
-}
 
 
 
