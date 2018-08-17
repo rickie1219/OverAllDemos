@@ -11,7 +11,9 @@
 
 #import "TestMallFirstVC.h"
 #import "TestCreshVC.h"
-
+#import "TestNSPredicateVC.h"
+#import "TestTableViewCellEditModeVC.h"
+#import "TestSystemShareFileVC.h"
 
 
 @interface MallViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -36,15 +38,23 @@
     arrTestVCs = @[
                    @{
                        @"className" : @"TestMallFirstVC",
-                       @"title"     : @"01.测试Lottie动画"
+                       @"title"     : @"00.测试Lottie动画"
                        },
                    @{
                        @"className" : @"TestCreshVC",
-                       @"title"     : @"02.测试崩溃后bugly的日志"
+                       @"title"     : @"01.测试崩溃后bugly的日志"
                        },
                    @{
-                       @"className" : @"TestMallFirstVC",
-                       @"title"     : @"03.测试网易新闻的多个菜单页面切换"
+                       @"className" : @"TestNSPredicateVC",
+                       @"title"     : @"02.测试谓词的使用"
+                       },
+                   @{
+                       @"className" : @"TestTableViewCellEditModeVC",
+                       @"title"     : @"03.测试TableViewCell的编辑功能"
+                       },
+                   @{
+                       @"className" : @"TestSystemShareFileVC",
+                       @"title"     : @"04.测试系统分享文件"
                        }
                    ];
     

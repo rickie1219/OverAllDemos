@@ -61,6 +61,12 @@
 		BAB2F7B221241E0A0080923D /* TestMallFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2F7B121241E0A0080923D /* TestMallFirstVC.m */; };
 		BAB2F7B521242A950080923D /* TestCreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2F7B421242A950080923D /* TestCreshVC.m */; };
 		BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */; };
+		BAE5F9652125174000A14A29 /* TestNSPredicateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5F9642125174000A14A29 /* TestNSPredicateVC.m */; };
+		BAE5F968212517F900A14A29 /* TestNSPredicatePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5F967212517F900A14A29 /* TestNSPredicatePerson.m */; };
+		BAE5F96B21254E4000A14A29 /* TestTableViewCellEditModeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5F96A21254E4000A14A29 /* TestTableViewCellEditModeVC.m */; };
+		BAE5F972212552E900A14A29 /* ManagerUserInfoWithNSKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5F971212552E900A14A29 /* ManagerUserInfoWithNSKeyChain.m */; };
+		BAE5F9752125530600A14A29 /* ManagerUserInfoWithNSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5F9742125530600A14A29 /* ManagerUserInfoWithNSUserDefaults.m */; };
+		BAE5F97821255ADD00A14A29 /* TestSystemShareFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5F97721255ADD00A14A29 /* TestSystemShareFileVC.m */; };
 		BAE7B1B3206203A000B11DBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE7B1B2206203A000B11DBD /* ViewController.m */; };
 		BAE7B1B6206203A000B11DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE7B1B4206203A000B11DBD /* Main.storyboard */; };
 		BAE7B1B8206203A000B11DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE7B1B7206203A000B11DBD /* Assets.xcassets */; };
@@ -294,6 +300,18 @@
 		BAB2F7B421242A950080923D /* TestCreshVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCreshVC.m; sourceTree = "<group>"; };
 		BAE221F12111E4A2008DBEFB /* TestDatabaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDatabaseVC.h; sourceTree = "<group>"; };
 		BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDatabaseVC.m; sourceTree = "<group>"; };
+		BAE5F9632125174000A14A29 /* TestNSPredicateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNSPredicateVC.h; sourceTree = "<group>"; };
+		BAE5F9642125174000A14A29 /* TestNSPredicateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNSPredicateVC.m; sourceTree = "<group>"; };
+		BAE5F966212517F900A14A29 /* TestNSPredicatePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNSPredicatePerson.h; sourceTree = "<group>"; };
+		BAE5F967212517F900A14A29 /* TestNSPredicatePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNSPredicatePerson.m; sourceTree = "<group>"; };
+		BAE5F96921254E4000A14A29 /* TestTableViewCellEditModeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCellEditModeVC.h; sourceTree = "<group>"; };
+		BAE5F96A21254E4000A14A29 /* TestTableViewCellEditModeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCellEditModeVC.m; sourceTree = "<group>"; };
+		BAE5F970212552E900A14A29 /* ManagerUserInfoWithNSKeyChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerUserInfoWithNSKeyChain.h; sourceTree = "<group>"; };
+		BAE5F971212552E900A14A29 /* ManagerUserInfoWithNSKeyChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerUserInfoWithNSKeyChain.m; sourceTree = "<group>"; };
+		BAE5F9732125530600A14A29 /* ManagerUserInfoWithNSUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerUserInfoWithNSUserDefaults.h; sourceTree = "<group>"; };
+		BAE5F9742125530600A14A29 /* ManagerUserInfoWithNSUserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerUserInfoWithNSUserDefaults.m; sourceTree = "<group>"; };
+		BAE5F97621255ADD00A14A29 /* TestSystemShareFileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSystemShareFileVC.h; sourceTree = "<group>"; };
+		BAE5F97721255ADD00A14A29 /* TestSystemShareFileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSystemShareFileVC.m; sourceTree = "<group>"; };
 		BAE7B1AB206203A000B11DBD /* OverAllDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverAllDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE7B1B1206203A000B11DBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BAE7B1B2206203A000B11DBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -735,6 +753,17 @@
 			path = myStaticLib;
 			sourceTree = "<group>";
 		};
+		BAE5F96C2125528600A14A29 /* SavaUserInfoUtil */ = {
+			isa = PBXGroup;
+			children = (
+				BAE5F9732125530600A14A29 /* ManagerUserInfoWithNSUserDefaults.h */,
+				BAE5F9742125530600A14A29 /* ManagerUserInfoWithNSUserDefaults.m */,
+				BAE5F970212552E900A14A29 /* ManagerUserInfoWithNSKeyChain.h */,
+				BAE5F971212552E900A14A29 /* ManagerUserInfoWithNSKeyChain.m */,
+			);
+			path = SavaUserInfoUtil;
+			sourceTree = "<group>";
+		};
 		BAE7B1A2206203A000B11DBD = {
 			isa = PBXGroup;
 			children = (
@@ -1030,6 +1059,12 @@
 				BAE7B20E206203D900B11DBD /* TestLottieViewController.m */,
 				BAB2F7B321242A950080923D /* TestCreshVC.h */,
 				BAB2F7B421242A950080923D /* TestCreshVC.m */,
+				BAE5F9632125174000A14A29 /* TestNSPredicateVC.h */,
+				BAE5F9642125174000A14A29 /* TestNSPredicateVC.m */,
+				BAE5F96921254E4000A14A29 /* TestTableViewCellEditModeVC.h */,
+				BAE5F96A21254E4000A14A29 /* TestTableViewCellEditModeVC.m */,
+				BAE5F97621255ADD00A14A29 /* TestSystemShareFileVC.h */,
+				BAE5F97721255ADD00A14A29 /* TestSystemShareFileVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1037,6 +1072,8 @@
 		BAE7B20F206203D900B11DBD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BAE5F966212517F900A14A29 /* TestNSPredicatePerson.h */,
+				BAE5F967212517F900A14A29 /* TestNSPredicatePerson.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1208,6 +1245,7 @@
 		BAE7B241206203DA00B11DBD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BAE5F96C2125528600A14A29 /* SavaUserInfoUtil */,
 				BA9511912118299800A35B79 /* myStaticLib */,
 				BAE7B242206203DA00B11DBD /* MBProgressHUD+XY */,
 				BAE7B245206203DA00B11DBD /* PPNetWorkHelp */,
@@ -1855,6 +1893,7 @@
 				BAE7B2DA206203E800B11DBD /* AppDelegate+AppService.m in Sources */,
 				BAE7B2AA206203DA00B11DBD /* PersonListViewModel.m in Sources */,
 				BAE7B2C8206203DA00B11DBD /* UIButton+XYButton.m in Sources */,
+				BAE5F972212552E900A14A29 /* ManagerUserInfoWithNSKeyChain.m in Sources */,
 				BA68029B21194E410031377B /* LeftSideCell.m in Sources */,
 				BA6802E821196CEA0031377B /* CustomCell.m in Sources */,
 				BA680323211977CE0031377B /* HexColors.m in Sources */,
@@ -1899,11 +1938,14 @@
 				BA01E4E1211D796200E409E8 /* YZDisplayTitleLabel.m in Sources */,
 				BAE7B2B2206203DA00B11DBD /* TestMVVMViewController.m in Sources */,
 				BAE7B2D2206203DA00B11DBD /* UserManager.m in Sources */,
+				BAE5F968212517F900A14A29 /* TestNSPredicatePerson.m in Sources */,
 				BA01E4AB211D349A00E409E8 /* TestZJAnimationPopViewVC.m in Sources */,
 				BAE7B293206203DA00B11DBD /* BaseViewController.m in Sources */,
 				BAE7B296206203DA00B11DBD /* XLJSHandler.m in Sources */,
+				BAE5F96B21254E4000A14A29 /* TestTableViewCellEditModeVC.m in Sources */,
 				BA68029A21194E410031377B /* RightSideCell.m in Sources */,
 				BAE7B299206203DA00B11DBD /* TabBar.m in Sources */,
+				BAE5F9752125530600A14A29 /* ManagerUserInfoWithNSUserDefaults.m in Sources */,
 				BAE7B33F2062041700B11DBD /* TagsButton.m in Sources */,
 				BA68030521196CEA0031377B /* File.m in Sources */,
 				BA6DB42F210320C80089950A /* TestLoopViewVC.m in Sources */,
@@ -1927,6 +1969,7 @@
 				BA68029C21194E410031377B /* RightSideHeaderView.m in Sources */,
 				BAE7B33C2062041700B11DBD /* XZPickView.m in Sources */,
 				BAE7B2AB206203DA00B11DBD /* TestBase64HashCodeViewController.m in Sources */,
+				BAE5F9652125174000A14A29 /* TestNSPredicateVC.m in Sources */,
 				BA9B82DC211BCD7B00750806 /* TestLargeTitleShowVC.m in Sources */,
 				BA68030321196CEA0031377B /* UIFont+Fonts.m in Sources */,
 				BA68029021194DFB0031377B /* ShopItemDataModel.m in Sources */,
@@ -1942,6 +1985,7 @@
 				BAE7B2AD206203DA00B11DBD /* TestFaceBookPopViewController.m in Sources */,
 				BAE7B1BE206203A000B11DBD /* main.m in Sources */,
 				BA6802E621196CEA0031377B /* PlaceholderImageView.m in Sources */,
+				BAE5F97821255ADD00A14A29 /* TestSystemShareFileVC.m in Sources */,
 				BAE7B2AE206203DA00B11DBD /* TestGCDViewController.m in Sources */,
 				BAFBE05A2103267000D6DA59 /* TestLoopViewCollectionView.m in Sources */,
 				BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */,

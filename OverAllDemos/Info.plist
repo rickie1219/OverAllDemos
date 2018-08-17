@@ -25,8 +25,12 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Rickie想访问你的相机</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Rickie想访问你的图片集</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Rickie想访问你的相册</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>

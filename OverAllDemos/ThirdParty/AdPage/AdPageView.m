@@ -66,6 +66,8 @@ static int const showtime = 5;
         // 1.判断沙盒中是否存在广告图片，如果存在，直接显示
         NSString *filePath = [self getFilePathWithImageName:[kUserDefaults valueForKey:adImageName]];
         
+        NSLog(@"999 ------ filePath = %@", filePath);
+        
         BOOL isExist = [self isFileExistWithFilePath:filePath];
         if (isExist) {// 图片存在
             
@@ -195,7 +197,7 @@ static int const showtime = 5;
  */
 - (void)getAdvertisingImage
 {
-    
+    // 获取广告页的URL数组
     NSArray *imageArray = @[@"http://imgsrc.baidu.com/forum/pic/item/9213b07eca80653846dc8fab97dda144ad348257.jpg", @"http://pic.paopaoche.net/up/2012-2/20122220201612322865.png", @"http://img5.pcpop.com/ArticleImages/picshow/0x0/20110801/2011080114495843125.jpg", @"http://www.mangowed.com/uploads/allimg/130410/1-130410215449417.jpg"];
     NSString *imageUrl = imageArray[arc4random() % imageArray.count];
 

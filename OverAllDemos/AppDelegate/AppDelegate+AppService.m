@@ -39,6 +39,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = kWhiteColor;
     [self.window makeKeyAndVisible];
+    
     [[UIButton appearance] setExclusiveTouch:YES];
     //    [[UIButton appearance] setShowsTouchWhenHighlighted:YES];
     [UIActivityIndicatorView appearanceWhenContainedIn:[MBProgressHUD class], nil].color = kWhiteColor;
@@ -63,6 +64,7 @@
     //展示FPS
     [AppManager showFPS];
 }
+
 
 
 #pragma mark ————— 初始化用户系统 —————

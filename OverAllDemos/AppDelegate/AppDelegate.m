@@ -40,7 +40,11 @@
     //网络监听
     [self monitorNetworkStatus];
     
-    //广告页
+    // 设置启动图动画和广告页动画有定时器冲突
+    // 设置启动图的动画
+    //[self animationsForLaunchImage];
+    
+    // 广告页
     [AppManager appStart];
     
     
@@ -54,6 +58,58 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self.window endEditing:YES];
 }
+
+#pragma mark - 设置启动图的一个渐渐消失的动效
+- (void)animationsForLaunchImage
+{
+    /**传统的方式，需要根据各种机型的尺寸去处理不同的图片，
+     该方式在每每有新机型出现的时候，弊端就及其明显，
+     这里主要借鉴了Stack Overflow上的一篇文章
+     (http://stackoverflow.com/users/1320010/cherpak-evgeny)，
+     通过获取LaunchImage来通配性的加上简易的过渡动画*/
+    
+    //获取窗口尺寸
+    CGSize viewSize = self.window.bounds.size;
+    //默认应用为竖屏
+    //横屏请设置成 @"Landscape"
+    NSString *viewOrientation = @"Portrait";
+    NSString *launchImageName = nil;
+    //获取LaunchImage的信息数组
+    NSArray *launchimagesArr = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"UILaunchImages"];
+    //快速遍历包含启动页信息的数组
+    for (NSDictionary *dict in launchimagesArr)
+    {
+        //拿到启动页的图片尺寸大小
+        CGSize imageSize = CGSizeFromString(dict[@"UILaunchImageSize"]);
+        //图片尺寸与窗口尺寸一致并且方向关键信息也一致时
+        if (CGSizeEqualToSize(imageSize, viewSize) && [viewOrientation isEqualToString:dict[@"UILaunchImageOrientation"]])
+        {
+            //满足上述条件时，持有下此时的启动图片名称
+            launchImageName = dict[@"UILaunchImageName"];
+        }
+    }
+    
+    //实例一个跟启动页一样的伪启动页launchView
+    UIImageView *launchView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:launchImageName]];
+    launchView.frame = self.window.bounds;
+    launchView.contentMode = UIViewContentModeScaleAspectFill;
+    //将其加载Window上
+    [self.window addSubview:launchView];
+    //设置动画将伪启动页逐渐透明和移除，实现启动页渐渐消失的简易过渡动画
+    [UIView animateWithDuration:2.0f
+                          delay:0.0f
+                        options:UIViewAnimationOptionBeginFromCurrentState
+                     animations:^{
+                         //动画效果
+                         launchView.alpha = 0.0f;
+                         launchView.layer.transform = CATransform3DScale(CATransform3DIdentity, 1.2, 1.2, 1);
+                     }
+                     completion:^(BOOL finished) {
+                         //动画效果完成后，移除伪启动页
+                         [launchView removeFromSuperview];
+                     }];
+}
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

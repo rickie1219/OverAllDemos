@@ -19,7 +19,8 @@
 {
     //加载广告
     AdPageView *adView = [[AdPageView alloc] initWithFrame:kScreenBounds withTapBlock:^{
-        BaseNavigationController *loginNavi = [[BaseNavigationController alloc] initWithRootViewController:[[BaseWKWebViewController alloc] initWithUrl:@"http://www.hao123.com"]];
+        BaseNavigationController *loginNavi = [[BaseNavigationController alloc] initWithRootViewController:[[BaseWKWebViewController alloc] initWithUrl:@"http://www.baidu.com"]];
+        NSLog(@"------Ad Page ---------");
         [kRootViewController presentViewController:loginNavi animated:YES completion:nil];
     }];
     adView = adView;
@@ -31,8 +32,10 @@
 {
     YYFPSLabel *_fpsLabel = [YYFPSLabel new];
     [_fpsLabel sizeToFit];
-    _fpsLabel.bottom = kScreenHeight - 55;
+    _fpsLabel.bottom = kScreenHeight - 83;
     _fpsLabel.right = kScreenWidth - 10;
+    //_fpsLabel.top = 80;
+    //_fpsLabel.right = kScreenWidth - 200;
     //    _fpsLabel.alpha = 0;
     [kAppWindow addSubview:_fpsLabel];
 }
