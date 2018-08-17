@@ -1,33 +1,29 @@
 //
-//  HomeViewController.m
-//  RuiFengPartyBuilding
+//  TestPPSnapshotHandlerVC.m
+//  OverAllDemos
 //
-//  Created by Rickie_Lambert on 2018/1/21.
+//  Created by Rickie_Lambert on 2018/8/17.
 //  Copyright © 2018年 RickieLambert. All rights reserved.
 //
 
-#import "HomeViewController.h"
-
-#import "TestMenuListVC.h"
-#import "TestZJAnimationPopViewVC.h"
-#import "TestYZWYViewControllerVC.h"
 #import "TestPPSnapshotHandlerVC.h"
 
+#import "TestPPSnapshotHandlerScrollViewVC.h"
+#import "TestPPSnapshotHandlerWKWebViewVC.h"
+#import "TestPPSnapshotHandlerUIWebViewVC.h"
+#import "TestPPSnapshotHandlerUIViewVC.h"
 
-@interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+
+@interface TestPPSnapshotHandlerVC ()<UITableViewDelegate, UITableViewDataSource>
 {
-    UITableView *m_tableView;
+    UITableView *pp_tableView;
     NSArray *arrTestVCs;
 }
 
-
 @end
 
-
-/**
- 首页
- */
-@implementation HomeViewController
+@implementation TestPPSnapshotHandlerVC
 
 - (void)viewDidLoad
 {
@@ -37,40 +33,40 @@
     // 设置列表
     arrTestVCs = @[
                    @{
-                       @"className" : @"TestMenuListVC",
-                       @"title"     : @"00.多个菜单页面切换"
+                       @"className" : @"TestPPSnapshotHandlerScrollViewVC",
+                       @"title"     : @"01.测试ScrollViewVC视图"
                        },
                    @{
-                       @"className" : @"TestZJAnimationPopViewVC",
-                       @"title"     : @"01.测试多种弹出框提示效果"
+                       @"className" : @"TestPPSnapshotHandlerWKWebViewVC",
+                       @"title"     : @"02.测试WKWebViewVC视图"
                        },
                    @{
-                       @"className" : @"TestYZWYViewControllerVC",
-                       @"title"     : @"02.测试网易新闻的多个菜单页面切换"
+                       @"className" : @"TestPPSnapshotHandlerUIWebViewVC",
+                       @"title"     : @"03.测试UIWebViewVC视图"
                        },
                    @{
-                       @"className" : @"TestPPSnapshotHandlerVC",
-                       @"title"     : @"03.测试网页|滚动视图|一般视图的截图功能"
+                       @"className" : @"TestPPSnapshotHandlerUIViewVC",
+                       @"title"     : @"04.测试UIViewVC视图"
                        }
                    ];
     
     CGFloat iPhoneX_Height = 812;
     
     if (iPhoneX_Height == [UIScreen mainScreen].bounds.size.height) {
-        m_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-44-44-49-34) style:UITableViewStylePlain];
+        pp_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-44-44) style:UITableViewStylePlain];
     } else {
-        m_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-49-64) style:UITableViewStylePlain];
+        pp_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-64) style:UITableViewStylePlain];
     }
     
     
-    m_tableView.delegate = self;
-    m_tableView.dataSource = self;
-    m_tableView.rowHeight = 60;
-    m_tableView.tableFooterView = [UIView new];
+    pp_tableView.delegate = self;
+    pp_tableView.dataSource = self;
+    pp_tableView.rowHeight = 60;
+    pp_tableView.tableFooterView = [UIView new];
     // 一种不错的浅灰色颜色
-    //m_tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
-    m_tableView.backgroundColor = [UIColor cyanColor];
-    [self.view addSubview:m_tableView];
+    //pp_tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    pp_tableView.backgroundColor = [UIColor cyanColor];
+    [self.view addSubview:pp_tableView];
     
     
 }
@@ -111,7 +107,6 @@
     //vc.navigationItem.prompt = [NSString stringWithFormat:@"%@", arrTestVCs[indexPath.row] [@"className"]];
     [self.navigationController pushViewController:vc animated:YES];
 }
-
 
 
 @end
