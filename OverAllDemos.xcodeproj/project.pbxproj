@@ -65,6 +65,8 @@
 		BA9B82DC211BCD7B00750806 /* TestLargeTitleShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */; };
 		BAB2F7B221241E0A0080923D /* TestMallFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2F7B121241E0A0080923D /* TestMallFirstVC.m */; };
 		BAB2F7B521242A950080923D /* TestCreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2F7B421242A950080923D /* TestCreshVC.m */; };
+		BABED004212AB33000EA8280 /* PPSnapshotHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BABED002212AB32F00EA8280 /* PPSnapshotHandler.m */; };
+		BABED007212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BABED006212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m */; };
 		BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */; };
 		BAE5F9652125174000A14A29 /* TestNSPredicateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5F9642125174000A14A29 /* TestNSPredicateVC.m */; };
 		BAE5F968212517F900A14A29 /* TestNSPredicatePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5F967212517F900A14A29 /* TestNSPredicatePerson.m */; };
@@ -313,6 +315,10 @@
 		BAB2F7B121241E0A0080923D /* TestMallFirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMallFirstVC.m; sourceTree = "<group>"; };
 		BAB2F7B321242A950080923D /* TestCreshVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCreshVC.h; sourceTree = "<group>"; };
 		BAB2F7B421242A950080923D /* TestCreshVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCreshVC.m; sourceTree = "<group>"; };
+		BABED002212AB32F00EA8280 /* PPSnapshotHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSnapshotHandler.m; sourceTree = "<group>"; };
+		BABED003212AB32F00EA8280 /* PPSnapshotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSnapshotHandler.h; sourceTree = "<group>"; };
+		BABED005212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPPSnapshotHandlerImageShowVC.h; sourceTree = "<group>"; };
+		BABED006212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPPSnapshotHandlerImageShowVC.m; sourceTree = "<group>"; };
 		BAE221F12111E4A2008DBEFB /* TestDatabaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDatabaseVC.h; sourceTree = "<group>"; };
 		BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDatabaseVC.m; sourceTree = "<group>"; };
 		BAE5F9632125174000A14A29 /* TestNSPredicateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNSPredicateVC.h; sourceTree = "<group>"; };
@@ -768,6 +774,15 @@
 			path = myStaticLib;
 			sourceTree = "<group>";
 		};
+		BABED001212AB32F00EA8280 /* PPSnapshotHandler */ = {
+			isa = PBXGroup;
+			children = (
+				BABED002212AB32F00EA8280 /* PPSnapshotHandler.m */,
+				BABED003212AB32F00EA8280 /* PPSnapshotHandler.h */,
+			);
+			path = PPSnapshotHandler;
+			sourceTree = "<group>";
+		};
 		BAE5F96C2125528600A14A29 /* SavaUserInfoUtil */ = {
 			isa = PBXGroup;
 			children = (
@@ -1007,6 +1022,8 @@
 				BA05ECD12126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m */,
 				BA05ECD32126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.h */,
 				BA05ECD42126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m */,
+				BABED005212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.h */,
+				BABED006212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1472,6 +1489,7 @@
 		BAE7B2FC2062041600B11DBD /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				BABED001212AB32F00EA8280 /* PPSnapshotHandler */,
 				BA01E4D7211D796200E409E8 /* YZDisplayViewController */,
 				BAE7B2FD2062041600B11DBD /* AdPage */,
 				BAE7B3002062041600B11DBD /* AES */,
@@ -2009,6 +2027,7 @@
 				BAE7B3522062048900B11DBD /* AppDelegate.m in Sources */,
 				BAE7B2D0206203DA00B11DBD /* ShareManager.m in Sources */,
 				BA05ECCF2126B6A600BE0B00 /* TestPPSnapshotHandlerWKWebViewVC.m in Sources */,
+				BABED004212AB33000EA8280 /* PPSnapshotHandler.m in Sources */,
 				BA68031F211977350031377B /* CustomHeaderFooterView.m in Sources */,
 				BAE7B29D206203DA00B11DBD /* DiscoverViewController.m in Sources */,
 				BAE7B2A7206203DA00B11DBD /* MineViewController.m in Sources */,
@@ -2016,6 +2035,7 @@
 				BAE7B1BE206203A000B11DBD /* main.m in Sources */,
 				BA6802E621196CEA0031377B /* PlaceholderImageView.m in Sources */,
 				BAE5F97821255ADD00A14A29 /* TestSystemShareFileVC.m in Sources */,
+				BABED007212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m in Sources */,
 				BAE7B2AE206203DA00B11DBD /* TestGCDViewController.m in Sources */,
 				BAFBE05A2103267000D6DA59 /* TestLoopViewCollectionView.m in Sources */,
 				BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */,
