@@ -36,7 +36,15 @@
     NSURL *url = [NSURL URLWithString:@"https://www.jianshu.com/"];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
     
-    _wkCaptureView = [[WKWebView alloc] initWithFrame:self.view.frame];
+    // 判断是否是iPhone X的导航栏
+    CGFloat navH = 44;
+    if (812 == [UIScreen mainScreen].bounds.size.height) {
+        navH = navH + 44;
+    } else {
+        navH = navH + 20;
+    }
+    
+    _wkCaptureView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - navH)];
     _wkCaptureView.backgroundColor = [UIColor orangeColor];
     [_wkCaptureView loadRequest:urlRequest];
     

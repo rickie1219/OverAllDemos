@@ -59,12 +59,14 @@
     preferences.minimumFontSize = 30.0;
     configuration.preferences = preferences;
     
+    // 判断是否是iPhone X的导航栏
     CGFloat navH = 44;
     if (812 == [UIScreen mainScreen].bounds.size.height) {
         navH = navH + 44;
     } else {
         navH = navH + 20;
     }
+    
     
     SDWebView *webView = [[SDWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-navH) configuration:configuration];
     self.sdWKWebView = webView;
