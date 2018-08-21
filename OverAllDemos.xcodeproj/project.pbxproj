@@ -73,6 +73,14 @@
 		BAAF22D2212BA582003773E9 /* SDImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22C8212BA582003773E9 /* SDImageView.m */; };
 		BAAF22D3212BA582003773E9 /* SDPhotoBrowserd.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22C9212BA582003773E9 /* SDPhotoBrowserd.m */; };
 		BAAF22D5212BA711003773E9 /* indexForTestWKWithOCandJS.html in Resources */ = {isa = PBXBuildFile; fileRef = BAAF22D4212BA710003773E9 /* indexForTestWKWithOCandJS.html */; };
+		BAAF22D8212BE797003773E9 /* XRLoginMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22D7212BE797003773E9 /* XRLoginMainVC.m */; };
+		BAAF22DE212BE7FC003773E9 /* XRLoginNewUserRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22DD212BE7FC003773E9 /* XRLoginNewUserRegisterVC.m */; };
+		BAAF22E1212BE80F003773E9 /* XRLoginUserAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22E0212BE80F003773E9 /* XRLoginUserAccountVC.m */; };
+		BAAF22E4212BE8BE003773E9 /* XRLoginUserAgreementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22E3212BE8BE003773E9 /* XRLoginUserAgreementVC.m */; };
+		BAAF22EA212BE91F003773E9 /* XRLoginLanguageChooseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22E9212BE91F003773E9 /* XRLoginLanguageChooseVC.m */; };
+		BAAF22ED212BE9AA003773E9 /* XRLoginPhoneNumberLocationChooseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22EC212BE9AA003773E9 /* XRLoginPhoneNumberLocationChooseVC.m */; };
+		BAAF22F0212BE9DD003773E9 /* XRLoginMeetProblemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22EF212BE9DD003773E9 /* XRLoginMeetProblemVC.m */; };
+		BAAF22F3212BEA36003773E9 /* XRLoginUserForgetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22F2212BEA36003773E9 /* XRLoginUserForgetPasswordVC.m */; };
 		BAB2F7B221241E0A0080923D /* TestMallFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2F7B121241E0A0080923D /* TestMallFirstVC.m */; };
 		BAB2F7B521242A950080923D /* TestCreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2F7B421242A950080923D /* TestCreshVC.m */; };
 		BABED004212AB33000EA8280 /* PPSnapshotHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BABED002212AB32F00EA8280 /* PPSnapshotHandler.m */; };
@@ -327,6 +335,22 @@
 		BAAF22CA212BA582003773E9 /* SDLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLoadingView.h; sourceTree = "<group>"; };
 		BAAF22CB212BA582003773E9 /* SDImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageView.h; sourceTree = "<group>"; };
 		BAAF22D4212BA710003773E9 /* indexForTestWKWithOCandJS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = indexForTestWKWithOCandJS.html; sourceTree = "<group>"; };
+		BAAF22D6212BE797003773E9 /* XRLoginMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRLoginMainVC.h; sourceTree = "<group>"; };
+		BAAF22D7212BE797003773E9 /* XRLoginMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRLoginMainVC.m; sourceTree = "<group>"; };
+		BAAF22DC212BE7FC003773E9 /* XRLoginNewUserRegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRLoginNewUserRegisterVC.h; sourceTree = "<group>"; };
+		BAAF22DD212BE7FC003773E9 /* XRLoginNewUserRegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRLoginNewUserRegisterVC.m; sourceTree = "<group>"; };
+		BAAF22DF212BE80F003773E9 /* XRLoginUserAccountVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRLoginUserAccountVC.h; sourceTree = "<group>"; };
+		BAAF22E0212BE80F003773E9 /* XRLoginUserAccountVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRLoginUserAccountVC.m; sourceTree = "<group>"; };
+		BAAF22E2212BE8BE003773E9 /* XRLoginUserAgreementVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRLoginUserAgreementVC.h; sourceTree = "<group>"; };
+		BAAF22E3212BE8BE003773E9 /* XRLoginUserAgreementVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRLoginUserAgreementVC.m; sourceTree = "<group>"; };
+		BAAF22E8212BE91F003773E9 /* XRLoginLanguageChooseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRLoginLanguageChooseVC.h; sourceTree = "<group>"; };
+		BAAF22E9212BE91F003773E9 /* XRLoginLanguageChooseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRLoginLanguageChooseVC.m; sourceTree = "<group>"; };
+		BAAF22EB212BE9AA003773E9 /* XRLoginPhoneNumberLocationChooseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRLoginPhoneNumberLocationChooseVC.h; sourceTree = "<group>"; };
+		BAAF22EC212BE9AA003773E9 /* XRLoginPhoneNumberLocationChooseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRLoginPhoneNumberLocationChooseVC.m; sourceTree = "<group>"; };
+		BAAF22EE212BE9DD003773E9 /* XRLoginMeetProblemVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRLoginMeetProblemVC.h; sourceTree = "<group>"; };
+		BAAF22EF212BE9DD003773E9 /* XRLoginMeetProblemVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRLoginMeetProblemVC.m; sourceTree = "<group>"; };
+		BAAF22F1212BEA36003773E9 /* XRLoginUserForgetPasswordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRLoginUserForgetPasswordVC.h; sourceTree = "<group>"; };
+		BAAF22F2212BEA36003773E9 /* XRLoginUserForgetPasswordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRLoginUserForgetPasswordVC.m; sourceTree = "<group>"; };
 		BAB2F7B021241E0A0080923D /* TestMallFirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMallFirstVC.h; sourceTree = "<group>"; };
 		BAB2F7B121241E0A0080923D /* TestMallFirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMallFirstVC.m; sourceTree = "<group>"; };
 		BAB2F7B321242A950080923D /* TestCreshVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCreshVC.h; sourceTree = "<group>"; };
@@ -1110,6 +1134,22 @@
 			children = (
 				BAE7B203206203D900B11DBD /* LoginViewController.h */,
 				BAE7B204206203D900B11DBD /* LoginViewController.m */,
+				BAAF22D6212BE797003773E9 /* XRLoginMainVC.h */,
+				BAAF22D7212BE797003773E9 /* XRLoginMainVC.m */,
+				BAAF22DF212BE80F003773E9 /* XRLoginUserAccountVC.h */,
+				BAAF22E0212BE80F003773E9 /* XRLoginUserAccountVC.m */,
+				BAAF22DC212BE7FC003773E9 /* XRLoginNewUserRegisterVC.h */,
+				BAAF22DD212BE7FC003773E9 /* XRLoginNewUserRegisterVC.m */,
+				BAAF22F1212BEA36003773E9 /* XRLoginUserForgetPasswordVC.h */,
+				BAAF22F2212BEA36003773E9 /* XRLoginUserForgetPasswordVC.m */,
+				BAAF22E2212BE8BE003773E9 /* XRLoginUserAgreementVC.h */,
+				BAAF22E3212BE8BE003773E9 /* XRLoginUserAgreementVC.m */,
+				BAAF22E8212BE91F003773E9 /* XRLoginLanguageChooseVC.h */,
+				BAAF22E9212BE91F003773E9 /* XRLoginLanguageChooseVC.m */,
+				BAAF22EB212BE9AA003773E9 /* XRLoginPhoneNumberLocationChooseVC.h */,
+				BAAF22EC212BE9AA003773E9 /* XRLoginPhoneNumberLocationChooseVC.m */,
+				BAAF22EE212BE9DD003773E9 /* XRLoginMeetProblemVC.h */,
+				BAAF22EF212BE9DD003773E9 /* XRLoginMeetProblemVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1935,6 +1975,7 @@
 				BAE7B292206203DA00B11DBD /* BaseNavigationController.m in Sources */,
 				BAE7B2B6206203DA00B11DBD /* SearchViewController.m in Sources */,
 				BAE7B297206203DA00B11DBD /* XLWebViewController.m in Sources */,
+				BAAF22D8212BE797003773E9 /* XRLoginMainVC.m in Sources */,
 				BAE7B2AC206203DA00B11DBD /* TestEmotionViewController.m in Sources */,
 				BAE7B2DA206203E800B11DBD /* AppDelegate+AppService.m in Sources */,
 				BAE7B2AA206203DA00B11DBD /* PersonListViewModel.m in Sources */,
@@ -1957,12 +1998,14 @@
 				BA68031C211974750031377B /* CellHeaderFooterDataAdapter.m in Sources */,
 				BA680314211972B00031377B /* BaseCustomViewController.m in Sources */,
 				BA6802EC21196CEA0031377B /* NSArray+JSONData.m in Sources */,
+				BAAF22ED212BE9AA003773E9 /* XRLoginPhoneNumberLocationChooseVC.m in Sources */,
 				BAE7B2A0206203DA00B11DBD /* MenuTitleLabel.m in Sources */,
 				BAE7B33A2062041700B11DBD /* AESCipher.m in Sources */,
 				BAE7B2CD206203DA00B11DBD /* AppManager.m in Sources */,
 				BA68028321194AB10031377B /* TestTwoLevelLinkageVC.m in Sources */,
 				BA05ECD22126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m in Sources */,
 				BAE7B2CE206203DA00B11DBD /* IAPManager.m in Sources */,
+				BAAF22F3212BEA36003773E9 /* XRLoginUserForgetPasswordVC.m in Sources */,
 				BAE7B2DB206203E800B11DBD /* AppDelegate+PushService.m in Sources */,
 				BAE7B2B0206203DA00B11DBD /* TestKVOPassValueViewController.m in Sources */,
 				BAB2F7B521242A950080923D /* TestCreshVC.m in Sources */,
@@ -1980,10 +2023,12 @@
 				BA6802EA21196CEA0031377B /* NSData+JSONData.m in Sources */,
 				BA6802FE21196CEA0031377B /* LinkageTwoLevelModel.m in Sources */,
 				BAE7B2BB206203DA00B11DBD /* UITabBarController+tabBarController.m in Sources */,
+				BAAF22EA212BE91F003773E9 /* XRLoginLanguageChooseVC.m in Sources */,
 				BAE7B2CC206203DA00B11DBD /* YYFPSLabel.m in Sources */,
 				BAE821F920F1010900FED8D0 /* TestPickerViewVC.m in Sources */,
 				BA05ECC92126B56200BE0B00 /* TestPPSnapshotHandlerVC.m in Sources */,
 				BAE7B34F2062041700B11DBD /* XYTransition.m in Sources */,
+				BAAF22DE212BE7FC003773E9 /* XRLoginNewUserRegisterVC.m in Sources */,
 				BA6802E921196CEA0031377B /* NSDictionary+JSONData.m in Sources */,
 				BA01E4E1211D796200E409E8 /* YZDisplayTitleLabel.m in Sources */,
 				BAE7B2B2206203DA00B11DBD /* TestMVVMViewController.m in Sources */,
@@ -2018,6 +2063,7 @@
 				BA68030221196CEA0031377B /* UIView+SetRect.m in Sources */,
 				BA6802EB21196CEA0031377B /* NSString+JSONData.m in Sources */,
 				BAE7B2A5206203DA00B11DBD /* MessageViewController.m in Sources */,
+				BAAF22E1212BE80F003773E9 /* XRLoginUserAccountVC.m in Sources */,
 				BA680309211971DF0031377B /* NormalTitleController.m in Sources */,
 				BAE7B1B3206203A000B11DBD /* ViewController.m in Sources */,
 				BAAF22D1212BA582003773E9 /* SDLoadingView.m in Sources */,
@@ -2032,6 +2078,7 @@
 				BA68029021194DFB0031377B /* ShopItemDataModel.m in Sources */,
 				BA05ECD52126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m in Sources */,
 				BAE7B2B1206203DA00B11DBD /* TestKVOReceiveValueViewController.m in Sources */,
+				BAAF22F0212BE9DD003773E9 /* XRLoginMeetProblemVC.m in Sources */,
 				BAE7B2AF206203DA00B11DBD /* TestHeaderImageScaleViewController.m in Sources */,
 				BA68029121194DFB0031377B /* CategoryModel.m in Sources */,
 				BAE7B2BC206203DA00B11DBD /* NSString+HMHash.m in Sources */,
@@ -2068,6 +2115,7 @@
 				BAE7B2A3206203DA00B11DBD /* TestDIYLottieRefreshHeader.m in Sources */,
 				BAE7B2A6206203DA00B11DBD /* EmotionsCollectionViewCell.m in Sources */,
 				BAE7B2BA206203DA00B11DBD /* PPNetworkHelper.m in Sources */,
+				BAAF22E4212BE8BE003773E9 /* XRLoginUserAgreementVC.m in Sources */,
 				BAE7B2B3206203DA00B11DBD /* TestNSUserDefaultsVC.m in Sources */,
 				BAE7B2B9206203DA00B11DBD /* PPNetworkCache.m in Sources */,
 				BA68030121196CEA0031377B /* UIColor+ForPublicUse.m in Sources */,

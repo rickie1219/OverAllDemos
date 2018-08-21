@@ -12,6 +12,9 @@
 #import "OpenUDID.h"
 
 
+#import "XRLoginMainVC.h"
+
+
 
 @implementation AppDelegate (AppService)
 
@@ -128,7 +131,10 @@
     {
         //登陆失败加载登陆页面控制器
         self.mainTabBar = nil;
-        BaseNavigationController *loginNavi =[[BaseNavigationController alloc] initWithRootViewController:[LoginViewController new]];
+        //BaseNavigationController *loginNavi =[[BaseNavigationController alloc] initWithRootViewController:[LoginViewController new]];
+        BaseNavigationController *loginNavi =[[BaseNavigationController alloc] initWithRootViewController:[XRLoginMainVC new]];
+        
+//        UINavigationController *loginNavi = [[UINavigationController alloc] initWithRootViewController:[XRLoginMainVC new]];
         
         CATransition *anima = [CATransition animation];
         anima.type = @"cube"; //设置动画的类型
