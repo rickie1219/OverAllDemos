@@ -8,6 +8,7 @@
 
 #import "MineViewController.h"
 
+#import "MineLogoutVC.h"
 #import "TestNSUserDefaultsVC.h"
 #import "TestRandomNumberVC.h"
 #import "TestHeaderImageScaleViewController.h"
@@ -44,6 +45,10 @@
 
     // 设置列表
     arrTestVCs = @[
+                   @{
+                       @"className" : @"MineLogoutVC",
+                       @"title"     : @"00.模拟退出登录"
+                       },
                    @{
                        @"className" : @"TestNSUserDefaultsVC",
                        @"title"     : @"01.测试NSUserDefaults"

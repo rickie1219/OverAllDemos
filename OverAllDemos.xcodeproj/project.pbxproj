@@ -24,6 +24,7 @@
 		BA05ECCF2126B6A600BE0B00 /* TestPPSnapshotHandlerWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA05ECCE2126B6A600BE0B00 /* TestPPSnapshotHandlerWKWebViewVC.m */; };
 		BA05ECD22126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA05ECD12126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m */; };
 		BA05ECD52126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA05ECD42126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m */; };
+		BA09A5DF212C6ECA00C6A7E5 /* MineLogoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA09A5DE212C6ECA00C6A7E5 /* MineLogoutVC.m */; };
 		BA2DDA3120B563BB0041BC51 /* TestGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */; };
 		BA68028321194AB10031377B /* TestTwoLevelLinkageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA68028221194AB10031377B /* TestTwoLevelLinkageVC.m */; };
 		BA68028521194CBF0031377B /* liwushuo.json in Resources */ = {isa = PBXBuildFile; fileRef = BA68028421194CBF0031377B /* liwushuo.json */; };
@@ -237,6 +238,8 @@
 		BA05ECD12126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPPSnapshotHandlerUIWebViewVC.m; sourceTree = "<group>"; };
 		BA05ECD32126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPPSnapshotHandlerUIViewVC.h; sourceTree = "<group>"; };
 		BA05ECD42126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPPSnapshotHandlerUIViewVC.m; sourceTree = "<group>"; };
+		BA09A5DD212C6ECA00C6A7E5 /* MineLogoutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineLogoutVC.h; sourceTree = "<group>"; };
+		BA09A5DE212C6ECA00C6A7E5 /* MineLogoutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineLogoutVC.m; sourceTree = "<group>"; };
 		BA2DDA2F20B563BB0041BC51 /* TestGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGestureViewController.h; sourceTree = "<group>"; };
 		BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGestureViewController.m; sourceTree = "<group>"; };
 		BA68028121194AB10031377B /* TestTwoLevelLinkageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTwoLevelLinkageVC.h; sourceTree = "<group>"; };
@@ -1267,6 +1270,8 @@
 				BAE7B21A206203D900B11DBD /* EmotionsCollectionViewCell.m */,
 				BAE7B21B206203D900B11DBD /* MineViewController.h */,
 				BAE7B21C206203D900B11DBD /* MineViewController.m */,
+				BA09A5DD212C6ECA00C6A7E5 /* MineLogoutVC.h */,
+				BA09A5DE212C6ECA00C6A7E5 /* MineLogoutVC.m */,
 				BAE7B21D206203D900B11DBD /* Person+TestRuntimeProperty.h */,
 				BAE7B21E206203D900B11DBD /* Person+TestRuntimeProperty.m */,
 				BAE7B21F206203D900B11DBD /* Person.h */,
@@ -2001,6 +2006,7 @@
 				BAAF22ED212BE9AA003773E9 /* XRLoginPhoneNumberLocationChooseVC.m in Sources */,
 				BAE7B2A0206203DA00B11DBD /* MenuTitleLabel.m in Sources */,
 				BAE7B33A2062041700B11DBD /* AESCipher.m in Sources */,
+				BA09A5DF212C6ECA00C6A7E5 /* MineLogoutVC.m in Sources */,
 				BAE7B2CD206203DA00B11DBD /* AppManager.m in Sources */,
 				BA68028321194AB10031377B /* TestTwoLevelLinkageVC.m in Sources */,
 				BA05ECD22126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m in Sources */,

@@ -26,13 +26,19 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    // 以前的写法
     self.navigationController.navigationBar.hidden = YES;
+    // 为避免自定义导航栏可能出现的bug，优化成这种写法 （不好使）
+    //[self.navigationController.view sendSubviewToBack:self.navigationController.navigationBar];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
+    // 以前的写法
     self.navigationController.navigationBar.hidden = NO;
+    // 为避免自定义导航栏可能出现的bug，优化成这种写法 (不好使)
+    //[self.navigationController.view bringSubviewToFront:self.navigationController.navigationBar];
 }
 
 #pragma mark - 加载视图完成
