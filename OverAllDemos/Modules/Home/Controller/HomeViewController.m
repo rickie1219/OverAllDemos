@@ -12,6 +12,7 @@
 #import "TestZJAnimationPopViewVC.h"
 #import "TestYZWYViewControllerVC.h"
 #import "TestPPSnapshotHandlerVC.h"
+#import "TestWKWebViewVC.h"
 
 
 @interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -51,6 +52,10 @@
                    @{
                        @"className" : @"TestPPSnapshotHandlerVC",
                        @"title"     : @"03.测试网页|滚动视图|一般视图的截图功能"
+                       },
+                   @{
+                       @"className" : @"TestWKWebViewVC",
+                       @"title"     : @"04.测试WKWebView"
                        }
                    ];
     
@@ -71,11 +76,7 @@
     //m_tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     m_tableView.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:m_tableView];
-    
-    
 }
-
-
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {

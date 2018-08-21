@@ -9,6 +9,9 @@
 #import "TestPPSnapshotHandlerImageShowVC.h"
 
 @interface TestPPSnapshotHandlerImageShowVC ()
+{
+    UIImageView *imgViewShow;
+}
 
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) UIImageView *imageView;
@@ -16,6 +19,16 @@
 @end
 
 @implementation TestPPSnapshotHandlerImageShowVC
+
+
+- (void)initOneViewToShowImage {
+    imgViewShow = [[UIImageView alloc] initWithFrame:CGRectMake(80, 150, 300, 500)];
+    imgViewShow.image = _capturedImage;
+    imgViewShow.contentMode = UIViewContentModeScaleAspectFit;
+    imgViewShow.backgroundColor = [UIColor cyanColor];
+    [self.view addSubview:imgViewShow];
+}
+
 
 
 - (void)viewDidLoad
@@ -52,4 +65,13 @@
     
     self.imageView.frame = CGRectMake(0, 0, width, height);
 }
+
+
+
+
+
+
+
+
+
 @end

@@ -54,7 +54,7 @@
         // 4.判断是否是UIView视图
         [self snapshotForNormalView:(UIView *)view];
     } else {
-        
+        NSLog(@"方法snapshotForView:传入的视图参数不对");
     }
 }
 
