@@ -8,6 +8,7 @@
 
 #import "TestPPSnapshotHandlerVC.h"
 
+#import "TestPPSnapshotHandlerScrollViewTableViewVC.h"
 #import "TestPPSnapshotHandlerScrollViewVC.h"
 #import "TestPPSnapshotHandlerWKWebViewVC.h"
 #import "TestPPSnapshotHandlerUIWebViewVC.h"
@@ -32,6 +33,10 @@
     
     // 设置列表
     arrTestVCs = @[
+                   @{
+                       @"className" : @"TestPPSnapshotHandlerScrollViewTableViewVC",
+                       @"title"     : @"00.测试TableViewVC视图"
+                       },
                    @{
                        @"className" : @"TestPPSnapshotHandlerScrollViewVC",
                        @"title"     : @"01.测试ScrollViewVC视图"

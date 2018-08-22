@@ -86,6 +86,7 @@
 		BAB2F7B521242A950080923D /* TestCreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2F7B421242A950080923D /* TestCreshVC.m */; };
 		BABED004212AB33000EA8280 /* PPSnapshotHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BABED002212AB32F00EA8280 /* PPSnapshotHandler.m */; };
 		BABED007212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BABED006212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m */; };
+		BAC6A85C212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6A85B212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.m */; };
 		BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */; };
 		BAE5F9652125174000A14A29 /* TestNSPredicateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5F9642125174000A14A29 /* TestNSPredicateVC.m */; };
 		BAE5F968212517F900A14A29 /* TestNSPredicatePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5F967212517F900A14A29 /* TestNSPredicatePerson.m */; };
@@ -362,6 +363,8 @@
 		BABED003212AB32F00EA8280 /* PPSnapshotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSnapshotHandler.h; sourceTree = "<group>"; };
 		BABED005212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPPSnapshotHandlerImageShowVC.h; sourceTree = "<group>"; };
 		BABED006212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPPSnapshotHandlerImageShowVC.m; sourceTree = "<group>"; };
+		BAC6A85A212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPPSnapshotHandlerScrollViewTableViewVC.h; sourceTree = "<group>"; };
+		BAC6A85B212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPPSnapshotHandlerScrollViewTableViewVC.m; sourceTree = "<group>"; };
 		BAE221F12111E4A2008DBEFB /* TestDatabaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDatabaseVC.h; sourceTree = "<group>"; };
 		BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDatabaseVC.m; sourceTree = "<group>"; };
 		BAE5F9632125174000A14A29 /* TestNSPredicateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNSPredicateVC.h; sourceTree = "<group>"; };
@@ -1091,6 +1094,8 @@
 				BA05ECC82126B56200BE0B00 /* TestPPSnapshotHandlerVC.m */,
 				BA05ECCA2126B68A00BE0B00 /* TestPPSnapshotHandlerScrollViewVC.h */,
 				BA05ECCB2126B68A00BE0B00 /* TestPPSnapshotHandlerScrollViewVC.m */,
+				BAC6A85A212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.h */,
+				BAC6A85B212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.m */,
 				BA05ECCD2126B6A600BE0B00 /* TestPPSnapshotHandlerWKWebViewVC.h */,
 				BA05ECCE2126B6A600BE0B00 /* TestPPSnapshotHandlerWKWebViewVC.m */,
 				BA05ECD02126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.h */,
@@ -1991,6 +1996,7 @@
 				BA680323211977CE0031377B /* HexColors.m in Sources */,
 				BAE7B29C206203DA00B11DBD /* TabBarSystemController.m in Sources */,
 				BA01E4A8211D338100E409E8 /* TestMenuListVC.m in Sources */,
+				BAC6A85C212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.m in Sources */,
 				BA01E4EA211D854800E409E8 /* TestYZWYViewControllerSubVC.m in Sources */,
 				BA68028F21194DFB0031377B /* ItemManagerModel.m in Sources */,
 				BA680313211972B00031377B /* ControllerBaseViewConfig.m in Sources */,
