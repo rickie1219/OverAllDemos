@@ -13,8 +13,6 @@
 
 @property (nonatomic, strong) UILabel *lblTitle;
 
-
 @property (nonatomic, strong) UILabel *lblCellFag;
-
 
 @end

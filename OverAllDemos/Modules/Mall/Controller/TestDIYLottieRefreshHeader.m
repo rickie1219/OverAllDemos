@@ -9,7 +9,7 @@
 
 #import "TestDIYLottieRefreshHeader.h"
 
-static const CGFloat refreshMJTotalH = 100;
+static const CGFloat refreshMJTotalH = 80;
 static const CGFloat refreshTopMargin = 0;
 
 
@@ -81,7 +81,7 @@ static const CGFloat refreshTopMargin = 0;
 
     _imgLoading.contentMode = UIViewContentModeScaleAspectFit;
     [self addSubview:_imgLoading];
-    _imgLoading.backgroundColor = [UIColor orangeColor];
+//    _imgLoading.backgroundColor = [UIColor orangeColor];
     _imgLoading.animationProgress = 0;
     [_imgLoading play];
     _imgLoading.loopAnimation = YES;
