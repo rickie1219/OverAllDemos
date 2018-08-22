@@ -69,7 +69,7 @@
     [self.view addSubview:view];
     
     // 加载本地的lottie的json文件
-    laAnimation = [LOTAnimationView animationNamed:@"LottieLogo2"];
+    laAnimation = [LOTAnimationView animationNamed:@"material_wave_loading"];
     laAnimation.backgroundColor = [UIColor yellowColor];
     laAnimation.frame = view.bounds;
     laAnimation.contentMode = UIViewContentModeScaleAspectFill;

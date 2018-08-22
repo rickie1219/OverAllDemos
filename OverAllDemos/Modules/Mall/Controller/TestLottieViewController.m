@@ -37,15 +37,26 @@
 //    [lottieAnimation play];
 //    lottieAnimation.loopAnimation = YES;
     arrDatasource = @[
+                      @"01",
+                      @"02",
+                      @"03",
+                      @"04",
+                      @"05",
+                      @"06",
+                      @"07",
+                      @"08",
+                      @"09",
+                      @"10",
                       @"11",
-                      @"22",
-                      @"33",
-                      @"44",
-                      @"55",
-                      @"66",
-                      @"77",
-                      @"88",
-                      @"99"
+                      @"12",
+                      @"13",
+                      @"14",
+                      @"15",
+                      @"16",
+                      @"17",
+                      @"18",
+                      @"19",
+                      @"20"
                       ];
     
     [self initTestTableView];
@@ -54,10 +65,17 @@
 
 - (void)initTestTableView
 {
-    test_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 88 - 34) style:UITableViewStylePlain];
+    CGFloat navH = 44;
+    if (812 == [UIScreen mainScreen].bounds.size.height) {
+        navH = navH + 44;
+    } else {
+        navH = navH + 20;
+    }
+    
+    test_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - navH) style:UITableViewStylePlain];
     test_tableView.delegate = self;
     test_tableView.dataSource = self;
-    test_tableView.backgroundColor = [UIColor cyanColor];
+    test_tableView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:test_tableView];
 
     test_tableView.rowHeight = 100;
@@ -76,7 +94,7 @@
 - (void)refreshData
 {
     // 模拟延迟加载数据，因此2秒后才调用（真实开发中，可以移除这段gcd代码）
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
         // 结束刷新
         [test_tableView.mj_header endRefreshing];
@@ -103,7 +121,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseID];
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"row = %ld", indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"row = %ld , dataArr = %@", indexPath.row, arrDatasource[indexPath.row]];
     
     return cell;
 }

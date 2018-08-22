@@ -61,6 +61,13 @@
     // synchronize方法手动将NSUserDefaults对象的改变保存到 userDefaults 数据库。
     [userDefaults synchronize];
     
+    UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"Tips" message:@"Save success" preferredStyle:UIAlertControllerStyleAlert];
+    
+    [alertVC addAction:[UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"clicked Ok");
+    }]];
+    
+    [self presentViewController:alertVC animated:YES completion:nil];
     
     // 退出程序
     // exit(0);

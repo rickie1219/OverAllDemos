@@ -41,7 +41,8 @@
     
     
     UIButton *btnPush = [UIButton buttonWithType:UIButtonTypeCustom];
-    btnPush.frame = CGRectMake(CGRectGetMinX(lblShow.frame), CGRectGetMaxY(lblShow.frame) + 20, lblShow.frame.size.width, lblShow.frame.size.height);
+    btnPush.frame = CGRectMake(CGRectGetMinX(lblShow.frame), CGRectGetMaxY(lblShow.frame) + 50, lblShow.frame.size.width, lblShow.frame.size.height);
+    btnPush.backgroundColor = [UIColor orangeColor];
     [btnPush setTitle:@"Push" forState:UIControlStateNormal];
     [btnPush addTarget:self action:@selector(toPushNextVC) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btnPush];
@@ -51,6 +52,7 @@
 - (void)toPushNextVC
 {
     passValueVC = [[TestKVOPassValueViewController alloc] init];
+    passValueVC.title = @"TestKVOPassValueViewController";
     [self.navigationController pushViewController:passValueVC animated:YES];
 }
 
