@@ -24,7 +24,11 @@
 
 - (void)initConfigViewControllerTitle
 {
-    
+    UILabel *lblLagerTitle = [[UILabel alloc] initWithFrame:CGRectMake(80, 80, 300, 80)];
+    lblLagerTitle.text = @"";
+    lblLagerTitle.textColor = [UIColor blueColor];
+    lblLagerTitle.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:lblLagerTitle];
     
 }
 
