@@ -14,6 +14,7 @@
 #import "TestNSPredicateVC.h"
 #import "TestTableViewCellEditModeVC.h"
 #import "TestSystemShareFileVC.h"
+#import "TestRollingAdvertisementVC.h"
 
 
 @interface MallViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -55,6 +56,10 @@
                    @{
                        @"className" : @"TestSystemShareFileVC",
                        @"title"     : @"04.测试系统分享文件"
+                       },
+                   @{
+                       @"className" : @"TestRollingAdvertisementVC",
+                       @"title"     : @"05.测试广告消息的轮播"
                        }
                    ];
     

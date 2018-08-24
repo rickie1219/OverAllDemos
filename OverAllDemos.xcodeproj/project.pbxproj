@@ -26,6 +26,12 @@
 		BA05ECD52126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA05ECD42126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m */; };
 		BA09A5DF212C6ECA00C6A7E5 /* MineLogoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA09A5DE212C6ECA00C6A7E5 /* MineLogoutVC.m */; };
 		BA2DDA3120B563BB0041BC51 /* TestGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */; };
+		BA547F66212FEB7E00891092 /* TestRollingAdvertisementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F65212FEB7E00891092 /* TestRollingAdvertisementVC.m */; };
+		BA547F6C212FEBAA00891092 /* GYNoticeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F68212FEBAA00891092 /* GYNoticeViewCell.m */; };
+		BA547F6D212FEBAA00891092 /* GYRollingNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F69212FEBAA00891092 /* GYRollingNoticeView.m */; };
+		BA547F70212FEDE100891092 /* TestRollingAdvertisementTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F6F212FEDE100891092 /* TestRollingAdvertisementTextCell.m */; };
+		BA547F73212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F72212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.m */; };
+		BA547F76213000AD00891092 /* TestRollingAdvertisementCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F75213000AD00891092 /* TestRollingAdvertisementCustomCell.m */; };
 		BA68028321194AB10031377B /* TestTwoLevelLinkageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA68028221194AB10031377B /* TestTwoLevelLinkageVC.m */; };
 		BA68028521194CBF0031377B /* liwushuo.json in Resources */ = {isa = PBXBuildFile; fileRef = BA68028421194CBF0031377B /* liwushuo.json */; };
 		BA68028F21194DFB0031377B /* ItemManagerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA68028821194DFB0031377B /* ItemManagerModel.m */; };
@@ -262,6 +268,18 @@
 		BA09A5DE212C6ECA00C6A7E5 /* MineLogoutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineLogoutVC.m; sourceTree = "<group>"; };
 		BA2DDA2F20B563BB0041BC51 /* TestGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGestureViewController.h; sourceTree = "<group>"; };
 		BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGestureViewController.m; sourceTree = "<group>"; };
+		BA547F64212FEB7E00891092 /* TestRollingAdvertisementVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRollingAdvertisementVC.h; sourceTree = "<group>"; };
+		BA547F65212FEB7E00891092 /* TestRollingAdvertisementVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRollingAdvertisementVC.m; sourceTree = "<group>"; };
+		BA547F68212FEBAA00891092 /* GYNoticeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYNoticeViewCell.m; sourceTree = "<group>"; };
+		BA547F69212FEBAA00891092 /* GYRollingNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYRollingNoticeView.m; sourceTree = "<group>"; };
+		BA547F6A212FEBAA00891092 /* GYRollingNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYRollingNoticeView.h; sourceTree = "<group>"; };
+		BA547F6B212FEBAA00891092 /* GYNoticeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYNoticeViewCell.h; sourceTree = "<group>"; };
+		BA547F6E212FEDE100891092 /* TestRollingAdvertisementTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRollingAdvertisementTextCell.h; sourceTree = "<group>"; };
+		BA547F6F212FEDE100891092 /* TestRollingAdvertisementTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRollingAdvertisementTextCell.m; sourceTree = "<group>"; };
+		BA547F71212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRollingAdvertisementImageAndTextCell.h; sourceTree = "<group>"; };
+		BA547F72212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRollingAdvertisementImageAndTextCell.m; sourceTree = "<group>"; };
+		BA547F74213000AD00891092 /* TestRollingAdvertisementCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRollingAdvertisementCustomCell.h; sourceTree = "<group>"; };
+		BA547F75213000AD00891092 /* TestRollingAdvertisementCustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRollingAdvertisementCustomCell.m; sourceTree = "<group>"; };
 		BA68028121194AB10031377B /* TestTwoLevelLinkageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTwoLevelLinkageVC.h; sourceTree = "<group>"; };
 		BA68028221194AB10031377B /* TestTwoLevelLinkageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTwoLevelLinkageVC.m; sourceTree = "<group>"; };
 		BA68028421194CBF0031377B /* liwushuo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = liwushuo.json; sourceTree = "<group>"; };
@@ -684,6 +702,17 @@
 				BA01E4F0211D90CE00E409E8 /* LoadingDataView.m */,
 			);
 			path = YZDisplayVCLoadingView;
+			sourceTree = "<group>";
+		};
+		BA547F67212FEBAA00891092 /* GYRollingNoticeView */ = {
+			isa = PBXGroup;
+			children = (
+				BA547F6B212FEBAA00891092 /* GYNoticeViewCell.h */,
+				BA547F68212FEBAA00891092 /* GYNoticeViewCell.m */,
+				BA547F6A212FEBAA00891092 /* GYRollingNoticeView.h */,
+				BA547F69212FEBAA00891092 /* GYRollingNoticeView.m */,
+			);
+			path = GYRollingNoticeView;
 			sourceTree = "<group>";
 		};
 		BA68028621194DFB0031377B /* TestLinkageModels */ = {
@@ -1284,6 +1313,8 @@
 				BAE5F96A21254E4000A14A29 /* TestTableViewCellEditModeVC.m */,
 				BAE5F97621255ADD00A14A29 /* TestSystemShareFileVC.h */,
 				BAE5F97721255ADD00A14A29 /* TestSystemShareFileVC.m */,
+				BA547F64212FEB7E00891092 /* TestRollingAdvertisementVC.h */,
+				BA547F65212FEB7E00891092 /* TestRollingAdvertisementVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1300,6 +1331,12 @@
 		BAE7B210206203D900B11DBD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA547F6E212FEDE100891092 /* TestRollingAdvertisementTextCell.h */,
+				BA547F6F212FEDE100891092 /* TestRollingAdvertisementTextCell.m */,
+				BA547F71212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.h */,
+				BA547F72212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.m */,
+				BA547F74213000AD00891092 /* TestRollingAdvertisementCustomCell.h */,
+				BA547F75213000AD00891092 /* TestRollingAdvertisementCustomCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1635,6 +1672,7 @@
 		BAE7B2FC2062041600B11DBD /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				BA547F67212FEBAA00891092 /* GYRollingNoticeView */,
 				BAAF22B7212BA582003773E9 /* HMWebView */,
 				BABED001212AB32F00EA8280 /* PPSnapshotHandler */,
 				BA01E4D7211D796200E409E8 /* YZDisplayViewController */,
@@ -2086,6 +2124,7 @@
 				BAE7B2B6206203DA00B11DBD /* SearchViewController.m in Sources */,
 				BAE7B297206203DA00B11DBD /* XLWebViewController.m in Sources */,
 				BAAF22D8212BE797003773E9 /* XRLoginMainVC.m in Sources */,
+				BA547F73212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.m in Sources */,
 				BAE7B2AC206203DA00B11DBD /* TestEmotionViewController.m in Sources */,
 				BAE7B2DA206203E800B11DBD /* AppDelegate+AppService.m in Sources */,
 				BAE7B2AA206203DA00B11DBD /* PersonListViewModel.m in Sources */,
@@ -2118,6 +2157,7 @@
 				BA05ECD22126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m in Sources */,
 				BAE7B2CE206203DA00B11DBD /* IAPManager.m in Sources */,
 				BAAF22F3212BEA36003773E9 /* XRLoginUserForgetPasswordVC.m in Sources */,
+				BA547F6D212FEBAA00891092 /* GYRollingNoticeView.m in Sources */,
 				BAE7B2DB206203E800B11DBD /* AppDelegate+PushService.m in Sources */,
 				BAE7B2B0206203DA00B11DBD /* TestKVOPassValueViewController.m in Sources */,
 				BAB2F7B521242A950080923D /* TestCreshVC.m in Sources */,
@@ -2159,6 +2199,7 @@
 				BA6DB42F210320C80089950A /* TestLoopViewVC.m in Sources */,
 				BAAF22CC212BA582003773E9 /* SDWebView.m in Sources */,
 				BAE7B2C9206203DA00B11DBD /* UICollectionView+IndexPath.m in Sources */,
+				BA547F6C212FEBAA00891092 /* GYNoticeViewCell.m in Sources */,
 				BA01E4EE211D8D9200E409E8 /* RequesCover.m in Sources */,
 				BAE7B2A4206203DA00B11DBD /* TestLottieViewController.m in Sources */,
 				BA680319211974110031377B /* CellDataAdapter.m in Sources */,
@@ -2176,6 +2217,7 @@
 				BA6802EB21196CEA0031377B /* NSString+JSONData.m in Sources */,
 				BAE7B2A5206203DA00B11DBD /* MessageViewController.m in Sources */,
 				BAAF22E1212BE80F003773E9 /* XRLoginUserAccountVC.m in Sources */,
+				BA547F70212FEDE100891092 /* TestRollingAdvertisementTextCell.m in Sources */,
 				BA680309211971DF0031377B /* NormalTitleController.m in Sources */,
 				BAE7B1B3206203A000B11DBD /* ViewController.m in Sources */,
 				BAAF22D1212BA582003773E9 /* SDLoadingView.m in Sources */,
@@ -2202,6 +2244,7 @@
 				BAE7B29D206203DA00B11DBD /* DiscoverViewController.m in Sources */,
 				BAE7B2A7206203DA00B11DBD /* MineViewController.m in Sources */,
 				BAE7B2AD206203DA00B11DBD /* TestFaceBookPopViewController.m in Sources */,
+				BA547F66212FEB7E00891092 /* TestRollingAdvertisementVC.m in Sources */,
 				BAE7B1BE206203A000B11DBD /* main.m in Sources */,
 				BA6802E621196CEA0031377B /* PlaceholderImageView.m in Sources */,
 				BAE5F97821255ADD00A14A29 /* TestSystemShareFileVC.m in Sources */,
@@ -2210,6 +2253,7 @@
 				BAFBE05A2103267000D6DA59 /* TestLoopViewCollectionView.m in Sources */,
 				BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */,
 				BA6802FF21196CEA0031377B /* TwoLevelLinkageView.m in Sources */,
+				BA547F76213000AD00891092 /* TestRollingAdvertisementCustomCell.m in Sources */,
 				BA68030421196CEA0031377B /* FileManager.m in Sources */,
 				BAE7B2D1206203DA00B11DBD /* UserInfo.m in Sources */,
 				BA6802FD21196CEA0031377B /* CustomLevelLinkageCell.m in Sources */,
