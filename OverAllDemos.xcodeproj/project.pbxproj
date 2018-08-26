@@ -67,6 +67,7 @@
 		BA68031F211977350031377B /* CustomHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA68031D211977340031377B /* CustomHeaderFooterView.m */; };
 		BA680323211977CE0031377B /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = BA680322211977CE0031377B /* HexColors.m */; };
 		BA6DB42F210320C80089950A /* TestLoopViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DB42E210320C80089950A /* TestLoopViewVC.m */; };
+		BA6E11082132518000048F5C /* XRLoginBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6E11072132518000048F5C /* XRLoginBaseVC.m */; };
 		BA9511942118299800A35B79 /* myStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9511922118299800A35B79 /* myStaticLib.a */; };
 		BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */; };
 		BA9B82DC211BCD7B00750806 /* TestLargeTitleShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */; };
@@ -349,6 +350,8 @@
 		BA680322211977CE0031377B /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		BA6DB42D210320C80089950A /* TestLoopViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLoopViewVC.h; sourceTree = "<group>"; };
 		BA6DB42E210320C80089950A /* TestLoopViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLoopViewVC.m; sourceTree = "<group>"; };
+		BA6E11062132518000048F5C /* XRLoginBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRLoginBaseVC.h; sourceTree = "<group>"; };
+		BA6E11072132518000048F5C /* XRLoginBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRLoginBaseVC.m; sourceTree = "<group>"; };
 		BA9511922118299800A35B79 /* myStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = myStaticLib.a; sourceTree = "<group>"; };
 		BA9511932118299800A35B79 /* DemoForStaticLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoForStaticLibrary.h; sourceTree = "<group>"; };
 		BA951195211829D200A35B79 /* TestMyStaticLibraryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMyStaticLibraryVC.h; sourceTree = "<group>"; };
@@ -1250,6 +1253,8 @@
 			children = (
 				BAE7B203206203D900B11DBD /* LoginViewController.h */,
 				BAE7B204206203D900B11DBD /* LoginViewController.m */,
+				BA6E11062132518000048F5C /* XRLoginBaseVC.h */,
+				BA6E11072132518000048F5C /* XRLoginBaseVC.m */,
 				BAAF22D6212BE797003773E9 /* XRLoginMainVC.h */,
 				BAAF22D7212BE797003773E9 /* XRLoginMainVC.m */,
 				BAAF22DF212BE80F003773E9 /* XRLoginUserAccountVC.h */,
@@ -2153,6 +2158,7 @@
 				BAE7B33A2062041700B11DBD /* AESCipher.m in Sources */,
 				BA09A5DF212C6ECA00C6A7E5 /* MineLogoutVC.m in Sources */,
 				BAE7B2CD206203DA00B11DBD /* AppManager.m in Sources */,
+				BA6E11082132518000048F5C /* XRLoginBaseVC.m in Sources */,
 				BA68028321194AB10031377B /* TestTwoLevelLinkageVC.m in Sources */,
 				BA05ECD22126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m in Sources */,
 				BAE7B2CE206203DA00B11DBD /* IAPManager.m in Sources */,

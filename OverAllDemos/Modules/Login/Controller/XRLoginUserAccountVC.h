@@ -6,9 +6,10 @@
 //  Copyright © 2018年 RickieLambert. All rights reserved.
 //
 
-#import "BaseViewController.h"
+//#import "BaseViewController.h"
+#import "XRLoginBaseVC.h"
 
-@interface XRLoginUserAccountVC : BaseViewController
+@interface XRLoginUserAccountVC :XRLoginBaseVC
 
 /// 控制器的标题
 @property (nonatomic, strong) NSString *vcTitle;
