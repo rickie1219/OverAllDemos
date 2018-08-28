@@ -71,6 +71,7 @@
 		BA9511942118299800A35B79 /* myStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9511922118299800A35B79 /* myStaticLib.a */; };
 		BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */; };
 		BA9B82DC211BCD7B00750806 /* TestLargeTitleShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */; };
+		BAA67C7B213596C70046D6E6 /* TestCutRoundCornerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA67C7A213596C70046D6E6 /* TestCutRoundCornerVC.m */; };
 		BAAF22B6212BA391003773E9 /* TestWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22B5212BA391003773E9 /* TestWKWebViewVC.m */; };
 		BAAF22CC212BA582003773E9 /* SDWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22BA212BA582003773E9 /* SDWebView.m */; };
 		BAAF22CD212BA582003773E9 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF22BC212BA582003773E9 /* WebViewJavascriptBridgeBase.m */; };
@@ -359,6 +360,8 @@
 		BA951198211849CC00A35B79 /* MathTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathTool.h; sourceTree = "<group>"; };
 		BA9B82DA211BCD7B00750806 /* TestLargeTitleShowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLargeTitleShowVC.h; sourceTree = "<group>"; };
 		BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLargeTitleShowVC.m; sourceTree = "<group>"; };
+		BAA67C79213596C70046D6E6 /* TestCutRoundCornerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCutRoundCornerVC.h; sourceTree = "<group>"; };
+		BAA67C7A213596C70046D6E6 /* TestCutRoundCornerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCutRoundCornerVC.m; sourceTree = "<group>"; };
 		BAAF22B4212BA391003773E9 /* TestWKWebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestWKWebViewVC.h; sourceTree = "<group>"; };
 		BAAF22B5212BA391003773E9 /* TestWKWebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestWKWebViewVC.m; sourceTree = "<group>"; };
 		BAAF22B9212BA582003773E9 /* SDWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebView.h; sourceTree = "<group>"; };
@@ -1320,6 +1323,8 @@
 				BAE5F97721255ADD00A14A29 /* TestSystemShareFileVC.m */,
 				BA547F64212FEB7E00891092 /* TestRollingAdvertisementVC.h */,
 				BA547F65212FEB7E00891092 /* TestRollingAdvertisementVC.m */,
+				BAA67C79213596C70046D6E6 /* TestCutRoundCornerVC.h */,
+				BAA67C7A213596C70046D6E6 /* TestCutRoundCornerVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2192,6 +2197,7 @@
 				BAE7B2B2206203DA00B11DBD /* TestMVVMViewController.m in Sources */,
 				BAE7B2D2206203DA00B11DBD /* UserManager.m in Sources */,
 				BAE5F968212517F900A14A29 /* TestNSPredicatePerson.m in Sources */,
+				BAA67C7B213596C70046D6E6 /* TestCutRoundCornerVC.m in Sources */,
 				BA01E4AB211D349A00E409E8 /* TestZJAnimationPopViewVC.m in Sources */,
 				BAE7B293206203DA00B11DBD /* BaseViewController.m in Sources */,
 				BAE7B296206203DA00B11DBD /* XLJSHandler.m in Sources */,

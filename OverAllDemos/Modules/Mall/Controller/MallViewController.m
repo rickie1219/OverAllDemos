@@ -15,7 +15,7 @@
 #import "TestTableViewCellEditModeVC.h"
 #import "TestSystemShareFileVC.h"
 #import "TestRollingAdvertisementVC.h"
-
+#import "TestCutRoundCornerVC.h"
 
 @interface MallViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -60,6 +60,10 @@
                    @{
                        @"className" : @"TestRollingAdvertisementVC",
                        @"title"     : @"05.测试广告消息的轮播"
+                       },
+                   @{
+                       @"className" : @"TestCutRoundCornerVC",
+                       @"title"     : @"06.测试切圆角视图的方法"
                        }
                    ];
     
