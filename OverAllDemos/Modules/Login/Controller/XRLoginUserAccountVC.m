@@ -18,19 +18,68 @@
     [super viewDidLoad];
     
     // 测试登录
-    [self initTestLoginUI];
+    //[self initTestLoginUI];
+    
+    [self initConfigViewControllerWithLargerTitle:@"手机号码登录"];
+    [self initConfigLoginButtons];
     
 }
 
 - (void)initConfigViewControllerWithLargerTitle:(NSString *)strLargerTitle
 {
-    UILabel *lblLagerTitle = [[UILabel alloc] initWithFrame:CGRectMake(80, 80, 300, 80)];
+    UILabel *lblLagerTitle = [[UILabel alloc] initWithFrame:CGRectMake((self.view.frame.size.width - 300)/2, 80, 300, 80)];
     lblLagerTitle.text = strLargerTitle;
-    lblLagerTitle.textColor = [UIColor blueColor];
+    lblLagerTitle.textColor = [UIColor blackColor];
     lblLagerTitle.textAlignment = NSTextAlignmentCenter;
+    lblLagerTitle.font = [UIFont systemFontOfSize:40];
     [self.view addSubview:lblLagerTitle];
-    
 }
+
+- (void)initConfigLoginButtons
+{
+    CGFloat navH = 44;
+    if (812 == [UIScreen mainScreen].bounds.size.height) {
+        navH = navH + 44;
+    } else {
+        navH = navH + 20;
+    }
+    CGFloat midHeight = ([UIScreen mainScreen].bounds.size.height - navH) / 2;
+    CGFloat btnWidth = 300;
+    YYLabel *btnLogin = [[YYLabel alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - btnWidth)/2, midHeight, btnWidth, 60)];
+    btnLogin.text = @"Login";
+    btnLogin.font = SYSTEMFONT(25);
+    btnLogin.textColor = kWhiteColor;
+    btnLogin.backgroundColor = cNavBgColor;
+    btnLogin.textAlignment = NSTextAlignmentCenter;
+    btnLogin.textVerticalAlignment = YYTextVerticalAlignmentCenter;
+    btnLogin.centerX = kScreenWidth/2;
+    kWeakSelf(self);
+    btnLogin.textTapAction = ^(UIView * _Nonnull containerView, NSAttributedString * _Nonnull text, NSRange range, CGRect rect) {
+        [weakself toLoginAction];
+    };
+    [self.view addSubview:btnLogin];
+    
+    YYLabel *btnSkip = [[YYLabel alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(btnLogin.frame)+20, btnWidth, 60)];
+    btnSkip.text = @"跳过登录";
+    btnSkip.font = SYSTEMFONT(25);
+    btnSkip.textColor = kBlueColor;
+    btnSkip.backgroundColor = kClearColor;
+    btnSkip.textAlignment = NSTextAlignmentCenter;
+    btnSkip.textVerticalAlignment = YYTextVerticalAlignmentCenter;
+    btnSkip.centerX = kScreenWidth/2;
+    btnSkip.textTapAction = ^(UIView * _Nonnull containerView, NSAttributedString * _Nonnull text, NSRange range, CGRect rect) {
+        [weakself skipAction];
+    };
+    [self.view addSubview:btnSkip];
+}
+
+- (void)toLoginAction
+{
+    NSLog(@"----- Login -----");
+}
+
+
+
 
 - (void)initTestLoginUI
 {

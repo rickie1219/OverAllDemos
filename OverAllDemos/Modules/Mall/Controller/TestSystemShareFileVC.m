@@ -74,7 +74,7 @@
 {
     NSData *date = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://img4.duitang.com/uploads/item/201403/21/20140321140348_sifsf.jpeg"]];
     NSArray *activityItems = @[date];
-    UIActivityViewController *activityVC = [[UIActivityViewController alloc]initWithActivityItems:activityItems applicationActivities:nil];
+    UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:activityItems applicationActivities:nil];
     [self presentViewController:activityVC animated:YES completion:nil];
 }
 
