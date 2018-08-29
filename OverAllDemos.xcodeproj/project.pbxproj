@@ -25,6 +25,9 @@
 		BA05ECD22126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA05ECD12126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m */; };
 		BA05ECD52126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA05ECD42126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m */; };
 		BA09A5DF212C6ECA00C6A7E5 /* MineLogoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA09A5DE212C6ECA00C6A7E5 /* MineLogoutVC.m */; };
+		BA125F4B2136FB5100BE160A /* TestLoopViewCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA125F4A2136FB5100BE160A /* TestLoopViewCollectionView.m */; };
+		BA125F4E2136FB8600BE160A /* TestLoopViewCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BA125F4D2136FB8600BE160A /* TestLoopViewCollectionViewFlowLayout.m */; };
+		BA125F512136FE1600BE160A /* TestLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA125F502136FE1600BE160A /* TestLoopViewCell.m */; };
 		BA2DDA3120B563BB0041BC51 /* TestGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */; };
 		BA547F66212FEB7E00891092 /* TestRollingAdvertisementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F65212FEB7E00891092 /* TestRollingAdvertisementVC.m */; };
 		BA547F6C212FEBAA00891092 /* GYNoticeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F68212FEBAA00891092 /* GYNoticeViewCell.m */; };
@@ -217,7 +220,6 @@
 		BAFBE0552103223400D6DA59 /* 106@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE04C2103223400D6DA59 /* 106@2x.jpeg */; };
 		BAFBE0562103223400D6DA59 /* 104@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE04D2103223400D6DA59 /* 104@2x.jpeg */; };
 		BAFBE0572103223400D6DA59 /* 105@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BAFBE04E2103223400D6DA59 /* 105@2x.jpeg */; };
-		BAFBE05A2103267000D6DA59 /* TestLoopViewCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFBE0592103267000D6DA59 /* TestLoopViewCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -268,6 +270,12 @@
 		BA05ECD42126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPPSnapshotHandlerUIViewVC.m; sourceTree = "<group>"; };
 		BA09A5DD212C6ECA00C6A7E5 /* MineLogoutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineLogoutVC.h; sourceTree = "<group>"; };
 		BA09A5DE212C6ECA00C6A7E5 /* MineLogoutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineLogoutVC.m; sourceTree = "<group>"; };
+		BA125F492136FB5100BE160A /* TestLoopViewCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLoopViewCollectionView.h; sourceTree = "<group>"; };
+		BA125F4A2136FB5100BE160A /* TestLoopViewCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLoopViewCollectionView.m; sourceTree = "<group>"; };
+		BA125F4C2136FB8600BE160A /* TestLoopViewCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLoopViewCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		BA125F4D2136FB8600BE160A /* TestLoopViewCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLoopViewCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		BA125F4F2136FE1600BE160A /* TestLoopViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLoopViewCell.h; sourceTree = "<group>"; };
+		BA125F502136FE1600BE160A /* TestLoopViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLoopViewCell.m; sourceTree = "<group>"; };
 		BA2DDA2F20B563BB0041BC51 /* TestGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGestureViewController.h; sourceTree = "<group>"; };
 		BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGestureViewController.m; sourceTree = "<group>"; };
 		BA547F64212FEB7E00891092 /* TestRollingAdvertisementVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRollingAdvertisementVC.h; sourceTree = "<group>"; };
@@ -626,8 +634,6 @@
 		BAFBE04C2103223400D6DA59 /* 106@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "106@2x.jpeg"; sourceTree = "<group>"; };
 		BAFBE04D2103223400D6DA59 /* 104@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "104@2x.jpeg"; sourceTree = "<group>"; };
 		BAFBE04E2103223400D6DA59 /* 105@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "105@2x.jpeg"; sourceTree = "<group>"; };
-		BAFBE0582103267000D6DA59 /* TestLoopViewCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLoopViewCollectionView.h; sourceTree = "<group>"; };
-		BAFBE0592103267000D6DA59 /* TestLoopViewCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLoopViewCollectionView.m; sourceTree = "<group>"; };
 		D3FE768EFE7419134ACB27D1 /* libPods-OverAllDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OverAllDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CBD76BEF7C74A5EBBD14EB /* Pods-OverAllDemosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OverAllDemosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OverAllDemosUITests/Pods-OverAllDemosUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -708,6 +714,19 @@
 				BA01E4F0211D90CE00E409E8 /* LoadingDataView.m */,
 			);
 			path = YZDisplayVCLoadingView;
+			sourceTree = "<group>";
+		};
+		BA125F482136FB5100BE160A /* TestLoopViewCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				BA125F492136FB5100BE160A /* TestLoopViewCollectionView.h */,
+				BA125F4A2136FB5100BE160A /* TestLoopViewCollectionView.m */,
+				BA125F4C2136FB8600BE160A /* TestLoopViewCollectionViewFlowLayout.h */,
+				BA125F4D2136FB8600BE160A /* TestLoopViewCollectionViewFlowLayout.m */,
+				BA125F4F2136FE1600BE160A /* TestLoopViewCell.h */,
+				BA125F502136FE1600BE160A /* TestLoopViewCell.m */,
+			);
+			path = TestLoopViewCollectionCell;
 			sourceTree = "<group>";
 		};
 		BA547F67212FEBAA00891092 /* GYRollingNoticeView */ = {
@@ -1399,52 +1418,52 @@
 			children = (
 				BAE7B219206203D900B11DBD /* EmotionsCollectionViewCell.h */,
 				BAE7B21A206203D900B11DBD /* EmotionsCollectionViewCell.m */,
-				BAE7B21B206203D900B11DBD /* MineViewController.h */,
-				BAE7B21C206203D900B11DBD /* MineViewController.m */,
 				BA09A5DD212C6ECA00C6A7E5 /* MineLogoutVC.h */,
 				BA09A5DE212C6ECA00C6A7E5 /* MineLogoutVC.m */,
-				BAE7B21D206203D900B11DBD /* Person+TestRuntimeProperty.h */,
-				BAE7B21E206203D900B11DBD /* Person+TestRuntimeProperty.m */,
+				BAE7B21B206203D900B11DBD /* MineViewController.h */,
+				BAE7B21C206203D900B11DBD /* MineViewController.m */,
 				BAE7B21F206203D900B11DBD /* Person.h */,
 				BAE7B220206203D900B11DBD /* Person.m */,
+				BAE7B21D206203D900B11DBD /* Person+TestRuntimeProperty.h */,
+				BAE7B21E206203D900B11DBD /* Person+TestRuntimeProperty.m */,
 				BAE7B221206203D900B11DBD /* PersonListViewModel.h */,
 				BAE7B222206203D900B11DBD /* PersonListViewModel.m */,
 				BAE7B223206203D900B11DBD /* TestBase64HashCodeViewController.h */,
 				BAE7B224206203D900B11DBD /* TestBase64HashCodeViewController.m */,
+				BAE221F12111E4A2008DBEFB /* TestDatabaseVC.h */,
+				BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */,
 				BAE7B225206203D900B11DBD /* TestEmotionViewController.h */,
 				BAE7B226206203D900B11DBD /* TestEmotionViewController.m */,
 				BAE7B227206203D900B11DBD /* TestFaceBookPopViewController.h */,
 				BAE7B228206203D900B11DBD /* TestFaceBookPopViewController.m */,
 				BAE7B229206203D900B11DBD /* TestGCDViewController.h */,
 				BAE7B22A206203D900B11DBD /* TestGCDViewController.m */,
+				BA2DDA2F20B563BB0041BC51 /* TestGestureViewController.h */,
+				BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */,
 				BAE7B22B206203D900B11DBD /* TestHeaderImageScaleViewController.h */,
 				BAE7B22C206203D900B11DBD /* TestHeaderImageScaleViewController.m */,
 				BAE7B22D206203D900B11DBD /* TestKVOPassValueViewController.h */,
 				BAE7B22E206203D900B11DBD /* TestKVOPassValueViewController.m */,
 				BAE7B22F206203D900B11DBD /* TestKVOReceiveValueViewController.h */,
 				BAE7B230206203D900B11DBD /* TestKVOReceiveValueViewController.m */,
+				BA9B82DA211BCD7B00750806 /* TestLargeTitleShowVC.h */,
+				BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */,
+				BA6DB42D210320C80089950A /* TestLoopViewVC.h */,
+				BA6DB42E210320C80089950A /* TestLoopViewVC.m */,
 				BAE7B231206203D900B11DBD /* TestMVVMViewController.h */,
 				BAE7B232206203D900B11DBD /* TestMVVMViewController.m */,
+				BA951195211829D200A35B79 /* TestMyStaticLibraryVC.h */,
+				BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */,
 				BAE7B233206203D900B11DBD /* TestNSUserDefaultsVC.h */,
 				BAE7B234206203D900B11DBD /* TestNSUserDefaultsVC.m */,
+				BAE821F720F1010900FED8D0 /* TestPickerViewVC.h */,
+				BAE821F820F1010900FED8D0 /* TestPickerViewVC.m */,
 				BAE7B235206203D900B11DBD /* TestRandomNumberVC.h */,
 				BAE7B236206203D900B11DBD /* TestRandomNumberVC.m */,
 				BAE7B237206203D900B11DBD /* TestTextfieldViewController.h */,
 				BAE7B238206203D900B11DBD /* TestTextfieldViewController.m */,
-				BA2DDA2F20B563BB0041BC51 /* TestGestureViewController.h */,
-				BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */,
-				BAE821F720F1010900FED8D0 /* TestPickerViewVC.h */,
-				BAE821F820F1010900FED8D0 /* TestPickerViewVC.m */,
-				BA6DB42D210320C80089950A /* TestLoopViewVC.h */,
-				BA6DB42E210320C80089950A /* TestLoopViewVC.m */,
-				BAE221F12111E4A2008DBEFB /* TestDatabaseVC.h */,
-				BAE221F22111E4A2008DBEFB /* TestDatabaseVC.m */,
-				BA951195211829D200A35B79 /* TestMyStaticLibraryVC.h */,
-				BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */,
 				BA68028121194AB10031377B /* TestTwoLevelLinkageVC.h */,
 				BA68028221194AB10031377B /* TestTwoLevelLinkageVC.m */,
-				BA9B82DA211BCD7B00750806 /* TestLargeTitleShowVC.h */,
-				BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1460,19 +1479,18 @@
 		BAE7B23A206203D900B11DBD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BA680320211977CE0031377B /* HexColorsTool */,
-				BA680316211974110031377B /* TableViewDataAdapter */,
+				BA125F482136FB5100BE160A /* TestLoopViewCollectionCell */,
 				BA680306211971DE0031377B /* BaseNormalViewController */,
 				BA6802A221196CE80031377B /* BaseTableViewCell */,
 				BA6802D921196CE90031377B /* ColorTool */,
 				BA6802E121196CE90031377B /* FileManagerTool */,
+				BA680320211977CE0031377B /* HexColorsTool */,
 				BA6802A521196CE80031377B /* JsonKitTool */,
 				BA68029D21196CE80031377B /* PlaceholderViewTool */,
+				BA680316211974110031377B /* TableViewDataAdapter */,
+				BA68029321194E410031377B /* TestLinkageViews */,
 				BA6802D021196CE90031377B /* TwoLevelLinkageView */,
 				BA6802DC21196CE90031377B /* UICategoryTool */,
-				BA68029321194E410031377B /* TestLinkageViews */,
-				BAFBE0582103267000D6DA59 /* TestLoopViewCollectionView.h */,
-				BAFBE0592103267000D6DA59 /* TestLoopViewCollectionView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2165,6 +2183,7 @@
 				BAE7B2CD206203DA00B11DBD /* AppManager.m in Sources */,
 				BA6E11082132518000048F5C /* XRLoginBaseVC.m in Sources */,
 				BA68028321194AB10031377B /* TestTwoLevelLinkageVC.m in Sources */,
+				BA125F512136FE1600BE160A /* TestLoopViewCell.m in Sources */,
 				BA05ECD22126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m in Sources */,
 				BAE7B2CE206203DA00B11DBD /* IAPManager.m in Sources */,
 				BAAF22F3212BEA36003773E9 /* XRLoginUserForgetPasswordVC.m in Sources */,
@@ -2205,6 +2224,7 @@
 				BA68029A21194E410031377B /* RightSideCell.m in Sources */,
 				BAE7B299206203DA00B11DBD /* TabBar.m in Sources */,
 				BAE5F9752125530600A14A29 /* ManagerUserInfoWithNSUserDefaults.m in Sources */,
+				BA125F4B2136FB5100BE160A /* TestLoopViewCollectionView.m in Sources */,
 				BAAF22CF212BA582003773E9 /* WebViewJavascriptBridge.m in Sources */,
 				BAE7B33F2062041700B11DBD /* TagsButton.m in Sources */,
 				BA68030521196CEA0031377B /* File.m in Sources */,
@@ -2262,7 +2282,6 @@
 				BAE5F97821255ADD00A14A29 /* TestSystemShareFileVC.m in Sources */,
 				BABED007212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m in Sources */,
 				BAE7B2AE206203DA00B11DBD /* TestGCDViewController.m in Sources */,
-				BAFBE05A2103267000D6DA59 /* TestLoopViewCollectionView.m in Sources */,
 				BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */,
 				BA6802FF21196CEA0031377B /* TwoLevelLinkageView.m in Sources */,
 				BA547F76213000AD00891092 /* TestRollingAdvertisementCustomCell.m in Sources */,
@@ -2273,6 +2292,7 @@
 				BA680312211972B00031377B /* CustomViewController.m in Sources */,
 				BAE7B2A1206203DA00B11DBD /* LoginViewController.m in Sources */,
 				BAE7B294206203DA00B11DBD /* BaseWKWebViewController.m in Sources */,
+				BA125F4E2136FB8600BE160A /* TestLoopViewCollectionViewFlowLayout.m in Sources */,
 				BA01E4E3211D796200E409E8 /* UIView+Frame.m in Sources */,
 				BAE7B29B206203DA00B11DBD /* TabBarItem.m in Sources */,
 				BAE7B3392062041700B11DBD /* AdPageView.m in Sources */,
