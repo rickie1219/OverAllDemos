@@ -26,6 +26,7 @@
 #import "TestMyStaticLibraryVC.h"
 #import "TestTwoLevelLinkageVC.h"
 #import "TestLargeTitleShowVC.h"
+#import "TestGetDeviceColorVC.h"
 
 @interface MineViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -116,6 +117,10 @@
                    @{
                        @"className" : @"TestLargeTitleShowVC",
                        @"title"     : @"17.测试大标题"
+                       },
+                   @{
+                       @"className" : @"TestGetDeviceColorVC",
+                       @"title"     : @"18.测试获取手机壳颜色"
                        }
                    ];
     

@@ -71,6 +71,7 @@
 		BA680323211977CE0031377B /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = BA680322211977CE0031377B /* HexColors.m */; };
 		BA6DB42F210320C80089950A /* TestLoopViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DB42E210320C80089950A /* TestLoopViewVC.m */; };
 		BA6E11082132518000048F5C /* XRLoginBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6E11072132518000048F5C /* XRLoginBaseVC.m */; };
+		BA7ED30C213E359000EFA55E /* TestGetDeviceColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7ED30B213E359000EFA55E /* TestGetDeviceColorVC.m */; };
 		BA9511942118299800A35B79 /* myStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9511922118299800A35B79 /* myStaticLib.a */; };
 		BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */; };
 		BA9B82DC211BCD7B00750806 /* TestLargeTitleShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */; };
@@ -361,6 +362,8 @@
 		BA6DB42E210320C80089950A /* TestLoopViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLoopViewVC.m; sourceTree = "<group>"; };
 		BA6E11062132518000048F5C /* XRLoginBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRLoginBaseVC.h; sourceTree = "<group>"; };
 		BA6E11072132518000048F5C /* XRLoginBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRLoginBaseVC.m; sourceTree = "<group>"; };
+		BA7ED30A213E359000EFA55E /* TestGetDeviceColorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGetDeviceColorVC.h; sourceTree = "<group>"; };
+		BA7ED30B213E359000EFA55E /* TestGetDeviceColorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGetDeviceColorVC.m; sourceTree = "<group>"; };
 		BA9511922118299800A35B79 /* myStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = myStaticLib.a; sourceTree = "<group>"; };
 		BA9511932118299800A35B79 /* DemoForStaticLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoForStaticLibrary.h; sourceTree = "<group>"; };
 		BA951195211829D200A35B79 /* TestMyStaticLibraryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMyStaticLibraryVC.h; sourceTree = "<group>"; };
@@ -1464,6 +1467,8 @@
 				BAE7B238206203D900B11DBD /* TestTextfieldViewController.m */,
 				BA68028121194AB10031377B /* TestTwoLevelLinkageVC.h */,
 				BA68028221194AB10031377B /* TestTwoLevelLinkageVC.m */,
+				BA7ED30A213E359000EFA55E /* TestGetDeviceColorVC.h */,
+				BA7ED30B213E359000EFA55E /* TestGetDeviceColorVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2269,6 +2274,7 @@
 				BA68029121194DFB0031377B /* CategoryModel.m in Sources */,
 				BAE7B2BC206203DA00B11DBD /* NSString+HMHash.m in Sources */,
 				BAE7B3522062048900B11DBD /* AppDelegate.m in Sources */,
+				BA7ED30C213E359000EFA55E /* TestGetDeviceColorVC.m in Sources */,
 				BAE7B2D0206203DA00B11DBD /* ShareManager.m in Sources */,
 				BA05ECCF2126B6A600BE0B00 /* TestPPSnapshotHandlerWKWebViewVC.m in Sources */,
 				BABED004212AB33000EA8280 /* PPSnapshotHandler.m in Sources */,

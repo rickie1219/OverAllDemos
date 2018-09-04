@@ -62,7 +62,8 @@ NSString *const CZLoopViewCellId = @"CZLoopViewCellId";
 #pragma mark - 实现 collectionView 的数据源方法
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return _urls.count * 100;
+    // 为了解决快速滚动的卡顿，适当的放大数据源的数量； 为什么可以这么做，因为collectionView可以很好的复用
+    return _urls.count * 300;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -88,12 +89,11 @@ NSString *const CZLoopViewCellId = @"CZLoopViewCellId";
     
     // 2. 第0页， 跳转到， 第1组的第0页
     // 最后一页， 跳转到第0组的最后一页
-    
     if (offset == 0 || offset == ([self numberOfItemsInSection:0] - 1)) {
         NSLog(@"---- %zd", offset);
         
         
-        // 最后一页
+        // 最0页
         if (0 == offset) {
             offset = _urls.count;
         } else {
