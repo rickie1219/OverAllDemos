@@ -47,7 +47,7 @@
     CGFloat btnWidth = 300;
     YYLabel *btnLogin = [[YYLabel alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - btnWidth)/2, midHeight, btnWidth, 60)];
     btnLogin.text = @"Login";
-    btnLogin.font = SYSTEMFONT(25);
+    btnLogin.font = SYSTEMFONT(30);
     btnLogin.textColor = kWhiteColor;
     btnLogin.backgroundColor = cNavBgColor;
     btnLogin.textAlignment = NSTextAlignmentCenter;
@@ -61,7 +61,7 @@
     
     YYLabel *btnSkip = [[YYLabel alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(btnLogin.frame)+20, btnWidth, 60)];
     btnSkip.text = @"跳过登录";
-    btnSkip.font = SYSTEMFONT(25);
+    btnSkip.font = SYSTEMFONT(30);
     btnSkip.textColor = kBlueColor;
     btnSkip.backgroundColor = kClearColor;
     btnSkip.textAlignment = NSTextAlignmentCenter;
