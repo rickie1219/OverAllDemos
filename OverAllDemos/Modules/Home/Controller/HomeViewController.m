@@ -13,6 +13,7 @@
 #import "TestYZWYViewControllerVC.h"
 #import "TestPPSnapshotHandlerVC.h"
 #import "TestWKWebViewVC.h"
+#import "TestEditTableViewCellVC.h"
 
 
 @interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -56,6 +57,10 @@
                    @{
                        @"className" : @"TestWKWebViewVC",
                        @"title"     : @"04.测试WKWebView"
+                       },
+                   @{
+                       @"className" : @"TestEditTableViewCellVC",
+                       @"title"     : @"05.测试编辑tableviewCell"
                        }
                    ];
     
