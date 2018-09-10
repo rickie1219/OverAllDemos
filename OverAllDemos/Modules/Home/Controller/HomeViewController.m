@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 
 #import "TestMenuListVC.h"
+#import "TestMenuListTitleBarVC.h"
 #import "TestZJAnimationPopViewVC.h"
 #import "TestYZWYViewControllerVC.h"
 #import "TestPPSnapshotHandlerVC.h"
@@ -43,24 +44,28 @@
                        @"title"     : @"00.多个菜单页面切换"
                        },
                    @{
+                       @"className" : @"TestMenuListTitleBarVC",
+                       @"title"     : @"01.测试多个菜单页面切换效果"
+                       },
+                   @{
                        @"className" : @"TestZJAnimationPopViewVC",
-                       @"title"     : @"01.测试多种弹出框提示效果"
+                       @"title"     : @"02.测试多种弹出框提示效果"
                        },
                    @{
                        @"className" : @"TestYZWYViewControllerVC",
-                       @"title"     : @"02.测试网易新闻的多个菜单页面切换"
+                       @"title"     : @"03.测试网易新闻的多个菜单页面切换"
                        },
                    @{
                        @"className" : @"TestPPSnapshotHandlerVC",
-                       @"title"     : @"03.测试网页|滚动视图|一般视图的截图功能"
+                       @"title"     : @"04.测试网页|滚动视图|一般视图的截图功能"
                        },
                    @{
                        @"className" : @"TestWKWebViewVC",
-                       @"title"     : @"04.测试WKWebView"
+                       @"title"     : @"05.测试WKWebView"
                        },
                    @{
                        @"className" : @"TestEditTableViewCellVC",
-                       @"title"     : @"05.测试编辑tableviewCell"
+                       @"title"     : @"06.测试编辑tableviewCell"
                        }
                    ];
     

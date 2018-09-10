@@ -35,6 +35,7 @@
 		BA547F70212FEDE100891092 /* TestRollingAdvertisementTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F6F212FEDE100891092 /* TestRollingAdvertisementTextCell.m */; };
 		BA547F73212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F72212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.m */; };
 		BA547F76213000AD00891092 /* TestRollingAdvertisementCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F75213000AD00891092 /* TestRollingAdvertisementCustomCell.m */; };
+		BA563A41214665CD00C95BCA /* TestMenuListTitleBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA563A40214665CD00C95BCA /* TestMenuListTitleBarVC.m */; };
 		BA5D2EBA2142C42A00C59968 /* TestEditTableViewCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5D2EB92142C42A00C59968 /* TestEditTableViewCellVC.m */; };
 		BA68028321194AB10031377B /* TestTwoLevelLinkageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA68028221194AB10031377B /* TestTwoLevelLinkageVC.m */; };
 		BA68028521194CBF0031377B /* liwushuo.json in Resources */ = {isa = PBXBuildFile; fileRef = BA68028421194CBF0031377B /* liwushuo.json */; };
@@ -292,6 +293,8 @@
 		BA547F72212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRollingAdvertisementImageAndTextCell.m; sourceTree = "<group>"; };
 		BA547F74213000AD00891092 /* TestRollingAdvertisementCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRollingAdvertisementCustomCell.h; sourceTree = "<group>"; };
 		BA547F75213000AD00891092 /* TestRollingAdvertisementCustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRollingAdvertisementCustomCell.m; sourceTree = "<group>"; };
+		BA563A3F214665CD00C95BCA /* TestMenuListTitleBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMenuListTitleBarVC.h; sourceTree = "<group>"; };
+		BA563A40214665CD00C95BCA /* TestMenuListTitleBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMenuListTitleBarVC.m; sourceTree = "<group>"; };
 		BA5D2EB82142C42A00C59968 /* TestEditTableViewCellVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestEditTableViewCellVC.h; sourceTree = "<group>"; };
 		BA5D2EB92142C42A00C59968 /* TestEditTableViewCellVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEditTableViewCellVC.m; sourceTree = "<group>"; };
 		BA68028121194AB10031377B /* TestTwoLevelLinkageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTwoLevelLinkageVC.h; sourceTree = "<group>"; };
@@ -1221,32 +1224,34 @@
 				BAE7B1FA206203D900B11DBD /* HomeViewController.m */,
 				BAE7B1FB206203D900B11DBD /* MenuViewController.h */,
 				BAE7B1FC206203D900B11DBD /* MenuViewController.m */,
-				BA01E4A6211D338100E409E8 /* TestMenuListVC.h */,
-				BA01E4A7211D338100E409E8 /* TestMenuListVC.m */,
-				BA01E4A9211D349A00E409E8 /* TestZJAnimationPopViewVC.h */,
-				BA01E4AA211D349A00E409E8 /* TestZJAnimationPopViewVC.m */,
-				BA01E4E5211D825000E409E8 /* TestYZWYViewControllerVC.h */,
-				BA01E4E6211D825000E409E8 /* TestYZWYViewControllerVC.m */,
-				BA01E4E8211D854800E409E8 /* TestYZWYViewControllerSubVC.h */,
-				BA01E4E9211D854800E409E8 /* TestYZWYViewControllerSubVC.m */,
-				BA05ECC72126B56200BE0B00 /* TestPPSnapshotHandlerVC.h */,
-				BA05ECC82126B56200BE0B00 /* TestPPSnapshotHandlerVC.m */,
-				BA05ECCA2126B68A00BE0B00 /* TestPPSnapshotHandlerScrollViewVC.h */,
-				BA05ECCB2126B68A00BE0B00 /* TestPPSnapshotHandlerScrollViewVC.m */,
-				BAC6A85A212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.h */,
-				BAC6A85B212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.m */,
-				BA05ECCD2126B6A600BE0B00 /* TestPPSnapshotHandlerWKWebViewVC.h */,
-				BA05ECCE2126B6A600BE0B00 /* TestPPSnapshotHandlerWKWebViewVC.m */,
-				BA05ECD02126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.h */,
-				BA05ECD12126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m */,
-				BA05ECD32126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.h */,
-				BA05ECD42126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m */,
-				BABED005212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.h */,
-				BABED006212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m */,
-				BAAF22B4212BA391003773E9 /* TestWKWebViewVC.h */,
-				BAAF22B5212BA391003773E9 /* TestWKWebViewVC.m */,
 				BA5D2EB82142C42A00C59968 /* TestEditTableViewCellVC.h */,
 				BA5D2EB92142C42A00C59968 /* TestEditTableViewCellVC.m */,
+				BA563A3F214665CD00C95BCA /* TestMenuListTitleBarVC.h */,
+				BA563A40214665CD00C95BCA /* TestMenuListTitleBarVC.m */,
+				BA01E4A6211D338100E409E8 /* TestMenuListVC.h */,
+				BA01E4A7211D338100E409E8 /* TestMenuListVC.m */,
+				BABED005212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.h */,
+				BABED006212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m */,
+				BAC6A85A212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.h */,
+				BAC6A85B212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.m */,
+				BA05ECCA2126B68A00BE0B00 /* TestPPSnapshotHandlerScrollViewVC.h */,
+				BA05ECCB2126B68A00BE0B00 /* TestPPSnapshotHandlerScrollViewVC.m */,
+				BA05ECD32126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.h */,
+				BA05ECD42126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m */,
+				BA05ECD02126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.h */,
+				BA05ECD12126B6BD00BE0B00 /* TestPPSnapshotHandlerUIWebViewVC.m */,
+				BA05ECC72126B56200BE0B00 /* TestPPSnapshotHandlerVC.h */,
+				BA05ECC82126B56200BE0B00 /* TestPPSnapshotHandlerVC.m */,
+				BA05ECCD2126B6A600BE0B00 /* TestPPSnapshotHandlerWKWebViewVC.h */,
+				BA05ECCE2126B6A600BE0B00 /* TestPPSnapshotHandlerWKWebViewVC.m */,
+				BAAF22B4212BA391003773E9 /* TestWKWebViewVC.h */,
+				BAAF22B5212BA391003773E9 /* TestWKWebViewVC.m */,
+				BA01E4E8211D854800E409E8 /* TestYZWYViewControllerSubVC.h */,
+				BA01E4E9211D854800E409E8 /* TestYZWYViewControllerSubVC.m */,
+				BA01E4E5211D825000E409E8 /* TestYZWYViewControllerVC.h */,
+				BA01E4E6211D825000E409E8 /* TestYZWYViewControllerVC.m */,
+				BA01E4A9211D349A00E409E8 /* TestZJAnimationPopViewVC.h */,
+				BA01E4AA211D349A00E409E8 /* TestZJAnimationPopViewVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2294,6 +2299,7 @@
 				BABED007212ABD0600EA8280 /* TestPPSnapshotHandlerImageShowVC.m in Sources */,
 				BAE7B2AE206203DA00B11DBD /* TestGCDViewController.m in Sources */,
 				BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */,
+				BA563A41214665CD00C95BCA /* TestMenuListTitleBarVC.m in Sources */,
 				BA6802FF21196CEA0031377B /* TwoLevelLinkageView.m in Sources */,
 				BA547F76213000AD00891092 /* TestRollingAdvertisementCustomCell.m in Sources */,
 				BA68030421196CEA0031377B /* FileManager.m in Sources */,
