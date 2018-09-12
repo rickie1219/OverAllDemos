@@ -56,12 +56,16 @@
     btnTest.userInteractionEnabled = NO;
     [self shakeLabel];
     
+    NSLog(@"--------------取反前的结果----------------");
     NSLog(@"sender.isSelected = %d", sender.isSelected);
     NSLog(@"sender.selected = %d", sender.selected);
+    // 将按钮的选中状态进行改变，第一次的时候，获取到的按钮状态时未选中状态，取反后未选中状态
     sender.selected = !sender.isSelected;
-    NSLog(@"===!sender.isSelected = %d", !sender.isSelected);
+    NSLog(@"----------------------------------------");
+    NSLog(@"--------------取反后的结果----------------");
+    NSLog(@"===!sender.isSelected = %d", sender.isSelected);
     NSLog(@"=== sender.selected = %d", sender.selected);
-    NSLog(@"----------------------------------------\n\n");
+    NSLog(@"----------------------------------------");
     
     //[self moveLabel:sender.selected];
 }
