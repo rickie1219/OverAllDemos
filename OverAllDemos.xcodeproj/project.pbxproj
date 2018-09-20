@@ -35,6 +35,7 @@
 		BA547F70212FEDE100891092 /* TestRollingAdvertisementTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F6F212FEDE100891092 /* TestRollingAdvertisementTextCell.m */; };
 		BA547F73212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F72212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.m */; };
 		BA547F76213000AD00891092 /* TestRollingAdvertisementCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F75213000AD00891092 /* TestRollingAdvertisementCustomCell.m */; };
+		BA54999E215348250073534A /* TestSkipToSafari.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54999D215348250073534A /* TestSkipToSafari.m */; };
 		BA563A41214665CD00C95BCA /* TestMenuListTitleBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA563A40214665CD00C95BCA /* TestMenuListTitleBarVC.m */; };
 		BA5D2EBA2142C42A00C59968 /* TestEditTableViewCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5D2EB92142C42A00C59968 /* TestEditTableViewCellVC.m */; };
 		BA68028321194AB10031377B /* TestTwoLevelLinkageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA68028221194AB10031377B /* TestTwoLevelLinkageVC.m */; };
@@ -105,7 +106,6 @@
 		BAC6A85C212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6A85B212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.m */; };
 		BAC6A86E212D0F280012B05B /* material_wave_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A85E212D0F270012B05B /* material_wave_loading.json */; };
 		BAC6A86F212D0F280012B05B /* rebote.json in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A85F212D0F270012B05B /* rebote.json */; };
-		BAC6A870212D0F280012B05B /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A860212D0F270012B05B /* loading.json */; };
 		BAC6A871212D0F280012B05B /* 06 - Pull to Refresh.aep in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A862212D0F270012B05B /* 06 - Pull to Refresh.aep */; };
 		BAC6A872212D0F280012B05B /* loader1.json in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A863212D0F270012B05B /* loader1.json */; };
 		BAC6A873212D0F280012B05B /* loader2.json in Resources */ = {isa = PBXBuildFile; fileRef = BAC6A864212D0F270012B05B /* loader2.json */; };
@@ -295,6 +295,8 @@
 		BA547F72212FEE0400891092 /* TestRollingAdvertisementImageAndTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRollingAdvertisementImageAndTextCell.m; sourceTree = "<group>"; };
 		BA547F74213000AD00891092 /* TestRollingAdvertisementCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRollingAdvertisementCustomCell.h; sourceTree = "<group>"; };
 		BA547F75213000AD00891092 /* TestRollingAdvertisementCustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRollingAdvertisementCustomCell.m; sourceTree = "<group>"; };
+		BA54999C215348250073534A /* TestSkipToSafari.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSkipToSafari.h; sourceTree = "<group>"; };
+		BA54999D215348250073534A /* TestSkipToSafari.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSkipToSafari.m; sourceTree = "<group>"; };
 		BA563A3F214665CD00C95BCA /* TestMenuListTitleBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMenuListTitleBarVC.h; sourceTree = "<group>"; };
 		BA563A40214665CD00C95BCA /* TestMenuListTitleBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMenuListTitleBarVC.m; sourceTree = "<group>"; };
 		BA5D2EB82142C42A00C59968 /* TestEditTableViewCellVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestEditTableViewCellVC.h; sourceTree = "<group>"; };
@@ -433,7 +435,6 @@
 		BAC6A85B212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPPSnapshotHandlerScrollViewTableViewVC.m; sourceTree = "<group>"; };
 		BAC6A85E212D0F270012B05B /* material_wave_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = material_wave_loading.json; sourceTree = "<group>"; };
 		BAC6A85F212D0F270012B05B /* rebote.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rebote.json; sourceTree = "<group>"; };
-		BAC6A860212D0F270012B05B /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		BAC6A862212D0F270012B05B /* 06 - Pull to Refresh.aep */ = {isa = PBXFileReference; lastKnownFileType = file; path = "06 - Pull to Refresh.aep"; sourceTree = "<group>"; };
 		BAC6A863212D0F270012B05B /* loader1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader1.json; sourceTree = "<group>"; };
 		BAC6A864212D0F270012B05B /* loader2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader2.json; sourceTree = "<group>"; };
@@ -980,7 +981,6 @@
 				BAC6A87C212D42540012B05B /* loading_animation_2.json */,
 				BAC6A87F212D42550012B05B /* trail_loading.json */,
 				BAC6A85F212D0F270012B05B /* rebote.json */,
-				BAC6A860212D0F270012B05B /* loading.json */,
 				BAC6A861212D0F270012B05B /* AE_JSON */,
 				BAC6A865212D0F270012B05B /* servishero_loading.json */,
 				BAC6A866212D0F270012B05B /* loader_animation.json */,
@@ -1367,6 +1367,8 @@
 				BA547F65212FEB7E00891092 /* TestRollingAdvertisementVC.m */,
 				BAA67C79213596C70046D6E6 /* TestCutRoundCornerVC.h */,
 				BAA67C7A213596C70046D6E6 /* TestCutRoundCornerVC.m */,
+				BA54999C215348250073534A /* TestSkipToSafari.h */,
+				BA54999D215348250073534A /* TestSkipToSafari.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2026,7 +2028,6 @@
 				BAC6A86E212D0F280012B05B /* material_wave_loading.json in Resources */,
 				BAC6A877212D0F280012B05B /* loading.json in Resources */,
 				BAFBE0512103223400D6DA59 /* 108@2x.jpeg in Resources */,
-				BAC6A870212D0F280012B05B /* loading.json in Resources */,
 				BAFBE0552103223400D6DA59 /* 106@2x.jpeg in Resources */,
 				BAC6A875212D0F280012B05B /* loader_animation.json in Resources */,
 				BAE7B295206203DA00B11DBD /* JSToOC.html in Resources */,
@@ -2313,6 +2314,7 @@
 				BAE221F32111E4A2008DBEFB /* TestDatabaseVC.m in Sources */,
 				BA563A41214665CD00C95BCA /* TestMenuListTitleBarVC.m in Sources */,
 				BA6802FF21196CEA0031377B /* TwoLevelLinkageView.m in Sources */,
+				BA54999E215348250073534A /* TestSkipToSafari.m in Sources */,
 				BA547F76213000AD00891092 /* TestRollingAdvertisementCustomCell.m in Sources */,
 				BA68030421196CEA0031377B /* FileManager.m in Sources */,
 				BAE7B2D1206203DA00B11DBD /* UserInfo.m in Sources */,

@@ -16,6 +16,7 @@
 #import "TestSystemShareFileVC.h"
 #import "TestRollingAdvertisementVC.h"
 #import "TestCutRoundCornerVC.h"
+#import "TestSkipToSafari.h"
 
 @interface MallViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -64,6 +65,10 @@
                    @{
                        @"className" : @"TestCutRoundCornerVC",
                        @"title"     : @"06.测试切圆角视图的方法"
+                       },
+                   @{
+                       @"className" : @"TestSkipToSafari",
+                       @"title"     : @"07.测试跳转到Safari打开指定网页"
                        }
                    ];
     

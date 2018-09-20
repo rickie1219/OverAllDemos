@@ -58,7 +58,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     UIImage *img = [UIImage imageNamed:@"bg_login_main_fifth"];
     UIImageView *imgViewShow = [[UIImageView alloc] initWithImage:img];
-    imgViewShow.contentMode = UIViewContentModeScaleAspectFit;
+    imgViewShow.contentMode = UIViewContentModeScaleAspectFill;
     imgViewShow.frame = self.view.bounds;
     [self.view addSubview:imgViewShow];
 }
