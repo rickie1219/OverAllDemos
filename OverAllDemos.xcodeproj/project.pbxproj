@@ -28,6 +28,7 @@
 		BA125F4B2136FB5100BE160A /* TestLoopViewCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA125F4A2136FB5100BE160A /* TestLoopViewCollectionView.m */; };
 		BA125F4E2136FB8600BE160A /* TestLoopViewCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BA125F4D2136FB8600BE160A /* TestLoopViewCollectionViewFlowLayout.m */; };
 		BA125F512136FE1600BE160A /* TestLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA125F502136FE1600BE160A /* TestLoopViewCell.m */; };
+		BA1786E22165BFC1007BF424 /* UIColor+XRHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1786E12165BFC1007BF424 /* UIColor+XRHexString.m */; };
 		BA2DDA3120B563BB0041BC51 /* TestGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */; };
 		BA547F66212FEB7E00891092 /* TestRollingAdvertisementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F65212FEB7E00891092 /* TestRollingAdvertisementVC.m */; };
 		BA547F6C212FEBAA00891092 /* GYNoticeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F68212FEBAA00891092 /* GYNoticeViewCell.m */; };
@@ -77,6 +78,7 @@
 		BA6DD68F214B92A200F1096F /* LoginRegisterUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DD68E214B92A200F1096F /* LoginRegisterUserVC.m */; };
 		BA6E11082132518000048F5C /* XRLoginBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6E11072132518000048F5C /* XRLoginBaseVC.m */; };
 		BA7ED30C213E359000EFA55E /* TestGetDeviceColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7ED30B213E359000EFA55E /* TestGetDeviceColorVC.m */; };
+		BA7FC6762154888C0077A6E9 /* TestOneMoreThing.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7FC6752154888C0077A6E9 /* TestOneMoreThing.m */; };
 		BA9511942118299800A35B79 /* myStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9511922118299800A35B79 /* myStaticLib.a */; };
 		BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */; };
 		BA9B82DC211BCD7B00750806 /* TestLargeTitleShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */; };
@@ -281,6 +283,8 @@
 		BA125F4D2136FB8600BE160A /* TestLoopViewCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLoopViewCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		BA125F4F2136FE1600BE160A /* TestLoopViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLoopViewCell.h; sourceTree = "<group>"; };
 		BA125F502136FE1600BE160A /* TestLoopViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLoopViewCell.m; sourceTree = "<group>"; };
+		BA1786E02165BFC1007BF424 /* UIColor+XRHexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+XRHexString.h"; sourceTree = "<group>"; };
+		BA1786E12165BFC1007BF424 /* UIColor+XRHexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XRHexString.m"; sourceTree = "<group>"; };
 		BA2DDA2F20B563BB0041BC51 /* TestGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGestureViewController.h; sourceTree = "<group>"; };
 		BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGestureViewController.m; sourceTree = "<group>"; };
 		BA547F64212FEB7E00891092 /* TestRollingAdvertisementVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRollingAdvertisementVC.h; sourceTree = "<group>"; };
@@ -378,6 +382,8 @@
 		BA6E11072132518000048F5C /* XRLoginBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRLoginBaseVC.m; sourceTree = "<group>"; };
 		BA7ED30A213E359000EFA55E /* TestGetDeviceColorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGetDeviceColorVC.h; sourceTree = "<group>"; };
 		BA7ED30B213E359000EFA55E /* TestGetDeviceColorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGetDeviceColorVC.m; sourceTree = "<group>"; };
+		BA7FC6742154888C0077A6E9 /* TestOneMoreThing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOneMoreThing.h; sourceTree = "<group>"; };
+		BA7FC6752154888C0077A6E9 /* TestOneMoreThing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOneMoreThing.m; sourceTree = "<group>"; };
 		BA9511922118299800A35B79 /* myStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = myStaticLib.a; sourceTree = "<group>"; };
 		BA9511932118299800A35B79 /* DemoForStaticLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoForStaticLibrary.h; sourceTree = "<group>"; };
 		BA951195211829D200A35B79 /* TestMyStaticLibraryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMyStaticLibraryVC.h; sourceTree = "<group>"; };
@@ -1369,6 +1375,8 @@
 				BAA67C7A213596C70046D6E6 /* TestCutRoundCornerVC.m */,
 				BA54999C215348250073534A /* TestSkipToSafari.h */,
 				BA54999D215348250073534A /* TestSkipToSafari.m */,
+				BA7FC6742154888C0077A6E9 /* TestOneMoreThing.h */,
+				BA7FC6752154888C0077A6E9 /* TestOneMoreThing.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1607,6 +1615,8 @@
 				BAE7B251206203DA00B11DBD /* NSString+HMHash.m */,
 				BAE7B26A206203DA00B11DBD /* UIButton+XYButton.h */,
 				BAE7B26B206203DA00B11DBD /* UIButton+XYButton.m */,
+				BA1786E02165BFC1007BF424 /* UIColor+XRHexString.h */,
+				BA1786E12165BFC1007BF424 /* UIColor+XRHexString.m */,
 				BAE7B26C206203DA00B11DBD /* UICollectionView+IndexPath.h */,
 				BAE7B26D206203DA00B11DBD /* UICollectionView+IndexPath.m */,
 				BAE7B270206203DA00B11DBD /* UIViewController+AlertViewAndActionSheet.h */,
@@ -2188,6 +2198,7 @@
 				BA68029B21194E410031377B /* LeftSideCell.m in Sources */,
 				BA6802E821196CEA0031377B /* CustomCell.m in Sources */,
 				BA680323211977CE0031377B /* HexColors.m in Sources */,
+				BA7FC6762154888C0077A6E9 /* TestOneMoreThing.m in Sources */,
 				BAE7B29C206203DA00B11DBD /* TabBarSystemController.m in Sources */,
 				BA01E4A8211D338100E409E8 /* TestMenuListVC.m in Sources */,
 				BAC6A85C212CF3F40012B05B /* TestPPSnapshotHandlerScrollViewTableViewVC.m in Sources */,
@@ -2222,6 +2233,7 @@
 				BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */,
 				BA01E4E4211D796200E409E8 /* YZDisplayViewController.m in Sources */,
 				BA680315211972B00031377B /* ShowLoadingView.m in Sources */,
+				BA1786E22165BFC1007BF424 /* UIColor+XRHexString.m in Sources */,
 				BAE7B33D2062041700B11DBD /* SandBoxHelper.m in Sources */,
 				BA68029221194DFB0031377B /* ShopItemModel.m in Sources */,
 				BAE7B33E2062041700B11DBD /* FFTagsView.m in Sources */,

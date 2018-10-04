@@ -17,6 +17,7 @@
 #import "TestRollingAdvertisementVC.h"
 #import "TestCutRoundCornerVC.h"
 #import "TestSkipToSafari.h"
+#import "TestOneMoreThing.h"
 
 @interface MallViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -69,6 +70,10 @@
                    @{
                        @"className" : @"TestSkipToSafari",
                        @"title"     : @"07.测试跳转到Safari打开指定网页"
+                       },
+                   @{
+                       @"className" : @"TestOneMoreThing",
+                       @"title"     : @"08.测试自定义16进制颜色转换分类方法"
                        }
                    ];
     
