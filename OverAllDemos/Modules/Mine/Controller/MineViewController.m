@@ -27,6 +27,8 @@
 #import "TestTwoLevelLinkageVC.h"
 #import "TestLargeTitleShowVC.h"
 #import "TestGetDeviceColorVC.h"
+#import "TestPersonObjVC.h"
+#import "TestBlockWeakStrongDanceVC.h"
 
 @interface MineViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -121,6 +123,14 @@
                    @{
                        @"className" : @"TestGetDeviceColorVC",
                        @"title"     : @"18.测试获取手机壳颜色"
+                       },
+                   @{
+                       @"className" : @"TestPersonObjVC",
+                       @"title"     : @"19.测试runtime动态设置类的属性"
+                       },
+                   @{
+                       @"className" : @"TestBlockWeakStrongDanceVC",
+                       @"title"     : @"20.测试Block扩展的weakStrongDance"
                        }
                    ];
     
@@ -174,6 +184,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // 有的公司 管 NSClassFromString 这个方法也叫 运行时
     // 获取到子控制器的名字，然后声明创建该子控制器
     BaseViewController *vc = [NSClassFromString(arrTestVCs[indexPath.row] [@"className"]) new];
     // 如果是首页和分类，导航栏标题就为空

@@ -14,6 +14,11 @@
 
 @property (nonatomic, assign) NSInteger age;
 
+/// title
+@property (nonatomic, copy) NSString *title;
+
+/// 身高
+@property (nonatomic, assign) double height;
 
 /// 链式编程
 /// 动作行为1：跑
@@ -21,6 +26,24 @@
 
 /// 动作行为2：吃
 - (Person *)eat;
+
+/// 动作行为1：跑1
+- (Person *)run1;
+
+/// 动作行为2：吃1
+- (Person *)eat1;
+
+
+// 关于链式编程和函数式编程
+// 1. 自己封装框架！
+// 2. 阅读其他人的框架!
+// 如果要实现函数式编程，需要返回 block
+- (Person * (^)())run2;
+- (Person * (^)())eat2;
+
+// 返回的 block 可以接参数
+- (Person * (^)(NSString *food))eat3;
+- (Person * (^)(double distance))run3;
 
 
 /// 函数式编程

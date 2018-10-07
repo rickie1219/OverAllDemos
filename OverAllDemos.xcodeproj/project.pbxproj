@@ -30,6 +30,8 @@
 		BA125F512136FE1600BE160A /* TestLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA125F502136FE1600BE160A /* TestLoopViewCell.m */; };
 		BA1786E22165BFC1007BF424 /* UIColor+XRHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1786E12165BFC1007BF424 /* UIColor+XRHexString.m */; };
 		BA2DDA3120B563BB0041BC51 /* TestGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */; };
+		BA3C74442167085900C0675B /* NSObject+PersonPropertyRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3C74432167085900C0675B /* NSObject+PersonPropertyRuntime.m */; };
+		BA3C744721670B2A00C0675B /* TestPersonObjVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3C744621670B2A00C0675B /* TestPersonObjVC.m */; };
 		BA547F66212FEB7E00891092 /* TestRollingAdvertisementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F65212FEB7E00891092 /* TestRollingAdvertisementVC.m */; };
 		BA547F6C212FEBAA00891092 /* GYNoticeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F68212FEBAA00891092 /* GYNoticeViewCell.m */; };
 		BA547F6D212FEBAA00891092 /* GYRollingNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA547F69212FEBAA00891092 /* GYRollingNoticeView.m */; };
@@ -79,6 +81,8 @@
 		BA6E11082132518000048F5C /* XRLoginBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6E11072132518000048F5C /* XRLoginBaseVC.m */; };
 		BA7ED30C213E359000EFA55E /* TestGetDeviceColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7ED30B213E359000EFA55E /* TestGetDeviceColorVC.m */; };
 		BA7FC6762154888C0077A6E9 /* TestOneMoreThing.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7FC6752154888C0077A6E9 /* TestOneMoreThing.m */; };
+		BA8AF70821699D5300E62746 /* UIImageView+TestPersonObjVCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8AF70721699D5300E62746 /* UIImageView+TestPersonObjVCImageView.m */; };
+		BA8AF70B2169AFE600E62746 /* TestBlockWeakStrongDanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8AF70A2169AFE600E62746 /* TestBlockWeakStrongDanceVC.m */; };
 		BA9511942118299800A35B79 /* myStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9511922118299800A35B79 /* myStaticLib.a */; };
 		BA951197211829D200A35B79 /* TestMyStaticLibraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA951196211829D200A35B79 /* TestMyStaticLibraryVC.m */; };
 		BA9B82DC211BCD7B00750806 /* TestLargeTitleShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B82DB211BCD7B00750806 /* TestLargeTitleShowVC.m */; };
@@ -287,6 +291,10 @@
 		BA1786E12165BFC1007BF424 /* UIColor+XRHexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XRHexString.m"; sourceTree = "<group>"; };
 		BA2DDA2F20B563BB0041BC51 /* TestGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGestureViewController.h; sourceTree = "<group>"; };
 		BA2DDA3020B563BB0041BC51 /* TestGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGestureViewController.m; sourceTree = "<group>"; };
+		BA3C74422167085900C0675B /* NSObject+PersonPropertyRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PersonPropertyRuntime.h"; sourceTree = "<group>"; };
+		BA3C74432167085900C0675B /* NSObject+PersonPropertyRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PersonPropertyRuntime.m"; sourceTree = "<group>"; };
+		BA3C744521670B2A00C0675B /* TestPersonObjVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPersonObjVC.h; sourceTree = "<group>"; };
+		BA3C744621670B2A00C0675B /* TestPersonObjVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPersonObjVC.m; sourceTree = "<group>"; };
 		BA547F64212FEB7E00891092 /* TestRollingAdvertisementVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRollingAdvertisementVC.h; sourceTree = "<group>"; };
 		BA547F65212FEB7E00891092 /* TestRollingAdvertisementVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRollingAdvertisementVC.m; sourceTree = "<group>"; };
 		BA547F68212FEBAA00891092 /* GYNoticeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYNoticeViewCell.m; sourceTree = "<group>"; };
@@ -384,6 +392,10 @@
 		BA7ED30B213E359000EFA55E /* TestGetDeviceColorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGetDeviceColorVC.m; sourceTree = "<group>"; };
 		BA7FC6742154888C0077A6E9 /* TestOneMoreThing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOneMoreThing.h; sourceTree = "<group>"; };
 		BA7FC6752154888C0077A6E9 /* TestOneMoreThing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOneMoreThing.m; sourceTree = "<group>"; };
+		BA8AF70621699D5300E62746 /* UIImageView+TestPersonObjVCImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TestPersonObjVCImageView.h"; sourceTree = "<group>"; };
+		BA8AF70721699D5300E62746 /* UIImageView+TestPersonObjVCImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TestPersonObjVCImageView.m"; sourceTree = "<group>"; };
+		BA8AF7092169AFE600E62746 /* TestBlockWeakStrongDanceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBlockWeakStrongDanceVC.h; sourceTree = "<group>"; };
+		BA8AF70A2169AFE600E62746 /* TestBlockWeakStrongDanceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBlockWeakStrongDanceVC.m; sourceTree = "<group>"; };
 		BA9511922118299800A35B79 /* myStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = myStaticLib.a; sourceTree = "<group>"; };
 		BA9511932118299800A35B79 /* DemoForStaticLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoForStaticLibrary.h; sourceTree = "<group>"; };
 		BA951195211829D200A35B79 /* TestMyStaticLibraryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMyStaticLibraryVC.h; sourceTree = "<group>"; };
@@ -1455,8 +1467,16 @@
 				BA09A5DE212C6ECA00C6A7E5 /* MineLogoutVC.m */,
 				BAE7B21B206203D900B11DBD /* MineViewController.h */,
 				BAE7B21C206203D900B11DBD /* MineViewController.m */,
+				BA3C744521670B2A00C0675B /* TestPersonObjVC.h */,
+				BA3C744621670B2A00C0675B /* TestPersonObjVC.m */,
+				BA8AF7092169AFE600E62746 /* TestBlockWeakStrongDanceVC.h */,
+				BA8AF70A2169AFE600E62746 /* TestBlockWeakStrongDanceVC.m */,
+				BA8AF70621699D5300E62746 /* UIImageView+TestPersonObjVCImageView.h */,
+				BA8AF70721699D5300E62746 /* UIImageView+TestPersonObjVCImageView.m */,
 				BAE7B21F206203D900B11DBD /* Person.h */,
 				BAE7B220206203D900B11DBD /* Person.m */,
+				BA3C74422167085900C0675B /* NSObject+PersonPropertyRuntime.h */,
+				BA3C74432167085900C0675B /* NSObject+PersonPropertyRuntime.m */,
 				BAE7B21D206203D900B11DBD /* Person+TestRuntimeProperty.h */,
 				BAE7B21E206203D900B11DBD /* Person+TestRuntimeProperty.m */,
 				BAE7B221206203D900B11DBD /* PersonListViewModel.h */,
@@ -2279,6 +2299,7 @@
 				BAE7B2B5206203DA00B11DBD /* TestTextfieldViewController.m in Sources */,
 				BAE7B29E206203DA00B11DBD /* HomeViewController.m in Sources */,
 				BAAF22CD212BA582003773E9 /* WebViewJavascriptBridgeBase.m in Sources */,
+				BA8AF70B2169AFE600E62746 /* TestBlockWeakStrongDanceVC.m in Sources */,
 				BAE7B2A8206203DA00B11DBD /* Person+TestRuntimeProperty.m in Sources */,
 				BA68030021196CEA0031377B /* LinkageOneLevelModel.m in Sources */,
 				BAAF22D2212BA582003773E9 /* SDImageView.m in Sources */,
@@ -2300,6 +2321,7 @@
 				BAE5F9652125174000A14A29 /* TestNSPredicateVC.m in Sources */,
 				BA9B82DC211BCD7B00750806 /* TestLargeTitleShowVC.m in Sources */,
 				BAAF22D3212BA582003773E9 /* SDPhotoBrowserd.m in Sources */,
+				BA3C74442167085900C0675B /* NSObject+PersonPropertyRuntime.m in Sources */,
 				BA68030321196CEA0031377B /* UIFont+Fonts.m in Sources */,
 				BA68029021194DFB0031377B /* ShopItemDataModel.m in Sources */,
 				BA05ECD52126B6D600BE0B00 /* TestPPSnapshotHandlerUIViewVC.m in Sources */,
@@ -2329,8 +2351,10 @@
 				BA54999E215348250073534A /* TestSkipToSafari.m in Sources */,
 				BA547F76213000AD00891092 /* TestRollingAdvertisementCustomCell.m in Sources */,
 				BA68030421196CEA0031377B /* FileManager.m in Sources */,
+				BA8AF70821699D5300E62746 /* UIImageView+TestPersonObjVCImageView.m in Sources */,
 				BAE7B2D1206203DA00B11DBD /* UserInfo.m in Sources */,
 				BA6802FD21196CEA0031377B /* CustomLevelLinkageCell.m in Sources */,
+				BA3C744721670B2A00C0675B /* TestPersonObjVC.m in Sources */,
 				BAE7B2A2206203DA00B11DBD /* MallViewController.m in Sources */,
 				BA680312211972B00031377B /* CustomViewController.m in Sources */,
 				BAE7B2A1206203DA00B11DBD /* LoginViewController.m in Sources */,
